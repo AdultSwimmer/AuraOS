@@ -13,7 +13,9 @@ formats:
 build:
   os: ubuntu-22.04
   tools:
-    python:
-      version: "3.12"
-      install:
-        - requirements: docs/requirements.txt
+    python: "3.12"
+  commands:
+    # Upgrade pip and setuptools
+    - python -m pip install --upgrade pip setuptools
+    # Install requirements
+    - pip install -r docs/requirements.txt
