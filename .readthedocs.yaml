@@ -18,3 +18,9 @@ mkdocs:
 python:
   install:
   - requirements: docs/requirements.txt
+
+# After the build, move the output to the correct location
+build:
+  jobs:
+    post_build:
+      - "mv _build/html $READTHEDOCS_OUTPUT/html"
