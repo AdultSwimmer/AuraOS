@@ -22,5 +22,7 @@ sphinx:
   builder: html
   fail_on_warning: true
 
+# Optional additional downloadable output formats.
 formats:
-  - html
+  - pdf
+  - epub
