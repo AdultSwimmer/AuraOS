@@ -5,9 +5,10 @@ version: 2
 sphinx:
   configuration: docs/conf.py
 
-# Only build PDF
+# Build formats
 formats:
   - pdf
+  - htmlzip  # Must include HTML for RTD to be happy
 
 # Build configuration
 build:
@@ -15,7 +16,5 @@ build:
   tools:
     python: "3.12"
   commands:
-    # Upgrade pip and setuptools
     - python -m pip install --upgrade pip setuptools
-    # Install requirements
     - pip install -r docs/requirements.txt
