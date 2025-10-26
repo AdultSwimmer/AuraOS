@@ -14,9 +14,11 @@ build:
   commands:
     # Upgrade pip/setuptools
     - python -m pip install --upgrade pip setuptools
-    # Install requirements (rinoh included)
+    # Install your Python requirements
     - pip install -r docs/requirements.txt
     # Build HTML (required by RTD)
-    - sphinx-build -b html docs/ _build/html
-    # Build PDF using Rinoh
-    - sphinx-build -b rinoh docs/ _build/pdf
+    - sphinx-build -b html docs/ $READTHEDOCS_OUTPUT/html
+    # Build LaTeX
+    - sphinx-build -b latex docs/ _build/latex
+    # Compile PDF from LaTeX
+    - latexmk -pdf -interaction=nonstopmode -output-directory=$READTHEDOCS_OUTPUT/pdf _build/latex/*.tex
