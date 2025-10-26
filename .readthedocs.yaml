@@ -1,4 +1,3 @@
-# .readthedocs.yaml
 version: 2
 
 # Sphinx configuration
@@ -8,7 +7,7 @@ sphinx:
 # Build formats
 formats:
   - pdf
-  - htmlzip  # Must include HTML for RTD to be happy
+  - htmlzip   # HTML must be built, even if you don’t want it
 
 # Build configuration
 build:
@@ -16,5 +15,12 @@ build:
   tools:
     python: "3.12"
   commands:
+    # Upgrade pip and setuptools
     - python -m pip install --upgrade pip setuptools
+    # Install requirements
     - pip install -r docs/requirements.txt
+    # Build HTML (needed for RTD)
+    - sphinx-build -b html docs/ $READTHEDOCS_OUTPUT/html
+    # Build PDF
+    - sphinx-build -b latex docs/ _build/latex
+    - latexmk -r _build/latex/latexmkrc -pdf -f -dvi- -ps- -jobname=auraos -interaction=nonstopmode -outdir=$READTHEDOCS_OUTPUT/pdf _build/latex/*.tex
