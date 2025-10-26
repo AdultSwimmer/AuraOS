@@ -1,2 +1,3 @@
 mkdocs>=1.5
 mkdocs-material>=9.0
+sphinx_rtd_theme>=2.0.0sphinx_rtd_theme>=2.0.0
