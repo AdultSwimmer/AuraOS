@@ -5,17 +5,18 @@ sphinx:
 
 formats:
   - pdf
-  - htmlzip   # RTD requires HTML output
+  - htmlzip
 
 build:
   os: ubuntu-22.04
   tools:
     python: "3.12"
   commands:
-    # Upgrade pip/setuptools and install requirements
+    # Upgrade pip/setuptools
     - python -m pip install --upgrade pip setuptools
+    # Install requirements (rinoh included)
     - pip install -r docs/requirements.txt
     # Build HTML (required by RTD)
-    - sphinx-build -b html docs/ $READTHEDOCS_OUTPUT/html
-    # Build PDF using Rinoh (no LaTeX needed)
-    - sphinx-build -b rinoh docs/ $READTHEDOCS_OUTPUT/pdf
+    - sphinx-build -b html docs/ _build/html
+    # Build PDF using Rinoh
+    - sphinx-build -b rinoh docs/ _build/pdf
