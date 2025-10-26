@@ -1,77 +1,38 @@
-# Configuration file for the Sphinx documentation builder.
-# AuraOS Documentation
-# Created by Anthony Dulong
-
+# docs/conf.py
 import os
 import sys
+from datetime import datetime
 
-# -- Project information -----------------------------------------------------
-project = 'AuraOS'
-author = 'Anthony Dulong'
-copyright = '2025, Anthony Dulong'
-release = '5.0'
-version = '5.0'
+# If your docs are in a package, add the package path here:
+# sys.path.insert(0, os.path.abspath('..'))
 
-# -- General configuration ---------------------------------------------------
+project = "AuraOS"
+author = "Anthony Dulong"
+release = "5.0"
 
-# Add any Sphinx extension module names here
 extensions = [
-    'sphinx.ext.autodoc',
-    'sphinx.ext.viewcode',
-    'sphinx.ext.napoleon',
+    "myst_parser",
 ]
 
-# Add any paths that contain templates here, relative to this directory
-templates_path = ['_templates']
-
-# List of patterns, relative to source directory, that match files and
-# directories to ignore when looking for source files
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
-
-# The suffix of source filenames
-source_suffix = '.md'
-
-# The master toctree document
-master_doc = 'index'
-
-# -- Options for HTML output -------------------------------------------------
-
-# The theme to use for HTML and HTML Help pages
-html_theme = 'sphinx_rtd_theme'
-
-# Add any paths that contain custom static files (such as style sheets)
-html_static_path = ['_static']
-
-# Output directory - use ReadTheDocs environment variable if available
-html_output_dir = os.environ.get('READTHEDOCS_OUTPUT', '_build') + '/html'
-
-# -- Options for LaTeX output ------------------------------------------------
-latex_elements = {
-    'papersize': 'letterpaper',
-    'pointsize': '10pt',
+# Source suffix mapping for .rst and .md
+source_suffix = {
+    ".rst": "restructuredtext",
+    ".md": "markdown",
 }
 
-# Grouping the document tree into LaTeX files
-latex_documents = [
-    (master_doc, 'auraos.tex', 'AuraOS Documentation',
-     'Anthony Dulong', 'manual'),
-]
+master_doc = "index"
 
-# -- Options for manual page output ------------------------------------------
-man_pages = [
-    (master_doc, 'auraos', 'AuraOS Documentation',
-     [author], 1)
-]
+language = "en"
 
-# -- Options for Texinfo output ----------------------------------------------
-texinfo_documents = [
-    (master_doc, 'AuraOS', 'AuraOS Documentation',
-     author, 'AuraOS', 'AI Relationship Continuity System',
-     'Miscellaneous'),
-]
+exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 
-# -- Options for Epub output -------------------------------------------------
-epub_title = project
-epub_author = author
-epub_publisher = author
-epub_copyright = copyright
+# HTML output
+html_theme = "sphinx_rtd_theme"
+html_static_path = ["_static"]
+
+# Warn about all references that cannot be resolved
+nitpicky = False  # Set to True to make more strict
+
+# General substitutions
+html_title = f"{project} documentation"
+html_last_updated_fmt = "%b %d, %Y"
