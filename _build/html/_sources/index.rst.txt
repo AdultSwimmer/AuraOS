@@ -2,7 +2,7 @@
    sphinx-quickstart on Thu Oct 26 05:20:17 2025.
 
 Welcome to AuraOS Documentation
-===============================
+==============================
 
 AuraOS is a tool for maintaining conversation continuity with AI, letting users pick up where they left off. Share your name and an optional history file to start a personal thread.
 

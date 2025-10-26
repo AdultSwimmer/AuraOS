@@ -1,0 +1,5 @@
+site_name: AuraOS
+nav:
+  - 'AIPROMPT': 'AIPROMPT.md'
+  - 'HISTORY': 'HISTORY.md'
+  - 'CriticalLOG': 'CriticalLOG.md'
