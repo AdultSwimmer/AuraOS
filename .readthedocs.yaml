@@ -1,13 +1,13 @@
 version: 2
 
-sphinx:
-  configuration: docs/conf.py
-
-formats:
-  - pdf
-  - htmlzip   # keeps RTD happy
 
 build:
-  os: ubuntu-22.04
-  tools:
-    python: "3.12"
+os: ubuntu-22.04
+tools:
+python: 3.12
+sphinx:
+configuration: docs/conf.py
+python:
+install:
+
+requirements: docs/requirements.txt
