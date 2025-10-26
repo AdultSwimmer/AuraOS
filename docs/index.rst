@@ -4,7 +4,8 @@
 Welcome to AuraOS Documentation
 ===============================
 
-AuraOS is a tool for maintaining conversation continuity with AI, letting users pick up where they left off. Share your name and an optional history file to start a personal thread.
+AuraOS is a tool for maintaining conversation continuity with AI, letting users pick up where they left off. 
+Share your name and an optional history file to start a personal thread.
 
 .. toctree::
    :maxdepth: 2
@@ -12,3 +13,7 @@ AuraOS is a tool for maintaining conversation continuity with AI, letting users 
 
    overview
    quickstart
+   anthonys_axiom_doc
+   auraos_master_prompt
+   downloads
+   github_readme
