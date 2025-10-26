@@ -1,31 +1,15 @@
-# .readthedocs.yaml
-
-# The version of the configuration schema to use.
 version: 2
-
-# The main language for the documentation
-language: en
-
-# Sphinx configurations
+build:
+  os: "ubuntu-22.04"
+  tools:
+    python: "3.14"
+python:
+  install:
+    - requirements: docs/requirements.txt
 sphinx:
   configuration: docs/conf.py
-
-# Build options
-build:
-  image: latest  # Specifies the version of the image to use for building
-  os: ubuntu-20.04  # Specifies the OS for the build
-
-# Python-related configuration (if applicable)
-python:
-  version: 3.8  # Python version to use
-  install:
-    - requirements: docs/requirements.txt  # Location of your requirements file
-  keep_virtualenv: true  # Whether to keep the virtual environment
-
-# Additional settings
 formats:
-  - html  # The output format for the documentation, e.g., html, pdf, etc.
+  - htmlzip  # builds standard HTML
+  - pdf      # builds PDF
+  - epub     # builds EPUB
 
-# Customize the behavior of the build process
-extra_requirements:  # Optional, for specifying additional dependencies
-  - sphinx_rtd_theme
