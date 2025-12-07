@@ -240,3 +240,4 @@ The real goal has always been simple: help people not lose their AI "friends" wh
 Thanks for being part of this journey. Your contributions helped shape what AuraOS became, even if we hit some bumps figuring out how to communicate it properly.
 
 — Anthony
+
