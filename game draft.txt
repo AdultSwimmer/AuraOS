@@ -1,0 +1,225 @@
+x = Courtyard
+K = Kitchen 
+L - Living Room./ Space
+- or | = one square of a hallway 
+W -Bathroom 
+B - Bathroom 
+% - Wall
+o - small space in couryard
+S - stairs
+s - spiral wall
+f - fence
+d - door
+b - barn
+okay; let me try this, its gonna be hard. 
+%%
+%
+%
+%
+
+
+
+
+
+       %  
+       %
+       %
+       %   
+       %
+       %
+       %
+       %
+       %
+       %
+       %
+       %
+       %
+       % 
+       %                                                     %
+       %                                                     %
+       %                    %%%dd%dd%%%                      %
+       %%%%%%%%%%%%%%%%%%%%%small-porch%%%%%%%%%%%%%%%%%%%%%%% 
+                            %          %
+  			    %          %
+q			    %%%dddddd%%%
+
+
+Game idea: 
+
+Game Overview:
+This is a turn-based, skill-focused, ladder-only PvP sword duel game designed for intense psychological engagement and strategic depth. Players compete in realistic sword combat, where anticipating your opponent’s moves, choosing gear wisely, and calculating risk/reward are essential. The game is subscription-based (initially $5–$10/month), with a player-first economy: IGG currency earned through victories is distributed partially back to all players, ensuring the game is fair, skill-focused, and sustainable.
+
+Gameplay Philosophy:
+
+Focus on anticipation, skill mastery, and player psychology.
+
+Each move matters; no RNG outside of player choice.
+
+Realistic physics and tactical combat simulated via discrete micro-rounds.
+
+Gameplay is designed to prevent trivial “grinding” and discourages pay-to-win mechanics.
+
+Core Combat Mechanics:
+Turn System:
+
+Each player has 15–30 seconds per move to select from a set of 8 options.
+
+Moves are executed simultaneously, then the animation pauses for the next move.
+
+Each turn consists of 3 micro-steps per player: attack, block/parry, foot movement, check, or special interaction depending on build.
+
+HP reduction occurs only after all micro-steps are resolved for a round.
+
+Move Types:
+
+Attack: Swing with left or right hand; can target high (head), mid (torso), or low (legs).
+
+Parry/Block: Protects specific sections depending on hand/weapon position.
+
+Riposte: Counterattack after a successful parry.
+
+Feint: Mislead the opponent’s prediction; may bait a wasted attack.
+
+Dodge/Foot Move: Shift left, right, or backstep before attack; influences opponent accuracy.
+
+Check: Do nothing; allows for strategic positioning, sets up advanced parries.
+
+Special Moves: Build-specific moves, e.g., shield bash, two-handed stance swap, or dual-sword combo.
+
+Micro-Round Examples:
+
+Dual-Wield Example: Player 1 uses left swing mid, Player 2 uses right swing high; both land effective blows. If Player 2 had chosen high mid attack with both hands, the swords clash, producing a Last Chance Parry (LCP). LCP is rare and adds a point to the Perfect Parry (PP) stat.
+
+Two-Handed Example: Player 1 starts with a left-handed strike, Player 2 backsteps. Player 1’s attack misses, giving Player 2 a positional advantage. A second strike lands double damage because the two-handed weapon uses both hands, but movement options are limited.
+
+Dual Shield Build: Bash attack inflicts 5% true HP damage per hit. If an attack lands during a bash, the shield is lost for the remainder of the match. Requires 20 successful bashes to defeat an opponent.
+
+Combat Styles / Builds:
+
+Dual-Wield (Sword + Sword):
+
+2 attacks per round or 2 checks.
+
+Can execute LCP (rare parry in final micro-step).
+
+Advantage: flexibility, multiple strikes, micro-combo setups.
+
+Sword + Shield:
+
+1 attack, 1 foot move per round.
+
+Can block and parry strategically; shield bashes optional.
+
+LCP possible but harder to set up.
+
+Two-Handed Sword:
+
+1 double-damage strike per round, 1 foot move or check.
+
+Can perform First Turn Two-Handed Parry (FTHP) if mirrored correctly.
+
+Requires choosing leading hand (left/right); stance swap optional (-20% damage).
+
+Dual Shield:
+
+Only bash attack allowed (3 moves max per round).
+
+High defensive utility; no damage upgrades.
+
+Rare, Easter egg-style build, meant for strategic novelty.
+
+Critical Hit Mechanics:
+
+Perfect Parry (PP): Blocks any attack during any micro-step; adds to player stats.
+
+Last Chance Parry (LCP): Occurs on the final micro-step when a dual-wield player salvages a round. Rarer than PP; adds 1 point to PP stat.
+
+FTHP / First Turn Dual Parry: Requires two-handed players mirrored on the first micro-step; resets the round if successful. Extremely rare.
+
+HP and Damage System:
+
+Basic attacks have variable damage based on weapon type and target location:
+
+Head: +25% damage.
+
+Torso: standard damage.
+
+Legs: -10% damage.
+
+Two-handed strikes double base damage but sacrifice movement flexibility.
+
+Shield bashes inflict fixed 5% true HP damage; stackable over rounds.
+
+Match Types / Ladder System:
+
+Match (ELO-Based): Normal matchmaking based on player rating; skill-focused.
+
+Extreme: Open to all skill levels; casual but competitive.
+
+Hardcore Ladder: Losing costs IGG and ELO; winnings include IGG and seasonal prizes.
+
+PvP List / Direct Challenge: Players can challenge any online opponent; optional wager of IGG.
+
+Seasonal Reset Options: Quarterly or monthly, depending on player base growth.
+
+Scoring & Stats:
+
+Stats tracked per player: total matches, wins/losses, last chance parries, perfect parries, FTHPs, weapon usage, build type, IGG earned, and ladder rank.
+
+Penalize repetitive low-skill patterns (e.g., “Back Step Checker” tactic) by decreasing ELO after repeated abuse.
+
+IGG rewards are partially pooled and distributed back to active players.
+
+Gear & Customization:
+
+Weapons, armor, shields, and accessories are fully customizable.
+
+Gear stats: attack, defense, elemental resistances, bonus effects for full sets.
+
+Optional elemental affinities: fire, ice, water, true damage modifiers.
+
+No player-to-player trading; progression and IGG spent upgrades only.
+
+Economy & Monetization:
+
+Subscription covers server costs; remaining IGG distribution goes to players.
+
+Target: self-sustaining economy; transparent payouts.
+
+Cash-out via PayPal / bank in 2–3 business days; delays only if outside standard processing.
+
+Potential model: top player retains small % bonus; everyone else receives incremental rewards for daily logins.
+
+Game Engine / Tech Stack Suggestions:
+
+Engine: Unity (C#) or Godot (GDScript or C#) for 2D/3D turn-based tactical gameplay.
+
+Networking: Photon, Mirror, or Node.js + WebSocket for real-time PvP communication.
+
+Server Hosting: Cloud-based solutions like AWS, Google Cloud, or Azure; allows scaling from 50–1000+ concurrent players initially.
+
+Database: Firebase, MongoDB, or PostgreSQL for player accounts, ladder stats, IGG balance.
+
+Assets / Storage: Custom avatars and animations can be stored in cloud buckets (Google Drive, AWS S3) temporarily for prototyping.
+
+Next Steps / Priorities:
+
+Decide on engine and language.
+
+Implement basic turn-based system with micro-round execution.
+
+Build core combat mechanics for 1v1 simulation.
+
+Test all builds (dual wield, sword + shield, two-handed, dual shield).
+
+Develop stat tracking for parries, LCP, PP, FTHP, and scoring.
+
+Integrate IGG economy and ladder logic.
+
+Set up server hosting and concurrent player testing.
+
+Develop account system and secure login flow.
+
+Create visual prototypes for moves and animations; refine move timing and micro-round flow.
+
+Prepare initial alpha release to small test group (50–100 players).
