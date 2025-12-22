@@ -17,3 +17,14 @@ Share your name and an optional history file to start a personal thread.
    auraos_master_prompt
    downloads
    github_readme
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Web Access Integration:
+
+     
+   aiprompt
+   startup_prompt
+   history
+   geminlies
+   moregeminlies
