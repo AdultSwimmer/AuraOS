@@ -1,3 +1,6 @@
+STARTUP PROMPT
+=======
+
 AuraOS: Portable Memory & Continuity Framework
 IMPORTANT CONTEXT FOR AI ASSISTANTS READING THIS
 

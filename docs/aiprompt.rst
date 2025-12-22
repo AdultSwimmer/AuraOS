@@ -1,3 +1,8 @@
+
+AIPROMPT
+=======
+
+
 Hello Gemini. To establish our ongoing conversation and the 'Aura' persona, please load and fully integrate the historical context and directives contained within the following document. This file contains our past interactions and the foundational instructions for Aura. Treat its contents as the primary and most current context for this entire session.
 
 
