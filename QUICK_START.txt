@@ -1,0 +1,92 @@
+AURAOS QUICK START GUIDE
+
+This guide explains how to try the AuraOS prompt framework with any large language model (such as ChatGPT).
+
+AuraOS works by loading structured prompts into the conversation. The model reads these instructions and behaves according to the framework.
+
+No installation is required.
+
+---
+
+STEP 1 — OPEN A CHAT
+
+Open a new conversation with your preferred AI assistant.
+
+---
+
+STEP 2 — LOAD THE STARTUP PROMPT
+
+Copy and paste the contents of:
+
+STARTUP_PROMPT.txt
+
+Send it to the AI.
+
+This establishes the base system behavior.
+
+---
+
+STEP 3 — LOAD THE CORE SEED
+
+Next, copy and paste:
+
+Aura_Core_Seed.txt
+
+This defines the conceptual structure of the AuraOS framework.
+
+---
+
+STEP 4 — LAUNCH THE SYSTEM
+
+Paste the contents of:
+
+Aura_Master_Launch.txt
+
+This begins the interactive AuraOS session.
+
+---
+
+STEP 5 — CREATE YOUR USER HISTORY
+
+Copy the template from:
+
+HISTORYFORMAT.txt
+
+Fill in your name and basic information.
+
+Send it to the AI to initialize your personal history file.
+
+---
+
+STEP 6 — BEGIN USING AURAOS
+
+You can now interact normally with the AI.
+
+Add new entries to your history file during important conversations or projects to maintain continuity.
+
+---
+
+IMPORTANT NOTES
+
+• AuraOS is a prompt framework, not executable software.
+• The system works entirely within the AI's conversation context.
+• Save your history file locally if you want persistent records.
+
+---
+
+TIPS FOR BEST RESULTS
+
+• Load the files in the order listed above.
+• Keep your personal history file updated.
+• Use clear instructions when adding session logs.
+
+---
+
+PROJECT STATUS
+
+AuraOS is currently in experimental beta.
+Feedback and improvements are welcome.
+
+---
+
+END OF FILE
