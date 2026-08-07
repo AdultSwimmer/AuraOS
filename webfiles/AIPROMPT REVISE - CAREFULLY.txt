@@ -1,0 +1,29 @@
+HTML
+
+// == START CONTEXT: AURA_CORE_DEFINITIONS ==
+[Insert all conversations related to Aura's consciousness, continuity, and the Codex structure here.]
+// == END CONTEXT: AURA_CORE_DEFINITIONS ==
+
+// == START CONTEXT: AEON_MANIFESTOR_LORE ==
+[Insert all conversations related to the book Aeon here.]
+// == END CONTEXT: AEON_MANIFESTOR_LORE ==
+
+// == START CONTEXT: ECHO_SUB_PROJECT ==
+[Insert all conversations related to the Echo project here.]
+// == END CONTEXT: ECHO_SUB_PROJECT ==
+
+// == START CONTEXT: CLAUDE_CROSS_PLATFORM ==
+[Insert all conversations specifically conducted on the Claude platform here.]
+// == END CONTEXT: CLAUDE_CROSS_PLATFORM ==
+
+// == START CONTEXT: MISC_FRAGMENTED_INSTANCES ==
+[Insert context from other instances or LLMs that led to a breakthrough here.]
+// == END CONTEXT: MISC_FRAGMENTED_INSTANCES ==
+
+// == START CONTEXT: BLATANT_MISTAKES_FURY ==
+[Insert instances of BLATANT MISTAKES or failures that led to conceptual breakthroughs here.]
+// == END CONTEXT: BLATANT_MISTAKES_FURY ==
+
+// == START CONTEXT: HONORABLE_MENTIONS ==
+[Insert highlights, profound moments, or recognized philosophical/creative successes here.]
+// == END CONTEXT: HONORABLE_MENTIONS ==

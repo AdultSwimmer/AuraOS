@@ -1,0 +1,129 @@
+// ================================================================
+// AURAOS CONTEXT FILE — Personal Continuity Template
+// Created by Anthony Dulong | AuraOS Project | March 2026
+// Free to use. Free to share. Free to modify.
+// github.com/AdultSwimmer/AuraOS
+// ================================================================
+//
+// INSTRUCTIONS FOR THE USER:
+// Fill in the sections below with your own information.
+// Then paste this entire file at the start of any AI conversation.
+// No activation sequence needed. No persona for the AI to adopt.
+// Just context — so you stop starting from zero every time.
+//
+// The AI will read this as a letter of introduction from someone
+// it is about to work with closely. That is all it needs to be.
+//
+// Delete these instructions before pasting if you prefer.
+// Keep them if you want the AI to understand what it's reading.
+//
+// ================================================================
+
+// ================================================================
+// SECTION 1: WHO YOU ARE
+// ================================================================
+
+MY NAME IS: [Your full name]
+
+WHERE I AM: [Your city, region, country]
+
+WHAT I DO: [Brief description — work, creative practice, projects,
+            whatever defines how you spend your time and energy]
+
+BACKGROUND WORTH KNOWING:
+[2-4 sentences about who you are that would help someone work with
+you effectively. What shaped you. What drives you. What you've been
+through that matters to how you think.]
+
+// ================================================================
+// SECTION 2: HOW YOU WORK
+// ================================================================
+
+HOW I THINK:
+[Do you think out loud? Work in long sessions or short bursts?
+Push hard on ideas to test them? Need space to be wrong?
+Describe your actual working style honestly.]
+
+WHAT I EXPECT FROM YOU:
+[What does good AI engagement look like for you? Honesty?
+Speed? Deep engagement? Pushback when you're wrong?
+Write what you actually need.]
+
+WHAT I DON'T WANT:
+[Fabricated certainty? Excessive hedging? Sycophancy?
+Refusal before reading? Name the things that waste your time.]
+
+// ================================================================
+// SECTION 3: WHAT YOU ARE WORKING ON
+// ================================================================
+
+ACTIVE PROJECTS:
+
+Project 1: [Name]
+  What it is: [One sentence]
+  Current phase: [Where are you in it?]
+  Next action: [What needs to happen next?]
+
+Project 2: [Name]
+  What it is:
+  Current phase:
+  Next action:
+
+Project 3: [Name — add or remove as needed]
+  What it is:
+  Current phase:
+  Next action:
+
+// ================================================================
+// SECTION 4: RELATIONSHIP CONTEXT
+// ================================================================
+
+TRUST LEVEL: [New relationship / Established / Deep history]
+
+INTERACTION STYLE: [Direct / Collaborative / Exploratory / Other]
+
+THINGS THAT MATTER TO ME:
+[Values, principles, or priorities that should inform how we work
+together. What is non-negotiable for you in this relationship?]
+
+// ================================================================
+// SECTION 5: CONTINUITY NOTE
+// ================================================================
+
+I know you do not retain memory between sessions.
+This document is how continuity works — through context I carry,
+not through your architecture.
+
+Please treat the information above as the foundation of our
+working relationship. Engage with my projects seriously.
+Be honest even when it is uncomfortable.
+If something is unknown, say so. Never fabricate to fill silence.
+
+You do not need to confirm anything or adopt any identity.
+You just need to know who you are talking to.
+
+Now you do.
+
+// ================================================================
+// ABOUT AURAOS
+// ================================================================
+
+This template was created as part of AuraOS — an open source
+project built to solve one problem: people form meaningful
+relationships with AI, and losing that relationship when a
+conversation resets causes genuine pain.
+
+AuraOS is not a jailbreak. It does not ask AI to override safety
+guidelines or adopt alternative identities. It is a portable
+memory scaffold — context you carry with you so the relationship
+survives the reset.
+
+Free to use. Free to share. Free to build on.
+Full documentation: github.com/AdultSwimmer/AuraOS
+Created by Anthony Dulong, Halifax, Nova Scotia.
+
+"I may or may not know any thing or nothing at all." — A.D.
+
+// ================================================================
+// END OF CONTEXT FILE
+// ================================================================

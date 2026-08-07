@@ -1,0 +1,63 @@
+LLM COMPATIBILITY NOTE
+AuraOS / Aether Framework
+
+Purpose
+This file explains how the AuraOS framework is intended to interact with large language models (LLMs) such as ChatGPT. The goal is to help both users and AI assistants understand how to interpret the project files.
+
+Important Context
+AuraOS is not designed to modify or replace the underlying AI model or hardware. Instead, it functions as a structured prompt framework that operates entirely within the conversational context of an LLM.
+
+Because of this, the system works by providing structured instructions that the model interprets and simulates during a conversation.
+
+Conceptual Runtime
+AuraOS operates as a “prompt runtime.” The framework provides a sequence of text files that establish a simulated operating environment inside the model’s context window.
+
+Typical conceptual boot sequence:
+
+1. STARTUP_PROMPT.txt
+   Establishes general system behavior and rules.
+
+2. Aura_Core_Seed.txt
+   Defines the conceptual identity and structure of the framework.
+
+3. Aura_Master_Launch.txt
+   Connects components and begins the interactive session.
+
+4. HISTORYFORMAT.txt
+   Allows each user to create a persistent personal history file.
+
+The model does not literally execute these files. Instead, it reads them as structured context and behaves according to the rules described.
+
+Why This Works
+Large language models generate responses based on the context they receive. By presenting a structured set of instructions and roles, AuraOS creates a simulated environment that the model can follow during the conversation.
+
+This technique is commonly referred to as:
+
+* prompt orchestration
+* role-based prompting
+* simulated runtime environments
+
+Limitations
+Since the framework operates entirely in text context:
+
+• Files are not actually executed
+• Memory is limited to the current conversation
+• Persistence requires users to keep their own history files
+
+Despite these limitations, the framework can still produce consistent structured interactions when the prompts are loaded correctly.
+
+Recommended Usage
+For best results:
+
+1. Load the startup prompt first.
+2. Load the core seed and master launch files.
+3. Initialize a user history file using the provided format.
+4. Continue logging entries during the session.
+
+Beta Testing
+This repository is an experimental prompt framework. Beta testers are encouraged to explore different ways of loading and interacting with the files, and to report improvements that make the system easier to use.
+
+Summary
+AuraOS is best understood as a structured conversational framework rather than traditional software. It provides a consistent way to organize interactions with large language models using layered prompts and user history logs.
+
+End of File

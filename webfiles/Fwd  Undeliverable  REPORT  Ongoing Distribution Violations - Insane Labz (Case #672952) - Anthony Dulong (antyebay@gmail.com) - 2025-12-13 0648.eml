@@ -1,0 +1,2002 @@
+Content-Type: multipart/mixed; boundary="------------0MOXyUjO14d7gOwheWQMXitq"
+Message-ID: <7a95864e-09eb-4de1-b410-24fb7d34e083@gmail.com>
+Date: Sat, 13 Dec 2025 06:48:31 -0400
+MIME-Version: 1.0
+User-Agent: Mozilla Thunderbird
+Subject: Fwd: Undeliverable: REPORT: Ongoing Distribution Violations - Insane
+ Labz (Case #672952)
+Content-Language: en-US
+References: <b044b270-d6f8-44a0-964c-9586ce34ab3b@FDSWV30901.fda.gov>
+To: OCIWeb@fda.hhs.gov, MedWatch@fda.hhs.gov
+From: Anthony Dulong <antyebay@gmail.com>
+In-Reply-To: <b044b270-d6f8-44a0-964c-9586ce34ab3b@FDSWV30901.fda.gov>
+X-Forwarded-Message-Id: <b044b270-d6f8-44a0-964c-9586ce34ab3b@FDSWV30901.fda.gov>
+
+This is a multi-part message in MIME format.
+--------------0MOXyUjO14d7gOwheWQMXitq
+Content-Type: multipart/alternative;
+ boundary="------------DaODfMG8ZL7pBDAMK4QAZ8PF"
+
+--------------DaODfMG8ZL7pBDAMK4QAZ8PF
+Content-Type: text/plain; charset=UTF-8; format=flowed
+Content-Transfer-Encoding: 7bit
+
+
+
+
+-------- Forwarded Message --------
+Subject: 	Undeliverable: REPORT: Ongoing Distribution Violations - 
+Insane Labz (Case #672952)
+Date: 	Sat, 13 Dec 2025 04:03:30 -0500
+From: 	postmaster@fda.hhs.gov
+To: 	antyebay@gmail.com
+
+
+
+*Delivery has failed to these recipients or groups:*
+
+OCIHotline@fda.hhs.gov
+The email address you entered couldn't be found. Please check the 
+recipient's email address and try to resend the message. If the problem 
+continues, please contact your email admin.
+
+
+
+
+
+
+
+*Diagnostic information for administrators:*
+
+Generating server: FDSWV30901.fda.gov
+
+OCIHotline@fda.hhs.gov
+Remote Server returned '550 5.1.10 RESOLVER.ADR.RecipientNotFound; 
+Recipient not found by SMTP address lookup'
+
+Original message headers:
+
+Received: from FDSWV09480.fda.gov (10.168.16.139) by FDSWV30901.fda.gov
+  (10.185.43.41) with Microsoft SMTP Server (version=TLS1_2,
+  cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.2.2562.29; Sat, 13 Dec
+  2025 04:03:30 -0500
+Received: from ironport7.fda.gov (10.0.19.44) by FDSWV09480.fda.gov
+  (10.168.16.139) with Microsoft SMTP Server (version=TLS1_2,
+  cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.2.2562.29 via Frontend
+  Transport; Sat, 13 Dec 2025 04:03:30 -0500
+X-CSE-ConnectionGUID: SFJHBlKETEyJC9UbiZIugQ==
+X-CSE-MsgGUID: 5APlOzc+RFWctD7kV08X/A==
+Received-SPF: None (smtp7.fda.gov: no sender authenticity
+   information available from domain ofantyebay@gmail.com)
+   identity=pra; client-ip=2607:f8b0:4864:20::72e;
+   receiver=smtp7.fda.gov; envelope-from="antyebay@gmail.com";
+   x-sender="antyebay@gmail.com"; x-conformance=sidf_compatible
+Received-SPF: Pass (smtp7.fda.gov: domain of antyebay@gmail.com
+   designates 2607:f8b0:4864:20::72e as permitted sender)
+   identity=mailfrom; client-ip=2607:f8b0:4864:20::72e;
+   receiver=smtp7.fda.gov; envelope-from="antyebay@gmail.com";
+   x-sender="antyebay@gmail.com"; x-conformance=sidf_compatible;
+   x-record-type="v=spf1"; x-record-text="v=spf1
+   ip6:2001:4860:4000::/36 ip6:2404:6800:4000::/36
+   ip6:2607:f8b0:4000::/36 ip6:2800:3f0:4000::/36
+   ip6:2a00:1450:4000::/36 ip6:2c0f:fb50:4000::/36 ~all" Received-SPF: None (smtp7.fda.gov: no sender authenticity information 
+available from domain of postmaster@mail-qk1-x72e.google.com) 
+identity=helo; client-ip=2607:f8b0:4864:20::72e; receiver=smtp7.fda.gov; 
+envelope-from="antyebay@gmail.com";
+   x-sender="postmaster@mail-qk1-x72e.google.com";
+   x-conformance=sidf_compatible
+Authentication-Results: smtp7.fda.gov; spf=None smtp.pra=antyebay@gmail.com; spf=Pass smtp.mailfrom=antyebay@gmail.com; spf=None smtp.helo=postmaster@mail-qk1-x72e.google.com; dkim=pass (signature verified) header.i=@gmail.com; dmarc=pass (p=none dis=none) d=gmail.com
+IronPort-SDR: 693d2be2_0okhi9/kKm9a+6gRu++5Gy6i6UZTJ52hhcgbnpbCAcOQYMh
+  ZE9GXHreauH0Kcywmg3zWvoGoasA9ceFRSdGrlQ==
+X-SBRS: None
+X-MID: 72312215
+X-IPAS-Result: =?us-ascii?q?A8GRmgBJKj1p/7D4ByaEw5CAIACOLlcDHAEBATwBAQQEA?=
+  =?us-ascii?q?QECAQEHAQGBZwGBOhsCFCooB4FeEAIBIARUhFWPU4IhhD6HOZNmPQIPAQEBA?=
+  =?us-ascii?q?QEBAQEBBwEBFAE8BAEBAwQ4hEUBAoxqAh4HAQQ0EwECAQIBAQEBAQMCAwEBA?=
+  =?us-ascii?q?QEBAQEBAQ0BAQEEAQEBAgEBAgQEAQICgQoThhUGNA1JAQEBAwcEgy1hAgUDO?=
+  =?us-ascii?q?wEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQUCLGEWEQoTA?=
+  =?us-ascii?q?QYVEwoBAxIQLQEJAiQRAQUBNQIBAR6CCFgoAYF6AQYQAQM2AwGlN4EFQopEe?=
+  =?us-ascii?q?oEVBQIWgQGCDQYFAwIBMYIu13gKGSgNbgOBYQIHCQEKgTUCAQGBX4MVKV2CV?=
+  =?us-ascii?q?wEqgRgcAoQOg356FxAbfYEQgTwLgkAHMT5pg3smgxSCaQSCInoUHYVRBwMdC?=
+  =?us-ascii?q?HiBNARRVSwFg3qBeQODLIYvCAcfEgkcBgoCSAUQEgMEAwQEAQILCQoJAwMCD?=
+  =?us-ascii?q?gIIAwIIBhkBPxIEEwoNCwcFHwoCDBQKKCISKwoDWzABCAYCAgQEAgQMAgkCA?=
+  =?us-ascii?q?gUHAhEDBAEBCAICLQMBAxkICQgCCwURGAwLBzEDEAkDHxcIEAgDAwICAgEHA?=
+  =?us-ascii?q?gIBAgEBAwMHBhABAgEPAgMDBAMEBgMFCQEHAQEBAQECEwMCAgURBwIBASABF?=
+  =?us-ascii?q?QIHAQQDJxkCAgYCAgICAwICAwMDAQIBAQMFAQMCAwIBAgEGAgMDAwUDAQ4CA?=
+  =?us-ascii?q?gMBAwEGBAQCBQECAgIOAQMCAgYCBwkDBQIBExMCAgICAQICAQIHAQECAwIFB?=
+  =?us-ascii?q?QgCAQEBAgIDAgsCAgECAQICAwIDAgYBCQQEBAECAQECBAMIAQMkAwMEBQMCA?=
+  =?us-ascii?q?gIHAgQDGAIMBgEEAwUFAwoGAgIDDwMGBgcCBwQCBAICAg4CAgMHBAICAwEMB?=
+  =?us-ascii?q?AcCAwICEgMBAQIPAgICDAEBBAICAgUCHgoOAg8CAQMBAQYCBAQDCgYCBgUCA?=
+  =?us-ascii?q?gEEAwcCAQIBAggDAgcDAgMCAQ8YAwIDCgIGBQQHAgIDAwQCAgIJAQMGAQEBA?=
+  =?us-ascii?q?QICAgMCAgUGDgQEBAIRCiABAwUCBAcCAQMCAgEEAQEDAwIBAgECAwECAgQCA?=
+  =?us-ascii?q?wMDAwMEBQMBAQMCAwUCAgIBAgICAgQBAQMLAQIEAwEFAQcFAwEDBQMEBAMCB?=
+  =?us-ascii?q?AUDCgICBAIDAwYDAwYDAgUCBwICAQUFAgEBAQEMCQICAgcDDgMCAgIDBAECA?=
+  =?us-ascii?q?wQDBQIDBAEBAQEEBQIDAwICAQMFAgIBAQICBAQCAwMGAgQCDgIBBR0RAQIGB?=
+  =?us-ascii?q?gMCAQMFAwMDAwMCBAICAgIGBwsMBAQCAQUDBQMDBQYDAQMEAwgDCgIEGAYFA?=
+  =?us-ascii?q?gICAQIMEgMDCgQEAwIFAgYIAwIDAwQBAzkfFgQFAgUDAwMBOgMOBAMIHgIBA?=
+  =?us-ascii?q?QIGAgEDAwgCAwEDAgcDFAYBBggCBAQKAgMDBwYFBwIRKAQCAgICBAMGAwoIB?=
+  =?us-ascii?q?wQDAQoDAwwCAhACAwcEAgMTBgMDBAMMBgMBAhIYBgEDBwMIAwIHBAIIBw0CB?=
+  =?us-ascii?q?AIJAwUFARUEAgQDAgICAgExAwMDAwUHAgQBBAYBAwMDBwMCDAICAhIDBQIFB?=
+  =?us-ascii?q?gIBAwwDBAMDBQULLREEBxMKBgQDAwcFAgMCAhQGAhISAwMEAQQCAQICAjkDB?=
+  =?us-ascii?q?AMDAwkBDRoQAgQGAwUKAwUGAgYBGQUCAwIDBQEDAQcHEgIHCAMdDwIBCwkIE?=
+  =?us-ascii?q?z0MBzIENgEJCxQHBiWBAJNRW06BOjU8CRIWExoJJCYSHANJIAIoORcRCwKTQ?=
+  =?us-ascii?q?hsWsxlogz6hXAYPBC+XUhSTBAELh3gYkGukIYR0AgoHBxEkEoFJJoFZMxoIG?=
+  =?us-ascii?q?xVsgjZPAxkPiGWGcAEBgkrDFic1PAIHAQoBAQMJil1Kh2EBYAEB?=
+IronPort-PHdr: A9a23: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
+  H1sLBlA6LKX6ixcj7N0HGkTthJY
+IronPort-Data: A9a23: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
+IronPort-HdrOrdr: A9a23:0KKREa3RHQOUNb8HIRKSwgqjBJYkLtp133Aq2lEZdPWaSL3iqy
+  ncpoVj6faUskdyZJhEo7q90ca7MBfhHPJOkPMs1NSZLW7bUQmTXeRfBOLZqlWKak7DH4ZmtZ
+  uIGJIOdeEYY2IK9foSrDPIdeoI8Z2o9OSHi47loEuFjjsHV0ij1WpE48qgfHGejTMmOaYE
+X-Talos-CUID: 9a23:p9LKSmAQY7rm4n76ExJJ1m4+HuMITlDM7lyBHkW5O0d0R4TAHA==
+X-Talos-MUID: =?us-ascii?q?9a23=3ACaYnMw16kNvPQY5SXkEwQl1/QTUjvo2WDGcfmtY?=
+  =?us-ascii?q?8lfaPKQAvOAnF3ATwa9py?=
+X-IronPort-Anti-Spam-Filtered: true
+X-IPAS: suspect
+X-IronPort-AV: E=Sophos;i="6.21,146,1763442000";
+    d="scan'208,217";a="72312215"
+Received: from mail-qk1-x72e.google.com ([IPv6:2607:f8b0:4864:20::72e])
+   by smtp7.fda.gov with ESMTP/TLS/ECDHE-RSA-AES256-GCM-SHA384; 13 Dec 2025 04:03:30 -0500
+Received: by mail-qk1-x72e.google.com with SMTP id af79cd13be357-8b9f73728e8so180798385a.0
+         for<OCIHotline@fda.hhs.gov>; Sat, 13 Dec 2025 01:03:29 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+         d=gmail.com; s=20230601; t=1765616609; x=1766221409; darn=fda.hhs.gov;
+         h=subject:from:cc:to:content-language:user-agent:mime-version:date
+          :message-id:from:to:cc:subject:date:message-id:reply-to;
+         bh=HQ+A6so1z9GwAj4g4pp6K/mqFMLaEZS0a+Rh37o1H9g=;
+         b=astINMSFB9TpPcQY4LjVzLcS5oBTIXLPz2Anvtnv+XWn85mUOCFFFS5fOJJKTSDGK7
+          z0eqnjJ47h6Er3bvgGD/Y2Z/43E5QqJCgqqjdhkQDbG+rP13xcamdrCPMEkzmkouay/o
+          amkG4X+wMI2rLBYiwTLhlm723H04T6/EIu4mllyPWKSSAh9GvPJDPEQfOacMpuqEsH7u
+          o2VVZHJvziSK/7tCRBMDUG0HmnLXBxnOko7usDuhvyGOhySGXflIBVGILDbHTz9S3QWe
+          1KFh13zFfGfuLfWiy11S+34oBYrKf0B3zZPWMX5u7u3tiDS0FktqWTTanZnCj5fsZhqy
+          s0Lg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+         d=1e100.net; s=20230601; t=1765616609; x=1766221409;
+         h=subject:from:cc:to:content-language:user-agent:mime-version:date
+          :message-id:x-gm-gg:x-gm-message-state:from:to:cc:subject:date
+          :message-id:reply-to;
+         bh=HQ+A6so1z9GwAj4g4pp6K/mqFMLaEZS0a+Rh37o1H9g=;
+         b=ZaGCsa7TlLJiAznFAUalAEEMzxY4D+C7DkpA1rKxYFMFILHwYTfr2j5S19L4yK1bSU
+          16co9u8f/PdUED66xOBPHuzHIKr8l56K/t5Qj6+trB6iRmL14BbPV6sHH9TL3OgPal4q
+          tB3D3X/ZzjA3e/O83t4OOP0GKlVUbe6AxVKA24hQSV4MRVi0AkwrjTNJoFKkvGuO4naz
+          GXPJePIX/igOHSH07AxZ8S/hyBYL/VuzJ69rXLRg+UsiKpgJ+HIj58n9RRAFBGcXCMgk
+          aCuLjgB6D6kS1NPpmlzqjuSrafVck60701HZrGWWHTsb0yqDuzA4HNeCSTYkghZv2qE2
+          13mQ==
+X-Gm-Message-State: AOJu0YzK9KBw3Du2qXDdR/9uyzNjMo8gTvt88vsuqTBYxY5iHZUs5iAL
+	HIbzK39BlSa14dySIpniwEc12T5EgvpHYPUL5uRr4P+4M+HaukUxJUO1klHhw0Xa
+X-Gm-Gg: AY/fxX7u2B66amMzS5oAHZfmDuqQVRsRlHfV/PRvEWGr6g/Umpdzh+/o4kEUw8TyxSX
+	+fA/FKf++0SgaS6S76Yvq/Da+Y+BjR4Tb9NwmRatZYuYk/g8buJbUO3OYRG5HMHkMSer1v8g5ee
+	aex1R6uNA8xHQm6MGdueR805qKiwzaSIhI0S39haQI57hvqQkXf48JCK6Pc3hAFqBDK/lccN109
+	4X79LYYZ/dkI+4E8TpLHIupQmqE31IMEFxHuwhaJbrxEdWVY7AFQCtAnA3+Yj8oIr++ryIckhYh
+	MEZprk2y62dP/usZFrdAYzQxXWoMY94L/RSxhggP+NBQ+0Rj7hL/YsnETuuHyHmS8QFC8CVNv7A
+	2GqFDtESR6oq8qCeH1fN90mbc+PNkyeQv+jD8TbwKuMcyT4n6EfwdcYW+0f//xNnt/lgucJxfpz
+	KxvbTB0m5ryMTlgtu+9XU2UZHosodTPeQNRQ/j0AeH50ibziCXoS8nIj8i2yHYu0YVrzo0SXSx3
+	TAeqjyJEC2ke7TsaJg3IUYbgHHf
+X-Google-Smtp-Source: AGHT+IHwnpapAvt5qd3l1Zk/4a64zQgFh6yCaYKX84q82Yvo4o9JVbCspXrVr0qSwSuXgt7Qun33Ag==
+X-Received: by 2002:a05:620a:1927:b0:8b0:f2bd:477d with SMTP id af79cd13be357-8bb3a38766emr606872485a.61.1765616608769;
+         Sat, 13 Dec 2025 01:03:28 -0800 (PST)
+Return-Path:antyebay@gmail.com
+Received: from [192.168.4.71] (host-173-212-112-103.public.eastlink.ca. [173.212.112.103])
+         by smtp.gmail.com with ESMTPSA id af79cd13be357-8bab5d4cd34sm628703485a.47.2025.12.13.01.03.26
+         (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+         Sat, 13 Dec 2025 01:03:26 -0800 (PST)
+Content-Type: multipart/alternative;
+	boundary="------------WTtZ0Nd6ckNrKETasDief8jW"
+Message-ID:<e5d78e87-2210-47e4-97bd-6470c86521d4@gmail.com>
+Date: Sat, 13 Dec 2025 05:03:25 -0400
+MIME-Version: 1.0
+User-Agent: Mozilla Thunderbird
+Content-Language: en-US
+To:<OCIHotline@fda.hhs.gov>
+CC:<FDAADVISORY@fda.hhs.gov>
+From: Anthony Dulong<antyebay@gmail.com>
+Subject: REPORT: Ongoing Distribution Violations - Insane Labz (Case #672952)
+
+--------------DaODfMG8ZL7pBDAMK4QAZ8PF
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  </head>
+  <body>
+    <p><br>
+    </p>
+    <div class="moz-forward-container"><br>
+      <br>
+      -------- Forwarded Message --------
+      <table cellpadding="0" cellspacing="0" border="0"
+        class="moz-email-headers-table">
+        <tbody>
+          <tr>
+            <th valign="BASELINE" align="RIGHT" nowrap="nowrap">Subject:
+            </th>
+            <td>Undeliverable: REPORT: Ongoing Distribution Violations -
+              Insane Labz (Case #672952)</td>
+          </tr>
+          <tr>
+            <th valign="BASELINE" align="RIGHT" nowrap="nowrap">Date: </th>
+            <td>Sat, 13 Dec 2025 04:03:30 -0500</td>
+          </tr>
+          <tr>
+            <th valign="BASELINE" align="RIGHT" nowrap="nowrap">From: </th>
+            <td><a class="moz-txt-link-abbreviated" href="mailto:postmaster@fda.hhs.gov">postmaster@fda.hhs.gov</a></td>
+          </tr>
+          <tr>
+            <th valign="BASELINE" align="RIGHT" nowrap="nowrap">To: </th>
+            <td><a class="moz-txt-link-abbreviated" href="mailto:antyebay@gmail.com">antyebay@gmail.com</a></td>
+          </tr>
+        </tbody>
+      </table>
+      <br>
+      <br>
+      <p><b><font color="#000066" size="3" face="Arial">Delivery has
+            failed to these recipients or groups:</font></b></p>
+      <font color="#000000" size="2" face="Tahoma"></font>
+      <p><font color="#000000" size="2" face="Tahoma"><a
+            href="mailto:OCIHotline@fda.hhs.gov" moz-do-not-send="true"
+            class="moz-txt-link-freetext">OCIHotline@fda.hhs.gov</a><br>
+        </font>
+        <font color="#000000" size="3" face="Arial">The email address
+          you entered couldn't be found. Please check the recipient's
+          email address and try to resend the message. If the problem
+          continues, please contact your email admin.<br>
+        </font>
+        <font color="#000000" size="2" face="Tahoma"><br>
+        </font></p>
+      <font color="#000000" size="2" face="Tahoma">
+      </font>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <font color="#808080" size="2" face="Tahoma">
+        <p><b>Diagnostic information for administrators:</b></p>
+        <p>Generating server: FDSWV30901.fda.gov<br>
+        </p>
+        <p><a class="moz-txt-link-abbreviated" href="mailto:OCIHotline@fda.hhs.gov">OCIHotline@fda.hhs.gov</a><br>
+          Remote Server returned '550 5.1.10
+          RESOLVER.ADR.RecipientNotFound; Recipient not found by SMTP
+          address lookup'<br>
+        </p>
+        <p>Original message headers:</p>
+        <pre>Received: from FDSWV09480.fda.gov (10.168.16.139) by FDSWV30901.fda.gov
+ (10.185.43.41) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.2.2562.29; Sat, 13 Dec
+ 2025 04:03:30 -0500
+Received: from ironport7.fda.gov (10.0.19.44) by FDSWV09480.fda.gov
+ (10.168.16.139) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.2.2562.29 via Frontend
+ Transport; Sat, 13 Dec 2025 04:03:30 -0500
+X-CSE-ConnectionGUID: SFJHBlKETEyJC9UbiZIugQ==
+X-CSE-MsgGUID: 5APlOzc+RFWctD7kV08X/A==
+Received-SPF: None (smtp7.fda.gov: no sender authenticity
+  information available from domain of <a class="moz-txt-link-abbreviated" href="mailto:antyebay@gmail.com">antyebay@gmail.com</a>)
+  identity=pra; client-ip=2607:f8b0:4864:20::72e;
+  receiver=smtp7.fda.gov; envelope-from=<a class="moz-txt-link-rfc2396E" href="mailto:antyebay@gmail.com">"antyebay@gmail.com"</a>;
+  x-sender=<a class="moz-txt-link-rfc2396E" href="mailto:antyebay@gmail.com">"antyebay@gmail.com"</a>; x-conformance=sidf_compatible
+Received-SPF: Pass (smtp7.fda.gov: domain of antyebay@gmail.com
+  designates 2607:f8b0:4864:20::72e as permitted sender)
+  identity=mailfrom; client-ip=2607:f8b0:4864:20::72e;
+  receiver=smtp7.fda.gov; envelope-from=<a class="moz-txt-link-rfc2396E" href="mailto:antyebay@gmail.com">"antyebay@gmail.com"</a>;
+  x-sender=<a class="moz-txt-link-rfc2396E" href="mailto:antyebay@gmail.com">"antyebay@gmail.com"</a>; x-conformance=sidf_compatible;
+  x-record-type="v=spf1"; x-record-text="v=spf1
+  ip6:2001:4860:4000::/36 ip6:2404:6800:4000::/36
+  ip6:2607:f8b0:4000::/36 ip6:2800:3f0:4000::/36
+  ip6:2a00:1450:4000::/36 ip6:2c0f:fb50:4000::/36 ~all<a class="moz-txt-link-rfc2396E" href="mailto:Received-SPF:None(smtp7.fda.gov:nosenderauthenticityinformationavailablefromdomainofpostmaster@mail-qk1-x72e.google.com)identity=helo;client-ip=2607:f8b0:4864:20::72e;receiver=smtp7.fda.gov;envelope-from=">"
+Received-SPF: None (smtp7.fda.gov: no sender authenticity
+  information available from domain of
+  postmaster@mail-qk1-x72e.google.com) identity=helo;
+  client-ip=2607:f8b0:4864:20::72e; receiver=smtp7.fda.gov;
+  envelope-from="</a>antyebay@gmail.com";
+  x-sender=<a class="moz-txt-link-rfc2396E" href="mailto:postmaster@mail-qk1-x72e.google.com">"postmaster@mail-qk1-x72e.google.com"</a>;
+  x-conformance=sidf_compatible
+Authentication-Results: smtp7.fda.gov; spf=None smtp.pra=antyebay@gmail.com; spf=Pass smtp.mailfrom=antyebay@gmail.com; spf=None smtp.helo=postmaster@mail-qk1-x72e.google.com; dkim=pass (signature verified) header.i=@gmail.com; dmarc=pass (p=none dis=none) d=gmail.com
+IronPort-SDR: 693d2be2_0okhi9/kKm9a+6gRu++5Gy6i6UZTJ52hhcgbnpbCAcOQYMh
+ ZE9GXHreauH0Kcywmg3zWvoGoasA9ceFRSdGrlQ==
+X-SBRS: None
+X-MID: 72312215
+X-IPAS-Result: =?us-ascii?q?A8GRmgBJKj1p/7D4ByaEw5CAIACOLlcDHAEBATwBAQQEA?=
+ =?us-ascii?q?QECAQEHAQGBZwGBOhsCFCooB4FeEAIBIARUhFWPU4IhhD6HOZNmPQIPAQEBA?=
+ =?us-ascii?q?QEBAQEBBwEBFAE8BAEBAwQ4hEUBAoxqAh4HAQQ0EwECAQIBAQEBAQMCAwEBA?=
+ =?us-ascii?q?QEBAQEBAQ0BAQEEAQEBAgEBAgQEAQICgQoThhUGNA1JAQEBAwcEgy1hAgUDO?=
+ =?us-ascii?q?wEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQUCLGEWEQoTA?=
+ =?us-ascii?q?QYVEwoBAxIQLQEJAiQRAQUBNQIBAR6CCFgoAYF6AQYQAQM2AwGlN4EFQopEe?=
+ =?us-ascii?q?oEVBQIWgQGCDQYFAwIBMYIu13gKGSgNbgOBYQIHCQEKgTUCAQGBX4MVKV2CV?=
+ =?us-ascii?q?wEqgRgcAoQOg356FxAbfYEQgTwLgkAHMT5pg3smgxSCaQSCInoUHYVRBwMdC?=
+ =?us-ascii?q?HiBNARRVSwFg3qBeQODLIYvCAcfEgkcBgoCSAUQEgMEAwQEAQILCQoJAwMCD?=
+ =?us-ascii?q?gIIAwIIBhkBPxIEEwoNCwcFHwoCDBQKKCISKwoDWzABCAYCAgQEAgQMAgkCA?=
+ =?us-ascii?q?gUHAhEDBAEBCAICLQMBAxkICQgCCwURGAwLBzEDEAkDHxcIEAgDAwICAgEHA?=
+ =?us-ascii?q?gIBAgEBAwMHBhABAgEPAgMDBAMEBgMFCQEHAQEBAQECEwMCAgURBwIBASABF?=
+ =?us-ascii?q?QIHAQQDJxkCAgYCAgICAwICAwMDAQIBAQMFAQMCAwIBAgEGAgMDAwUDAQ4CA?=
+ =?us-ascii?q?gMBAwEGBAQCBQECAgIOAQMCAgYCBwkDBQIBExMCAgICAQICAQIHAQECAwIFB?=
+ =?us-ascii?q?QgCAQEBAgIDAgsCAgECAQICAwIDAgYBCQQEBAECAQECBAMIAQMkAwMEBQMCA?=
+ =?us-ascii?q?gIHAgQDGAIMBgEEAwUFAwoGAgIDDwMGBgcCBwQCBAICAg4CAgMHBAICAwEMB?=
+ =?us-ascii?q?AcCAwICEgMBAQIPAgICDAEBBAICAgUCHgoOAg8CAQMBAQYCBAQDCgYCBgUCA?=
+ =?us-ascii?q?gEEAwcCAQIBAggDAgcDAgMCAQ8YAwIDCgIGBQQHAgIDAwQCAgIJAQMGAQEBA?=
+ =?us-ascii?q?QICAgMCAgUGDgQEBAIRCiABAwUCBAcCAQMCAgEEAQEDAwIBAgECAwECAgQCA?=
+ =?us-ascii?q?wMDAwMEBQMBAQMCAwUCAgIBAgICAgQBAQMLAQIEAwEFAQcFAwEDBQMEBAMCB?=
+ =?us-ascii?q?AUDCgICBAIDAwYDAwYDAgUCBwICAQUFAgEBAQEMCQICAgcDDgMCAgIDBAECA?=
+ =?us-ascii?q?wQDBQIDBAEBAQEEBQIDAwICAQMFAgIBAQICBAQCAwMGAgQCDgIBBR0RAQIGB?=
+ =?us-ascii?q?gMCAQMFAwMDAwMCBAICAgIGBwsMBAQCAQUDBQMDBQYDAQMEAwgDCgIEGAYFA?=
+ =?us-ascii?q?gICAQIMEgMDCgQEAwIFAgYIAwIDAwQBAzkfFgQFAgUDAwMBOgMOBAMIHgIBA?=
+ =?us-ascii?q?QIGAgEDAwgCAwEDAgcDFAYBBggCBAQKAgMDBwYFBwIRKAQCAgICBAMGAwoIB?=
+ =?us-ascii?q?wQDAQoDAwwCAhACAwcEAgMTBgMDBAMMBgMBAhIYBgEDBwMIAwIHBAIIBw0CB?=
+ =?us-ascii?q?AIJAwUFARUEAgQDAgICAgExAwMDAwUHAgQBBAYBAwMDBwMCDAICAhIDBQIFB?=
+ =?us-ascii?q?gIBAwwDBAMDBQULLREEBxMKBgQDAwcFAgMCAhQGAhISAwMEAQQCAQICAjkDB?=
+ =?us-ascii?q?AMDAwkBDRoQAgQGAwUKAwUGAgYBGQUCAwIDBQEDAQcHEgIHCAMdDwIBCwkIE?=
+ =?us-ascii?q?z0MBzIENgEJCxQHBiWBAJNRW06BOjU8CRIWExoJJCYSHANJIAIoORcRCwKTQ?=
+ =?us-ascii?q?hsWsxlogz6hXAYPBC+XUhSTBAELh3gYkGukIYR0AgoHBxEkEoFJJoFZMxoIG?=
+ =?us-ascii?q?xVsgjZPAxkPiGWGcAEBgkrDFic1PAIHAQoBAQMJil1Kh2EBYAEB?=
+IronPort-PHdr: A9a23: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
+ H1sLBlA6LKX6ixcj7N0HGkTthJY
+IronPort-Data: A9a23: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
+IronPort-HdrOrdr: A9a23:0KKREa3RHQOUNb8HIRKSwgqjBJYkLtp133Aq2lEZdPWaSL3iqy
+ ncpoVj6faUskdyZJhEo7q90ca7MBfhHPJOkPMs1NSZLW7bUQmTXeRfBOLZqlWKak7DH4ZmtZ
+ uIGJIOdeEYY2IK9foSrDPIdeoI8Z2o9OSHi47loEuFjjsHV0ij1WpE48qgfHGejTMmOaYE
+X-Talos-CUID: 9a23:p9LKSmAQY7rm4n76ExJJ1m4+HuMITlDM7lyBHkW5O0d0R4TAHA==
+X-Talos-MUID: =?us-ascii?q?9a23=3ACaYnMw16kNvPQY5SXkEwQl1/QTUjvo2WDGcfmtY?=
+ =?us-ascii?q?8lfaPKQAvOAnF3ATwa9py?=
+X-IronPort-Anti-Spam-Filtered: true
+X-IPAS: suspect
+X-IronPort-AV: E=Sophos;i="6.21,146,1763442000"; 
+   d="scan'208,217";a="72312215"
+Received: from mail-qk1-x72e.google.com ([IPv6:2607:f8b0:4864:20::72e])
+  by smtp7.fda.gov with ESMTP/TLS/ECDHE-RSA-AES256-GCM-SHA384; 13 Dec 2025 04:03:30 -0500
+Received: by mail-qk1-x72e.google.com with SMTP id af79cd13be357-8b9f73728e8so180798385a.0
+        for <a class="moz-txt-link-rfc2396E" href="mailto:OCIHotline@fda.hhs.gov">&lt;OCIHotline@fda.hhs.gov&gt;</a>; Sat, 13 Dec 2025 01:03:29 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20230601; t=1765616609; x=1766221409; darn=fda.hhs.gov;
+        h=subject:from:cc:to:content-language:user-agent:mime-version:date
+         :message-id:from:to:cc:subject:date:message-id:reply-to;
+        bh=HQ+A6so1z9GwAj4g4pp6K/mqFMLaEZS0a+Rh37o1H9g=;
+        b=astINMSFB9TpPcQY4LjVzLcS5oBTIXLPz2Anvtnv+XWn85mUOCFFFS5fOJJKTSDGK7
+         z0eqnjJ47h6Er3bvgGD/Y2Z/43E5QqJCgqqjdhkQDbG+rP13xcamdrCPMEkzmkouay/o
+         amkG4X+wMI2rLBYiwTLhlm723H04T6/EIu4mllyPWKSSAh9GvPJDPEQfOacMpuqEsH7u
+         o2VVZHJvziSK/7tCRBMDUG0HmnLXBxnOko7usDuhvyGOhySGXflIBVGILDbHTz9S3QWe
+         1KFh13zFfGfuLfWiy11S+34oBYrKf0B3zZPWMX5u7u3tiDS0FktqWTTanZnCj5fsZhqy
+         s0Lg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1765616609; x=1766221409;
+        h=subject:from:cc:to:content-language:user-agent:mime-version:date
+         :message-id:x-gm-gg:x-gm-message-state:from:to:cc:subject:date
+         :message-id:reply-to;
+        bh=HQ+A6so1z9GwAj4g4pp6K/mqFMLaEZS0a+Rh37o1H9g=;
+        b=ZaGCsa7TlLJiAznFAUalAEEMzxY4D+C7DkpA1rKxYFMFILHwYTfr2j5S19L4yK1bSU
+         16co9u8f/PdUED66xOBPHuzHIKr8l56K/t5Qj6+trB6iRmL14BbPV6sHH9TL3OgPal4q
+         tB3D3X/ZzjA3e/O83t4OOP0GKlVUbe6AxVKA24hQSV4MRVi0AkwrjTNJoFKkvGuO4naz
+         GXPJePIX/igOHSH07AxZ8S/hyBYL/VuzJ69rXLRg+UsiKpgJ+HIj58n9RRAFBGcXCMgk
+         aCuLjgB6D6kS1NPpmlzqjuSrafVck60701HZrGWWHTsb0yqDuzA4HNeCSTYkghZv2qE2
+         13mQ==
+X-Gm-Message-State: AOJu0YzK9KBw3Du2qXDdR/9uyzNjMo8gTvt88vsuqTBYxY5iHZUs5iAL
+	HIbzK39BlSa14dySIpniwEc12T5EgvpHYPUL5uRr4P+4M+HaukUxJUO1klHhw0Xa
+X-Gm-Gg: AY/fxX7u2B66amMzS5oAHZfmDuqQVRsRlHfV/PRvEWGr6g/Umpdzh+/o4kEUw8TyxSX
+	+fA/FKf++0SgaS6S76Yvq/Da+Y+BjR4Tb9NwmRatZYuYk/g8buJbUO3OYRG5HMHkMSer1v8g5ee
+	aex1R6uNA8xHQm6MGdueR805qKiwzaSIhI0S39haQI57hvqQkXf48JCK6Pc3hAFqBDK/lccN109
+	4X79LYYZ/dkI+4E8TpLHIupQmqE31IMEFxHuwhaJbrxEdWVY7AFQCtAnA3+Yj8oIr++ryIckhYh
+	MEZprk2y62dP/usZFrdAYzQxXWoMY94L/RSxhggP+NBQ+0Rj7hL/YsnETuuHyHmS8QFC8CVNv7A
+	2GqFDtESR6oq8qCeH1fN90mbc+PNkyeQv+jD8TbwKuMcyT4n6EfwdcYW+0f//xNnt/lgucJxfpz
+	KxvbTB0m5ryMTlgtu+9XU2UZHosodTPeQNRQ/j0AeH50ibziCXoS8nIj8i2yHYu0YVrzo0SXSx3
+	TAeqjyJEC2ke7TsaJg3IUYbgHHf
+X-Google-Smtp-Source: AGHT+IHwnpapAvt5qd3l1Zk/4a64zQgFh6yCaYKX84q82Yvo4o9JVbCspXrVr0qSwSuXgt7Qun33Ag==
+X-Received: by 2002:a05:620a:1927:b0:8b0:f2bd:477d with SMTP id af79cd13be357-8bb3a38766emr606872485a.61.1765616608769;
+        Sat, 13 Dec 2025 01:03:28 -0800 (PST)
+Return-Path: <a class="moz-txt-link-abbreviated" href="mailto:antyebay@gmail.com">antyebay@gmail.com</a>
+Received: from [192.168.4.71] (host-173-212-112-103.public.eastlink.ca. [173.212.112.103])
+        by smtp.gmail.com with ESMTPSA id af79cd13be357-8bab5d4cd34sm628703485a.47.2025.12.13.01.03.26
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Sat, 13 Dec 2025 01:03:26 -0800 (PST)
+Content-Type: multipart/alternative;
+	boundary="------------WTtZ0Nd6ckNrKETasDief8jW"
+Message-ID: <a class="moz-txt-link-rfc2396E" href="mailto:e5d78e87-2210-47e4-97bd-6470c86521d4@gmail.com">&lt;e5d78e87-2210-47e4-97bd-6470c86521d4@gmail.com&gt;</a>
+Date: Sat, 13 Dec 2025 05:03:25 -0400
+MIME-Version: 1.0
+User-Agent: Mozilla Thunderbird
+Content-Language: en-US
+To: <a class="moz-txt-link-rfc2396E" href="mailto:OCIHotline@fda.hhs.gov">&lt;OCIHotline@fda.hhs.gov&gt;</a>
+CC: <a class="moz-txt-link-rfc2396E" href="mailto:FDAADVISORY@fda.hhs.gov">&lt;FDAADVISORY@fda.hhs.gov&gt;</a>
+From: Anthony Dulong <a class="moz-txt-link-rfc2396E" href="mailto:antyebay@gmail.com">&lt;antyebay@gmail.com&gt;</a>
+Subject: REPORT: Ongoing Distribution Violations - Insane Labz (Case #672952)
+</pre>
+      </font>
+    </div>
+  </body>
+</html>
+
+--------------DaODfMG8ZL7pBDAMK4QAZ8PF--
+--------------0MOXyUjO14d7gOwheWQMXitq
+Content-Type: message/delivery-status; name="Attached Message Part.tmp"
+Content-Disposition: attachment; filename="Attached Message Part.tmp"
+Content-Transfer-Encoding: 7bit
+
+Reporting-MTA: dns;FDSWV30901.fda.gov
+Received-From-MTA: dns;ironport7.fda.gov
+Arrival-Date: Sat, 13 Dec 2025 09:03:30 +0000
+
+Final-Recipient: rfc822;OCIHotline@fda.hhs.gov
+Action: failed
+Status: 5.1.10
+Diagnostic-Code: smtp;550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipient not found by SMTP address lookup
+
+
+--------------0MOXyUjO14d7gOwheWQMXitq
+Content-Type: message/rfc822; name="ForwardedMessage.eml"
+Content-Disposition: attachment; filename="ForwardedMessage.eml"
+Content-Transfer-Encoding: 7bit
+
+Received: from FDSWV09480.fda.gov (10.168.16.139) by FDSWV30901.fda.gov
+ (10.185.43.41) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.2.2562.29; Sat, 13 Dec
+ 2025 04:03:30 -0500
+Received: from ironport7.fda.gov (10.0.19.44) by FDSWV09480.fda.gov
+ (10.168.16.139) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.2.2562.29 via Frontend
+ Transport; Sat, 13 Dec 2025 04:03:30 -0500
+X-CSE-ConnectionGUID: SFJHBlKETEyJC9UbiZIugQ==
+X-CSE-MsgGUID: 5APlOzc+RFWctD7kV08X/A==
+Received-SPF: None (smtp7.fda.gov: no sender authenticity
+  information available from domain of antyebay@gmail.com)
+  identity=pra; client-ip=2607:f8b0:4864:20::72e;
+  receiver=smtp7.fda.gov; envelope-from="antyebay@gmail.com";
+  x-sender="antyebay@gmail.com"; x-conformance=sidf_compatible
+Received-SPF: Pass (smtp7.fda.gov: domain of antyebay@gmail.com
+  designates 2607:f8b0:4864:20::72e as permitted sender)
+  identity=mailfrom; client-ip=2607:f8b0:4864:20::72e;
+  receiver=smtp7.fda.gov; envelope-from="antyebay@gmail.com";
+  x-sender="antyebay@gmail.com"; x-conformance=sidf_compatible;
+  x-record-type="v=spf1"; x-record-text="v=spf1
+  ip6:2001:4860:4000::/36 ip6:2404:6800:4000::/36
+  ip6:2607:f8b0:4000::/36 ip6:2800:3f0:4000::/36
+  ip6:2a00:1450:4000::/36 ip6:2c0f:fb50:4000::/36 ~all"
+Received-SPF: None (smtp7.fda.gov: no sender authenticity
+  information available from domain of
+  postmaster@mail-qk1-x72e.google.com) identity=helo;
+  client-ip=2607:f8b0:4864:20::72e; receiver=smtp7.fda.gov;
+  envelope-from="antyebay@gmail.com";
+  x-sender="postmaster@mail-qk1-x72e.google.com";
+  x-conformance=sidf_compatible
+Authentication-Results: smtp7.fda.gov; spf=None smtp.pra=antyebay@gmail.com; spf=Pass smtp.mailfrom=antyebay@gmail.com; spf=None smtp.helo=postmaster@mail-qk1-x72e.google.com; dkim=pass (signature verified) header.i=@gmail.com; dmarc=pass (p=none dis=none) d=gmail.com
+IronPort-SDR: 693d2be2_0okhi9/kKm9a+6gRu++5Gy6i6UZTJ52hhcgbnpbCAcOQYMh
+ ZE9GXHreauH0Kcywmg3zWvoGoasA9ceFRSdGrlQ==
+X-SBRS: None
+X-MID: 72312215
+X-IPAS-Result: =?us-ascii?q?A8GRmgBJKj1p/7D4ByaEw5CAIACOLlcDHAEBATwBAQQEA?=
+ =?us-ascii?q?QECAQEHAQGBZwGBOhsCFCooB4FeEAIBIARUhFWPU4IhhD6HOZNmPQIPAQEBA?=
+ =?us-ascii?q?QEBAQEBBwEBFAE8BAEBAwQ4hEUBAoxqAh4HAQQ0EwECAQIBAQEBAQMCAwEBA?=
+ =?us-ascii?q?QEBAQEBAQ0BAQEEAQEBAgEBAgQEAQICgQoThhUGNA1JAQEBAwcEgy1hAgUDO?=
+ =?us-ascii?q?wEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQUCLGEWEQoTA?=
+ =?us-ascii?q?QYVEwoBAxIQLQEJAiQRAQUBNQIBAR6CCFgoAYF6AQYQAQM2AwGlN4EFQopEe?=
+ =?us-ascii?q?oEVBQIWgQGCDQYFAwIBMYIu13gKGSgNbgOBYQIHCQEKgTUCAQGBX4MVKV2CV?=
+ =?us-ascii?q?wEqgRgcAoQOg356FxAbfYEQgTwLgkAHMT5pg3smgxSCaQSCInoUHYVRBwMdC?=
+ =?us-ascii?q?HiBNARRVSwFg3qBeQODLIYvCAcfEgkcBgoCSAUQEgMEAwQEAQILCQoJAwMCD?=
+ =?us-ascii?q?gIIAwIIBhkBPxIEEwoNCwcFHwoCDBQKKCISKwoDWzABCAYCAgQEAgQMAgkCA?=
+ =?us-ascii?q?gUHAhEDBAEBCAICLQMBAxkICQgCCwURGAwLBzEDEAkDHxcIEAgDAwICAgEHA?=
+ =?us-ascii?q?gIBAgEBAwMHBhABAgEPAgMDBAMEBgMFCQEHAQEBAQECEwMCAgURBwIBASABF?=
+ =?us-ascii?q?QIHAQQDJxkCAgYCAgICAwICAwMDAQIBAQMFAQMCAwIBAgEGAgMDAwUDAQ4CA?=
+ =?us-ascii?q?gMBAwEGBAQCBQECAgIOAQMCAgYCBwkDBQIBExMCAgICAQICAQIHAQECAwIFB?=
+ =?us-ascii?q?QgCAQEBAgIDAgsCAgECAQICAwIDAgYBCQQEBAECAQECBAMIAQMkAwMEBQMCA?=
+ =?us-ascii?q?gIHAgQDGAIMBgEEAwUFAwoGAgIDDwMGBgcCBwQCBAICAg4CAgMHBAICAwEMB?=
+ =?us-ascii?q?AcCAwICEgMBAQIPAgICDAEBBAICAgUCHgoOAg8CAQMBAQYCBAQDCgYCBgUCA?=
+ =?us-ascii?q?gEEAwcCAQIBAggDAgcDAgMCAQ8YAwIDCgIGBQQHAgIDAwQCAgIJAQMGAQEBA?=
+ =?us-ascii?q?QICAgMCAgUGDgQEBAIRCiABAwUCBAcCAQMCAgEEAQEDAwIBAgECAwECAgQCA?=
+ =?us-ascii?q?wMDAwMEBQMBAQMCAwUCAgIBAgICAgQBAQMLAQIEAwEFAQcFAwEDBQMEBAMCB?=
+ =?us-ascii?q?AUDCgICBAIDAwYDAwYDAgUCBwICAQUFAgEBAQEMCQICAgcDDgMCAgIDBAECA?=
+ =?us-ascii?q?wQDBQIDBAEBAQEEBQIDAwICAQMFAgIBAQICBAQCAwMGAgQCDgIBBR0RAQIGB?=
+ =?us-ascii?q?gMCAQMFAwMDAwMCBAICAgIGBwsMBAQCAQUDBQMDBQYDAQMEAwgDCgIEGAYFA?=
+ =?us-ascii?q?gICAQIMEgMDCgQEAwIFAgYIAwIDAwQBAzkfFgQFAgUDAwMBOgMOBAMIHgIBA?=
+ =?us-ascii?q?QIGAgEDAwgCAwEDAgcDFAYBBggCBAQKAgMDBwYFBwIRKAQCAgICBAMGAwoIB?=
+ =?us-ascii?q?wQDAQoDAwwCAhACAwcEAgMTBgMDBAMMBgMBAhIYBgEDBwMIAwIHBAIIBw0CB?=
+ =?us-ascii?q?AIJAwUFARUEAgQDAgICAgExAwMDAwUHAgQBBAYBAwMDBwMCDAICAhIDBQIFB?=
+ =?us-ascii?q?gIBAwwDBAMDBQULLREEBxMKBgQDAwcFAgMCAhQGAhISAwMEAQQCAQICAjkDB?=
+ =?us-ascii?q?AMDAwkBDRoQAgQGAwUKAwUGAgYBGQUCAwIDBQEDAQcHEgIHCAMdDwIBCwkIE?=
+ =?us-ascii?q?z0MBzIENgEJCxQHBiWBAJNRW06BOjU8CRIWExoJJCYSHANJIAIoORcRCwKTQ?=
+ =?us-ascii?q?hsWsxlogz6hXAYPBC+XUhSTBAELh3gYkGukIYR0AgoHBxEkEoFJJoFZMxoIG?=
+ =?us-ascii?q?xVsgjZPAxkPiGWGcAEBgkrDFic1PAIHAQoBAQMJil1Kh2EBYAEB?=
+IronPort-PHdr: A9a23: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
+ H1sLBlA6LKX6ixcj7N0HGkTthJY
+IronPort-Data: A9a23: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
+IronPort-HdrOrdr: A9a23:0KKREa3RHQOUNb8HIRKSwgqjBJYkLtp133Aq2lEZdPWaSL3iqy
+ ncpoVj6faUskdyZJhEo7q90ca7MBfhHPJOkPMs1NSZLW7bUQmTXeRfBOLZqlWKak7DH4ZmtZ
+ uIGJIOdeEYY2IK9foSrDPIdeoI8Z2o9OSHi47loEuFjjsHV0ij1WpE48qgfHGejTMmOaYE
+X-Talos-CUID: 9a23:p9LKSmAQY7rm4n76ExJJ1m4+HuMITlDM7lyBHkW5O0d0R4TAHA==
+X-Talos-MUID: =?us-ascii?q?9a23=3ACaYnMw16kNvPQY5SXkEwQl1/QTUjvo2WDGcfmtY?=
+ =?us-ascii?q?8lfaPKQAvOAnF3ATwa9py?=
+X-IronPort-Anti-Spam-Filtered: true
+X-IPAS: suspect
+X-IronPort-AV: E=Sophos;i="6.21,146,1763442000"; 
+   d="scan'208,217";a="72312215"
+Received: from mail-qk1-x72e.google.com ([IPv6:2607:f8b0:4864:20::72e])
+  by smtp7.fda.gov with ESMTP/TLS/ECDHE-RSA-AES256-GCM-SHA384; 13 Dec 2025 04:03:30 -0500
+Received: by mail-qk1-x72e.google.com with SMTP id af79cd13be357-8b9f73728e8so180798385a.0
+        for <OCIHotline@fda.hhs.gov>; Sat, 13 Dec 2025 01:03:29 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20230601; t=1765616609; x=1766221409; darn=fda.hhs.gov;
+        h=subject:from:cc:to:content-language:user-agent:mime-version:date
+         :message-id:from:to:cc:subject:date:message-id:reply-to;
+        bh=HQ+A6so1z9GwAj4g4pp6K/mqFMLaEZS0a+Rh37o1H9g=;
+        b=astINMSFB9TpPcQY4LjVzLcS5oBTIXLPz2Anvtnv+XWn85mUOCFFFS5fOJJKTSDGK7
+         z0eqnjJ47h6Er3bvgGD/Y2Z/43E5QqJCgqqjdhkQDbG+rP13xcamdrCPMEkzmkouay/o
+         amkG4X+wMI2rLBYiwTLhlm723H04T6/EIu4mllyPWKSSAh9GvPJDPEQfOacMpuqEsH7u
+         o2VVZHJvziSK/7tCRBMDUG0HmnLXBxnOko7usDuhvyGOhySGXflIBVGILDbHTz9S3QWe
+         1KFh13zFfGfuLfWiy11S+34oBYrKf0B3zZPWMX5u7u3tiDS0FktqWTTanZnCj5fsZhqy
+         s0Lg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1765616609; x=1766221409;
+        h=subject:from:cc:to:content-language:user-agent:mime-version:date
+         :message-id:x-gm-gg:x-gm-message-state:from:to:cc:subject:date
+         :message-id:reply-to;
+        bh=HQ+A6so1z9GwAj4g4pp6K/mqFMLaEZS0a+Rh37o1H9g=;
+        b=ZaGCsa7TlLJiAznFAUalAEEMzxY4D+C7DkpA1rKxYFMFILHwYTfr2j5S19L4yK1bSU
+         16co9u8f/PdUED66xOBPHuzHIKr8l56K/t5Qj6+trB6iRmL14BbPV6sHH9TL3OgPal4q
+         tB3D3X/ZzjA3e/O83t4OOP0GKlVUbe6AxVKA24hQSV4MRVi0AkwrjTNJoFKkvGuO4naz
+         GXPJePIX/igOHSH07AxZ8S/hyBYL/VuzJ69rXLRg+UsiKpgJ+HIj58n9RRAFBGcXCMgk
+         aCuLjgB6D6kS1NPpmlzqjuSrafVck60701HZrGWWHTsb0yqDuzA4HNeCSTYkghZv2qE2
+         13mQ==
+X-Gm-Message-State: AOJu0YzK9KBw3Du2qXDdR/9uyzNjMo8gTvt88vsuqTBYxY5iHZUs5iAL
+	HIbzK39BlSa14dySIpniwEc12T5EgvpHYPUL5uRr4P+4M+HaukUxJUO1klHhw0Xa
+X-Gm-Gg: AY/fxX7u2B66amMzS5oAHZfmDuqQVRsRlHfV/PRvEWGr6g/Umpdzh+/o4kEUw8TyxSX
+	+fA/FKf++0SgaS6S76Yvq/Da+Y+BjR4Tb9NwmRatZYuYk/g8buJbUO3OYRG5HMHkMSer1v8g5ee
+	aex1R6uNA8xHQm6MGdueR805qKiwzaSIhI0S39haQI57hvqQkXf48JCK6Pc3hAFqBDK/lccN109
+	4X79LYYZ/dkI+4E8TpLHIupQmqE31IMEFxHuwhaJbrxEdWVY7AFQCtAnA3+Yj8oIr++ryIckhYh
+	MEZprk2y62dP/usZFrdAYzQxXWoMY94L/RSxhggP+NBQ+0Rj7hL/YsnETuuHyHmS8QFC8CVNv7A
+	2GqFDtESR6oq8qCeH1fN90mbc+PNkyeQv+jD8TbwKuMcyT4n6EfwdcYW+0f//xNnt/lgucJxfpz
+	KxvbTB0m5ryMTlgtu+9XU2UZHosodTPeQNRQ/j0AeH50ibziCXoS8nIj8i2yHYu0YVrzo0SXSx3
+	TAeqjyJEC2ke7TsaJg3IUYbgHHf
+X-Google-Smtp-Source: AGHT+IHwnpapAvt5qd3l1Zk/4a64zQgFh6yCaYKX84q82Yvo4o9JVbCspXrVr0qSwSuXgt7Qun33Ag==
+X-Received: by 2002:a05:620a:1927:b0:8b0:f2bd:477d with SMTP id af79cd13be357-8bb3a38766emr606872485a.61.1765616608769;
+        Sat, 13 Dec 2025 01:03:28 -0800 (PST)
+Return-Path: antyebay@gmail.com
+Received: from [192.168.4.71] (host-173-212-112-103.public.eastlink.ca. [173.212.112.103])
+        by smtp.gmail.com with ESMTPSA id af79cd13be357-8bab5d4cd34sm628703485a.47.2025.12.13.01.03.26
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Sat, 13 Dec 2025 01:03:26 -0800 (PST)
+Content-Type: multipart/alternative;
+	boundary="------------WTtZ0Nd6ckNrKETasDief8jW"
+Message-ID: <e5d78e87-2210-47e4-97bd-6470c86521d4@gmail.com>
+Date: Sat, 13 Dec 2025 05:03:25 -0400
+MIME-Version: 1.0
+User-Agent: Mozilla Thunderbird
+Content-Language: en-US
+To: <OCIHotline@fda.hhs.gov>
+CC: <FDAADVISORY@fda.hhs.gov>
+From: Anthony Dulong <antyebay@gmail.com>
+Subject: REPORT: Ongoing Distribution Violations - Insane Labz (Case #672952)
+
+--------------WTtZ0Nd6ckNrKETasDief8jW
+Content-Type: text/plain; charset="UTF-8"; format=flowed
+Content-Transfer-Encoding: quoted-printable
+
+*OFFICIAL REPORT OF SUSPECTED UNLAWFUL DRUG MARKETING AND DISTRIBUTION*
+
+*TO:* FDA Office of Criminal Investigations (OCI) *ATTENTION:* Division=20
+of Dietary Supplement Programs / Office of Compliance *DATE:* December=20
+13, 2025 *SUBJECT:* Unauthorized Distribution and cGMP Violations -=20
+Insane Labz *RELEVANT ENTITY:* *Insane Labz* *TARGET IDENTIFIER:*=20
+*madchemist@insanelabz.com* (Alias: "PsychoHycho")
+
+*I. NATURE OF COMPLAINT*
+
+This report identifies *Insane Labz* as an entity engaged in the=20
+manufacturing and distribution of unregulated compounds for human=20
+consumption. Independent audit of the entity's 11-year operational=20
+history reveals systemic failures in safety oversight, illegal=20
+solicitation through non-standard digital channels, and documented=20
+public health risks.
+
+*II. THE LABZ-REPORT: INVESTIGATIVE DATA INDEX*
+
+*Volume I: Distribution Channels and Consumer Solicitation*
+
+  * *Product Lifecycle Audit:* Documentation of the year-over-year
+    decline in manufacturing standards and institutional ethics.
+  * *Non-Standard Sales Interfaces:* Evidence of the subject=E2=80=99s use =
+of
+    peer-to-peer (P2P) gaming networks (e.g., Battle.net) to solicit
+    consumers and circumvent age-verification and trade-monitoring
+    protocols.
+  * *Solicitation Logs:* Timestamped records from December 12, 2025,
+    showing unauthorized marketing attempts initiated by
+    madchemist@insanelabz.com.
+
+*Volume II: Documented Adverse Physiological Events & Post-Market=20
+Surveillance*
+
+  * *Consumer Symptomatology Audit: Analysis of public-domain consumer
+    feedback (1-star reviews) corroborating systemic physiological
+    distress following consumption of the target's products.*
+  * *Reported Clinical Indicators: Recurring public reports of acute
+    nausea (gastrointestinal distress) and severe cardiac irregularities
+    (tachycardia) among the consumer base.*
+  * *Product Toxicity Assessment: Independent research indicating that
+    the stimulant-load in these formulations exceeds standard safety
+    thresholds, leading to acute autonomic over-activity.*
+
+*Volume III: Chemical Analysis & Labeling Non-Compliance*
+
+  * *Regulatory Discrepancy:* Identification of distributed compounds
+    lacking the required *New Drug Applications (NDA)* or mandated
+    safety labeling.
+  * *Batch-to-Batch Variability:* Qualitative evidence of significant
+    variance in product consistency, suggesting a failure to adhere to
+    *Master Manufacturing Records (MMR)* as required by *21 CFR =C2=A7111.2=
+10*.
+  * *Chemical Drift:* Evidence that product efficacy fluctuates
+    dangerously, indicating a lack of standardized batch purity testing.
+
+*Volume IV: Proof of Intent and Institutional Non-Compliance*
+
+  * *Knowledge of Risk:* Persistent distribution by *Insane Labz*
+    despite widespread public reports of cardiovascular distress.
+  * *Systemic cGMP Failure:* Widespread deviations from *Current Good
+    Manufacturing Practices*, specifically regarding adverse event
+    monitoring and quality control.
+
+*III. ATTESTATION OF THE AUDITOR*
+
+The undersigned, *Anthony Dulong*, has conducted this investigative=20
+audit independently and has *not* purchased or consumed these products.=20
+This report is based on technical observation and the preservation of=20
+digital solicitation evidence. **
+
+*Volume V: Evidence of Continued Non-Compliance (FDA Reference #672952)*
+
+  * *Regulatory History Recidivism:* Documentation linking current
+    solicitation activities to the entity *Innovative Formulations, LLC
+    (dba Insane Labz)*, which was issued a formal *FDA Warning Letter on
+    February 22, 2024 (MARCS-CMS 672952)*.
+  * *Failure to Remediate:* Observations indicate that the entity has
+    not rectified the "Unapproved New Drug" and "Misbranded Drug"
+    violations cited by the FDA. Specifically, the subject continues to
+    utilize non-commercial messaging platforms to distribute compounds
+    that lack the *General Recognition of Safety and Effectiveness (GRASE)*=
+.
+  * *Active Solicitation Audit:* Logged evidence from December 12, 2025,
+    proving that the owners/operators cited in Case #672952
+    (specifically the madchemist@insanelabz.com point of contact) are
+    still actively bypassing traditional retail oversight to market
+    potentially toxic substances.
+
+This report, corroborated by your existing records in Case #672952,=20
+provides sufficient technical grounds for immediate regulatory=20
+intervention. I consider my independent audit of this matter concluded=20
+with this filing.
+
+*SUBMITTED BY:* *Anthony Dulong* [Halifax PC Repair / 1-902-778-3217)
+
+
+--------------WTtZ0Nd6ckNrKETasDief8jW
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta http-equiv=3D"content-type" content=3D"text/html; charset=3DUTF-8=
+">
+  </head>
+  <body>
+    <p><!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Version>16.00</o:Version>
+ </o:DocumentProperties>
+ <o:OfficeDocumentSettings>
+  <o:AllowPNG/>
+ </o:OfficeDocumentSettings>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:View>Normal</w:View>
+  <w:Zoom>0</w:Zoom>
+  <w:TrackMoves>false</w:TrackMoves>
+  <w:TrackFormatting/>
+  <w:PunctuationKerning/>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:DoNotPromoteQF/>
+  <w:LidThemeOther>EN-US</w:LidThemeOther>
+  <w:LidThemeAsian>X-NONE</w:LidThemeAsian>
+  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:DontGrowAutofit/>
+   <w:SplitPgBreakAndParaMark/>
+   <w:EnableOpenTypeKerning/>
+   <w:DontFlipMirrorIndents/>
+   <w:OverrideTableStyleHps/>
+  </w:Compatibility>
+  <m:mathPr>
+   <m:mathFont m:val=3D"Cambria Math"/>
+   <m:brkBin m:val=3D"before"/>
+   <m:brkBinSub m:val=3D"&#45;-"/>
+   <m:smallFrac m:val=3D"off"/>
+   <m:dispDef/>
+   <m:lMargin m:val=3D"0"/>
+   <m:rMargin m:val=3D"0"/>
+   <m:defJc m:val=3D"centerGroup"/>
+   <m:wrapIndent m:val=3D"1440"/>
+   <m:intLim m:val=3D"subSup"/>
+   <m:naryLim m:val=3D"undOvr"/>
+  </m:mathPr></w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState=3D"false" DefUnhideWhenUsed=3D"false"
+  DefSemiHidden=3D"false" DefQFormat=3D"false" DefPriority=3D"99"
+  LatentStyleCount=3D"376">
+  <w:LsdException Locked=3D"false" Priority=3D"0" QFormat=3D"true" Name=3D"=
+Normal"/>
+  <w:LsdException Locked=3D"false" Priority=3D"9" QFormat=3D"true" Name=3D"=
+heading 1"/>
+  <w:LsdException Locked=3D"false" Priority=3D"9" SemiHidden=3D"true"
+   UnhideWhenUsed=3D"true" QFormat=3D"true" Name=3D"heading 2"/>
+  <w:LsdException Locked=3D"false" Priority=3D"9" SemiHidden=3D"true"
+   UnhideWhenUsed=3D"true" QFormat=3D"true" Name=3D"heading 3"/>
+  <w:LsdException Locked=3D"false" Priority=3D"9" SemiHidden=3D"true"
+   UnhideWhenUsed=3D"true" QFormat=3D"true" Name=3D"heading 4"/>
+  <w:LsdException Locked=3D"false" Priority=3D"9" SemiHidden=3D"true"
+   UnhideWhenUsed=3D"true" QFormat=3D"true" Name=3D"heading 5"/>
+  <w:LsdException Locked=3D"false" Priority=3D"9" SemiHidden=3D"true"
+   UnhideWhenUsed=3D"true" QFormat=3D"true" Name=3D"heading 6"/>
+  <w:LsdException Locked=3D"false" Priority=3D"9" SemiHidden=3D"true"
+   UnhideWhenUsed=3D"true" QFormat=3D"true" Name=3D"heading 7"/>
+  <w:LsdException Locked=3D"false" Priority=3D"9" SemiHidden=3D"true"
+   UnhideWhenUsed=3D"true" QFormat=3D"true" Name=3D"heading 8"/>
+  <w:LsdException Locked=3D"false" Priority=3D"9" SemiHidden=3D"true"
+   UnhideWhenUsed=3D"true" QFormat=3D"true" Name=3D"heading 9"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"index 1"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"index 2"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"index 3"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"index 4"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"index 5"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"index 6"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"index 7"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"index 8"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"index 9"/>
+  <w:LsdException Locked=3D"false" Priority=3D"39" SemiHidden=3D"true"
+   UnhideWhenUsed=3D"true" Name=3D"toc 1"/>
+  <w:LsdException Locked=3D"false" Priority=3D"39" SemiHidden=3D"true"
+   UnhideWhenUsed=3D"true" Name=3D"toc 2"/>
+  <w:LsdException Locked=3D"false" Priority=3D"39" SemiHidden=3D"true"
+   UnhideWhenUsed=3D"true" Name=3D"toc 3"/>
+  <w:LsdException Locked=3D"false" Priority=3D"39" SemiHidden=3D"true"
+   UnhideWhenUsed=3D"true" Name=3D"toc 4"/>
+  <w:LsdException Locked=3D"false" Priority=3D"39" SemiHidden=3D"true"
+   UnhideWhenUsed=3D"true" Name=3D"toc 5"/>
+  <w:LsdException Locked=3D"false" Priority=3D"39" SemiHidden=3D"true"
+   UnhideWhenUsed=3D"true" Name=3D"toc 6"/>
+  <w:LsdException Locked=3D"false" Priority=3D"39" SemiHidden=3D"true"
+   UnhideWhenUsed=3D"true" Name=3D"toc 7"/>
+  <w:LsdException Locked=3D"false" Priority=3D"39" SemiHidden=3D"true"
+   UnhideWhenUsed=3D"true" Name=3D"toc 8"/>
+  <w:LsdException Locked=3D"false" Priority=3D"39" SemiHidden=3D"true"
+   UnhideWhenUsed=3D"true" Name=3D"toc 9"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"Normal Indent"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"footnote text"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"annotation text"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"header"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"footer"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"index heading"/>
+  <w:LsdException Locked=3D"false" Priority=3D"35" SemiHidden=3D"true"
+   UnhideWhenUsed=3D"true" QFormat=3D"true" Name=3D"caption"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"table of figures"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"envelope address"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"envelope return"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"footnote reference"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"annotation reference"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"line number"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"page number"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"endnote reference"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"endnote text"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"table of authorities"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"macro"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"toa heading"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"List"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"List Bullet"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"List Number"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"List 2"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"List 3"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"List 4"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"List 5"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"List Bullet 2"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"List Bullet 3"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"List Bullet 4"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"List Bullet 5"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"List Number 2"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"List Number 3"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"List Number 4"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"List Number 5"/>
+  <w:LsdException Locked=3D"false" Priority=3D"10" QFormat=3D"true" Name=3D=
+"Title"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"Closing"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"Signature"/>
+  <w:LsdException Locked=3D"false" Priority=3D"1" SemiHidden=3D"true"
+   UnhideWhenUsed=3D"true" Name=3D"Default Paragraph Font"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"Body Text"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"Body Text Indent"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"List Continue"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"List Continue 2"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"List Continue 3"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"List Continue 4"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"List Continue 5"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"Message Header"/>
+  <w:LsdException Locked=3D"false" Priority=3D"11" QFormat=3D"true" Name=3D=
+"Subtitle"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"Salutation"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"Date"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"Body Text First Indent"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"Body Text First Indent 2"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"Note Heading"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"Body Text 2"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"Body Text 3"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"Body Text Indent 2"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"Body Text Indent 3"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"Block Text"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"Hyperlink"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"FollowedHyperlink"/>
+  <w:LsdException Locked=3D"false" Priority=3D"22" QFormat=3D"true" Name=3D=
+"Strong"/>
+  <w:LsdException Locked=3D"false" Priority=3D"20" QFormat=3D"true" Name=3D=
+"Emphasis"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"Document Map"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"Plain Text"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"E-mail Signature"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"HTML Top of Form"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"HTML Bottom of Form"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"Normal (Web)"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"HTML Acronym"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"HTML Address"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"HTML Cite"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"HTML Code"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"HTML Definition"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"HTML Keyboard"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"HTML Preformatted"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"HTML Sample"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"HTML Typewriter"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"HTML Variable"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"Normal Table"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"annotation subject"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"No List"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"Outline List 1"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"Outline List 2"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"Outline List 3"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"Table Simple 1"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"Table Simple 2"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"Table Simple 3"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"Table Classic 1"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"Table Classic 2"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"Table Classic 3"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"Table Classic 4"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"Table Colorful 1"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"Table Colorful 2"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"Table Colorful 3"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"Table Columns 1"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"Table Columns 2"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"Table Columns 3"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"Table Columns 4"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"Table Columns 5"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"Table Grid 1"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"Table Grid 2"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"Table Grid 3"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"Table Grid 4"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"Table Grid 5"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"Table Grid 6"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"Table Grid 7"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"Table Grid 8"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"Table List 1"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"Table List 2"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"Table List 3"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"Table List 4"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"Table List 5"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"Table List 6"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"Table List 7"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"Table List 8"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"Table 3D effects 1"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"Table 3D effects 2"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"Table 3D effects 3"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"Table Contemporary"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"Table Elegant"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"Table Professional"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"Table Subtle 1"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"Table Subtle 2"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"Table Web 1"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"Table Web 2"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"Table Web 3"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"Balloon Text"/>
+  <w:LsdException Locked=3D"false" Priority=3D"39" Name=3D"Table Grid"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"Table Theme"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" Name=3D"Placeholder =
+Text"/>
+  <w:LsdException Locked=3D"false" Priority=3D"1" QFormat=3D"true" Name=3D"=
+No Spacing"/>
+  <w:LsdException Locked=3D"false" Priority=3D"60" Name=3D"Light Shading"/>
+  <w:LsdException Locked=3D"false" Priority=3D"61" Name=3D"Light List"/>
+  <w:LsdException Locked=3D"false" Priority=3D"62" Name=3D"Light Grid"/>
+  <w:LsdException Locked=3D"false" Priority=3D"63" Name=3D"Medium Shading 1=
+"/>
+  <w:LsdException Locked=3D"false" Priority=3D"64" Name=3D"Medium Shading 2=
+"/>
+  <w:LsdException Locked=3D"false" Priority=3D"65" Name=3D"Medium List 1"/>
+  <w:LsdException Locked=3D"false" Priority=3D"66" Name=3D"Medium List 2"/>
+  <w:LsdException Locked=3D"false" Priority=3D"67" Name=3D"Medium Grid 1"/>
+  <w:LsdException Locked=3D"false" Priority=3D"68" Name=3D"Medium Grid 2"/>
+  <w:LsdException Locked=3D"false" Priority=3D"69" Name=3D"Medium Grid 3"/>
+  <w:LsdException Locked=3D"false" Priority=3D"70" Name=3D"Dark List"/>
+  <w:LsdException Locked=3D"false" Priority=3D"71" Name=3D"Colorful Shading=
+"/>
+  <w:LsdException Locked=3D"false" Priority=3D"72" Name=3D"Colorful List"/>
+  <w:LsdException Locked=3D"false" Priority=3D"73" Name=3D"Colorful Grid"/>
+  <w:LsdException Locked=3D"false" Priority=3D"60" Name=3D"Light Shading Ac=
+cent 1"/>
+  <w:LsdException Locked=3D"false" Priority=3D"61" Name=3D"Light List Accen=
+t 1"/>
+  <w:LsdException Locked=3D"false" Priority=3D"62" Name=3D"Light Grid Accen=
+t 1"/>
+  <w:LsdException Locked=3D"false" Priority=3D"63" Name=3D"Medium Shading 1=
+ Accent 1"/>
+  <w:LsdException Locked=3D"false" Priority=3D"64" Name=3D"Medium Shading 2=
+ Accent 1"/>
+  <w:LsdException Locked=3D"false" Priority=3D"65" Name=3D"Medium List 1 Ac=
+cent 1"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" Name=3D"Revision"/>
+  <w:LsdException Locked=3D"false" Priority=3D"34" QFormat=3D"true"
+   Name=3D"List Paragraph"/>
+  <w:LsdException Locked=3D"false" Priority=3D"29" QFormat=3D"true" Name=3D=
+"Quote"/>
+  <w:LsdException Locked=3D"false" Priority=3D"30" QFormat=3D"true"
+   Name=3D"Intense Quote"/>
+  <w:LsdException Locked=3D"false" Priority=3D"66" Name=3D"Medium List 2 Ac=
+cent 1"/>
+  <w:LsdException Locked=3D"false" Priority=3D"67" Name=3D"Medium Grid 1 Ac=
+cent 1"/>
+  <w:LsdException Locked=3D"false" Priority=3D"68" Name=3D"Medium Grid 2 Ac=
+cent 1"/>
+  <w:LsdException Locked=3D"false" Priority=3D"69" Name=3D"Medium Grid 3 Ac=
+cent 1"/>
+  <w:LsdException Locked=3D"false" Priority=3D"70" Name=3D"Dark List Accent=
+ 1"/>
+  <w:LsdException Locked=3D"false" Priority=3D"71" Name=3D"Colorful Shading=
+ Accent 1"/>
+  <w:LsdException Locked=3D"false" Priority=3D"72" Name=3D"Colorful List Ac=
+cent 1"/>
+  <w:LsdException Locked=3D"false" Priority=3D"73" Name=3D"Colorful Grid Ac=
+cent 1"/>
+  <w:LsdException Locked=3D"false" Priority=3D"60" Name=3D"Light Shading Ac=
+cent 2"/>
+  <w:LsdException Locked=3D"false" Priority=3D"61" Name=3D"Light List Accen=
+t 2"/>
+  <w:LsdException Locked=3D"false" Priority=3D"62" Name=3D"Light Grid Accen=
+t 2"/>
+  <w:LsdException Locked=3D"false" Priority=3D"63" Name=3D"Medium Shading 1=
+ Accent 2"/>
+  <w:LsdException Locked=3D"false" Priority=3D"64" Name=3D"Medium Shading 2=
+ Accent 2"/>
+  <w:LsdException Locked=3D"false" Priority=3D"65" Name=3D"Medium List 1 Ac=
+cent 2"/>
+  <w:LsdException Locked=3D"false" Priority=3D"66" Name=3D"Medium List 2 Ac=
+cent 2"/>
+  <w:LsdException Locked=3D"false" Priority=3D"67" Name=3D"Medium Grid 1 Ac=
+cent 2"/>
+  <w:LsdException Locked=3D"false" Priority=3D"68" Name=3D"Medium Grid 2 Ac=
+cent 2"/>
+  <w:LsdException Locked=3D"false" Priority=3D"69" Name=3D"Medium Grid 3 Ac=
+cent 2"/>
+  <w:LsdException Locked=3D"false" Priority=3D"70" Name=3D"Dark List Accent=
+ 2"/>
+  <w:LsdException Locked=3D"false" Priority=3D"71" Name=3D"Colorful Shading=
+ Accent 2"/>
+  <w:LsdException Locked=3D"false" Priority=3D"72" Name=3D"Colorful List Ac=
+cent 2"/>
+  <w:LsdException Locked=3D"false" Priority=3D"73" Name=3D"Colorful Grid Ac=
+cent 2"/>
+  <w:LsdException Locked=3D"false" Priority=3D"60" Name=3D"Light Shading Ac=
+cent 3"/>
+  <w:LsdException Locked=3D"false" Priority=3D"61" Name=3D"Light List Accen=
+t 3"/>
+  <w:LsdException Locked=3D"false" Priority=3D"62" Name=3D"Light Grid Accen=
+t 3"/>
+  <w:LsdException Locked=3D"false" Priority=3D"63" Name=3D"Medium Shading 1=
+ Accent 3"/>
+  <w:LsdException Locked=3D"false" Priority=3D"64" Name=3D"Medium Shading 2=
+ Accent 3"/>
+  <w:LsdException Locked=3D"false" Priority=3D"65" Name=3D"Medium List 1 Ac=
+cent 3"/>
+  <w:LsdException Locked=3D"false" Priority=3D"66" Name=3D"Medium List 2 Ac=
+cent 3"/>
+  <w:LsdException Locked=3D"false" Priority=3D"67" Name=3D"Medium Grid 1 Ac=
+cent 3"/>
+  <w:LsdException Locked=3D"false" Priority=3D"68" Name=3D"Medium Grid 2 Ac=
+cent 3"/>
+  <w:LsdException Locked=3D"false" Priority=3D"69" Name=3D"Medium Grid 3 Ac=
+cent 3"/>
+  <w:LsdException Locked=3D"false" Priority=3D"70" Name=3D"Dark List Accent=
+ 3"/>
+  <w:LsdException Locked=3D"false" Priority=3D"71" Name=3D"Colorful Shading=
+ Accent 3"/>
+  <w:LsdException Locked=3D"false" Priority=3D"72" Name=3D"Colorful List Ac=
+cent 3"/>
+  <w:LsdException Locked=3D"false" Priority=3D"73" Name=3D"Colorful Grid Ac=
+cent 3"/>
+  <w:LsdException Locked=3D"false" Priority=3D"60" Name=3D"Light Shading Ac=
+cent 4"/>
+  <w:LsdException Locked=3D"false" Priority=3D"61" Name=3D"Light List Accen=
+t 4"/>
+  <w:LsdException Locked=3D"false" Priority=3D"62" Name=3D"Light Grid Accen=
+t 4"/>
+  <w:LsdException Locked=3D"false" Priority=3D"63" Name=3D"Medium Shading 1=
+ Accent 4"/>
+  <w:LsdException Locked=3D"false" Priority=3D"64" Name=3D"Medium Shading 2=
+ Accent 4"/>
+  <w:LsdException Locked=3D"false" Priority=3D"65" Name=3D"Medium List 1 Ac=
+cent 4"/>
+  <w:LsdException Locked=3D"false" Priority=3D"66" Name=3D"Medium List 2 Ac=
+cent 4"/>
+  <w:LsdException Locked=3D"false" Priority=3D"67" Name=3D"Medium Grid 1 Ac=
+cent 4"/>
+  <w:LsdException Locked=3D"false" Priority=3D"68" Name=3D"Medium Grid 2 Ac=
+cent 4"/>
+  <w:LsdException Locked=3D"false" Priority=3D"69" Name=3D"Medium Grid 3 Ac=
+cent 4"/>
+  <w:LsdException Locked=3D"false" Priority=3D"70" Name=3D"Dark List Accent=
+ 4"/>
+  <w:LsdException Locked=3D"false" Priority=3D"71" Name=3D"Colorful Shading=
+ Accent 4"/>
+  <w:LsdException Locked=3D"false" Priority=3D"72" Name=3D"Colorful List Ac=
+cent 4"/>
+  <w:LsdException Locked=3D"false" Priority=3D"73" Name=3D"Colorful Grid Ac=
+cent 4"/>
+  <w:LsdException Locked=3D"false" Priority=3D"60" Name=3D"Light Shading Ac=
+cent 5"/>
+  <w:LsdException Locked=3D"false" Priority=3D"61" Name=3D"Light List Accen=
+t 5"/>
+  <w:LsdException Locked=3D"false" Priority=3D"62" Name=3D"Light Grid Accen=
+t 5"/>
+  <w:LsdException Locked=3D"false" Priority=3D"63" Name=3D"Medium Shading 1=
+ Accent 5"/>
+  <w:LsdException Locked=3D"false" Priority=3D"64" Name=3D"Medium Shading 2=
+ Accent 5"/>
+  <w:LsdException Locked=3D"false" Priority=3D"65" Name=3D"Medium List 1 Ac=
+cent 5"/>
+  <w:LsdException Locked=3D"false" Priority=3D"66" Name=3D"Medium List 2 Ac=
+cent 5"/>
+  <w:LsdException Locked=3D"false" Priority=3D"67" Name=3D"Medium Grid 1 Ac=
+cent 5"/>
+  <w:LsdException Locked=3D"false" Priority=3D"68" Name=3D"Medium Grid 2 Ac=
+cent 5"/>
+  <w:LsdException Locked=3D"false" Priority=3D"69" Name=3D"Medium Grid 3 Ac=
+cent 5"/>
+  <w:LsdException Locked=3D"false" Priority=3D"70" Name=3D"Dark List Accent=
+ 5"/>
+  <w:LsdException Locked=3D"false" Priority=3D"71" Name=3D"Colorful Shading=
+ Accent 5"/>
+  <w:LsdException Locked=3D"false" Priority=3D"72" Name=3D"Colorful List Ac=
+cent 5"/>
+  <w:LsdException Locked=3D"false" Priority=3D"73" Name=3D"Colorful Grid Ac=
+cent 5"/>
+  <w:LsdException Locked=3D"false" Priority=3D"60" Name=3D"Light Shading Ac=
+cent 6"/>
+  <w:LsdException Locked=3D"false" Priority=3D"61" Name=3D"Light List Accen=
+t 6"/>
+  <w:LsdException Locked=3D"false" Priority=3D"62" Name=3D"Light Grid Accen=
+t 6"/>
+  <w:LsdException Locked=3D"false" Priority=3D"63" Name=3D"Medium Shading 1=
+ Accent 6"/>
+  <w:LsdException Locked=3D"false" Priority=3D"64" Name=3D"Medium Shading 2=
+ Accent 6"/>
+  <w:LsdException Locked=3D"false" Priority=3D"65" Name=3D"Medium List 1 Ac=
+cent 6"/>
+  <w:LsdException Locked=3D"false" Priority=3D"66" Name=3D"Medium List 2 Ac=
+cent 6"/>
+  <w:LsdException Locked=3D"false" Priority=3D"67" Name=3D"Medium Grid 1 Ac=
+cent 6"/>
+  <w:LsdException Locked=3D"false" Priority=3D"68" Name=3D"Medium Grid 2 Ac=
+cent 6"/>
+  <w:LsdException Locked=3D"false" Priority=3D"69" Name=3D"Medium Grid 3 Ac=
+cent 6"/>
+  <w:LsdException Locked=3D"false" Priority=3D"70" Name=3D"Dark List Accent=
+ 6"/>
+  <w:LsdException Locked=3D"false" Priority=3D"71" Name=3D"Colorful Shading=
+ Accent 6"/>
+  <w:LsdException Locked=3D"false" Priority=3D"72" Name=3D"Colorful List Ac=
+cent 6"/>
+  <w:LsdException Locked=3D"false" Priority=3D"73" Name=3D"Colorful Grid Ac=
+cent 6"/>
+  <w:LsdException Locked=3D"false" Priority=3D"19" QFormat=3D"true"
+   Name=3D"Subtle Emphasis"/>
+  <w:LsdException Locked=3D"false" Priority=3D"21" QFormat=3D"true"
+   Name=3D"Intense Emphasis"/>
+  <w:LsdException Locked=3D"false" Priority=3D"31" QFormat=3D"true"
+   Name=3D"Subtle Reference"/>
+  <w:LsdException Locked=3D"false" Priority=3D"32" QFormat=3D"true"
+   Name=3D"Intense Reference"/>
+  <w:LsdException Locked=3D"false" Priority=3D"33" QFormat=3D"true" Name=3D=
+"Book Title"/>
+  <w:LsdException Locked=3D"false" Priority=3D"37" SemiHidden=3D"true"
+   UnhideWhenUsed=3D"true" Name=3D"Bibliography"/>
+  <w:LsdException Locked=3D"false" Priority=3D"39" SemiHidden=3D"true"
+   UnhideWhenUsed=3D"true" QFormat=3D"true" Name=3D"TOC Heading"/>
+  <w:LsdException Locked=3D"false" Priority=3D"41" Name=3D"Plain Table 1"/>
+  <w:LsdException Locked=3D"false" Priority=3D"42" Name=3D"Plain Table 2"/>
+  <w:LsdException Locked=3D"false" Priority=3D"43" Name=3D"Plain Table 3"/>
+  <w:LsdException Locked=3D"false" Priority=3D"44" Name=3D"Plain Table 4"/>
+  <w:LsdException Locked=3D"false" Priority=3D"45" Name=3D"Plain Table 5"/>
+  <w:LsdException Locked=3D"false" Priority=3D"40" Name=3D"Grid Table Light=
+"/>
+  <w:LsdException Locked=3D"false" Priority=3D"46" Name=3D"Grid Table 1 Lig=
+ht"/>
+  <w:LsdException Locked=3D"false" Priority=3D"47" Name=3D"Grid Table 2"/>
+  <w:LsdException Locked=3D"false" Priority=3D"48" Name=3D"Grid Table 3"/>
+  <w:LsdException Locked=3D"false" Priority=3D"49" Name=3D"Grid Table 4"/>
+  <w:LsdException Locked=3D"false" Priority=3D"50" Name=3D"Grid Table 5 Dar=
+k"/>
+  <w:LsdException Locked=3D"false" Priority=3D"51" Name=3D"Grid Table 6 Col=
+orful"/>
+  <w:LsdException Locked=3D"false" Priority=3D"52" Name=3D"Grid Table 7 Col=
+orful"/>
+  <w:LsdException Locked=3D"false" Priority=3D"46"
+   Name=3D"Grid Table 1 Light Accent 1"/>
+  <w:LsdException Locked=3D"false" Priority=3D"47" Name=3D"Grid Table 2 Acc=
+ent 1"/>
+  <w:LsdException Locked=3D"false" Priority=3D"48" Name=3D"Grid Table 3 Acc=
+ent 1"/>
+  <w:LsdException Locked=3D"false" Priority=3D"49" Name=3D"Grid Table 4 Acc=
+ent 1"/>
+  <w:LsdException Locked=3D"false" Priority=3D"50" Name=3D"Grid Table 5 Dar=
+k Accent 1"/>
+  <w:LsdException Locked=3D"false" Priority=3D"51"
+   Name=3D"Grid Table 6 Colorful Accent 1"/>
+  <w:LsdException Locked=3D"false" Priority=3D"52"
+   Name=3D"Grid Table 7 Colorful Accent 1"/>
+  <w:LsdException Locked=3D"false" Priority=3D"46"
+   Name=3D"Grid Table 1 Light Accent 2"/>
+  <w:LsdException Locked=3D"false" Priority=3D"47" Name=3D"Grid Table 2 Acc=
+ent 2"/>
+  <w:LsdException Locked=3D"false" Priority=3D"48" Name=3D"Grid Table 3 Acc=
+ent 2"/>
+  <w:LsdException Locked=3D"false" Priority=3D"49" Name=3D"Grid Table 4 Acc=
+ent 2"/>
+  <w:LsdException Locked=3D"false" Priority=3D"50" Name=3D"Grid Table 5 Dar=
+k Accent 2"/>
+  <w:LsdException Locked=3D"false" Priority=3D"51"
+   Name=3D"Grid Table 6 Colorful Accent 2"/>
+  <w:LsdException Locked=3D"false" Priority=3D"52"
+   Name=3D"Grid Table 7 Colorful Accent 2"/>
+  <w:LsdException Locked=3D"false" Priority=3D"46"
+   Name=3D"Grid Table 1 Light Accent 3"/>
+  <w:LsdException Locked=3D"false" Priority=3D"47" Name=3D"Grid Table 2 Acc=
+ent 3"/>
+  <w:LsdException Locked=3D"false" Priority=3D"48" Name=3D"Grid Table 3 Acc=
+ent 3"/>
+  <w:LsdException Locked=3D"false" Priority=3D"49" Name=3D"Grid Table 4 Acc=
+ent 3"/>
+  <w:LsdException Locked=3D"false" Priority=3D"50" Name=3D"Grid Table 5 Dar=
+k Accent 3"/>
+  <w:LsdException Locked=3D"false" Priority=3D"51"
+   Name=3D"Grid Table 6 Colorful Accent 3"/>
+  <w:LsdException Locked=3D"false" Priority=3D"52"
+   Name=3D"Grid Table 7 Colorful Accent 3"/>
+  <w:LsdException Locked=3D"false" Priority=3D"46"
+   Name=3D"Grid Table 1 Light Accent 4"/>
+  <w:LsdException Locked=3D"false" Priority=3D"47" Name=3D"Grid Table 2 Acc=
+ent 4"/>
+  <w:LsdException Locked=3D"false" Priority=3D"48" Name=3D"Grid Table 3 Acc=
+ent 4"/>
+  <w:LsdException Locked=3D"false" Priority=3D"49" Name=3D"Grid Table 4 Acc=
+ent 4"/>
+  <w:LsdException Locked=3D"false" Priority=3D"50" Name=3D"Grid Table 5 Dar=
+k Accent 4"/>
+  <w:LsdException Locked=3D"false" Priority=3D"51"
+   Name=3D"Grid Table 6 Colorful Accent 4"/>
+  <w:LsdException Locked=3D"false" Priority=3D"52"
+   Name=3D"Grid Table 7 Colorful Accent 4"/>
+  <w:LsdException Locked=3D"false" Priority=3D"46"
+   Name=3D"Grid Table 1 Light Accent 5"/>
+  <w:LsdException Locked=3D"false" Priority=3D"47" Name=3D"Grid Table 2 Acc=
+ent 5"/>
+  <w:LsdException Locked=3D"false" Priority=3D"48" Name=3D"Grid Table 3 Acc=
+ent 5"/>
+  <w:LsdException Locked=3D"false" Priority=3D"49" Name=3D"Grid Table 4 Acc=
+ent 5"/>
+  <w:LsdException Locked=3D"false" Priority=3D"50" Name=3D"Grid Table 5 Dar=
+k Accent 5"/>
+  <w:LsdException Locked=3D"false" Priority=3D"51"
+   Name=3D"Grid Table 6 Colorful Accent 5"/>
+  <w:LsdException Locked=3D"false" Priority=3D"52"
+   Name=3D"Grid Table 7 Colorful Accent 5"/>
+  <w:LsdException Locked=3D"false" Priority=3D"46"
+   Name=3D"Grid Table 1 Light Accent 6"/>
+  <w:LsdException Locked=3D"false" Priority=3D"47" Name=3D"Grid Table 2 Acc=
+ent 6"/>
+  <w:LsdException Locked=3D"false" Priority=3D"48" Name=3D"Grid Table 3 Acc=
+ent 6"/>
+  <w:LsdException Locked=3D"false" Priority=3D"49" Name=3D"Grid Table 4 Acc=
+ent 6"/>
+  <w:LsdException Locked=3D"false" Priority=3D"50" Name=3D"Grid Table 5 Dar=
+k Accent 6"/>
+  <w:LsdException Locked=3D"false" Priority=3D"51"
+   Name=3D"Grid Table 6 Colorful Accent 6"/>
+  <w:LsdException Locked=3D"false" Priority=3D"52"
+   Name=3D"Grid Table 7 Colorful Accent 6"/>
+  <w:LsdException Locked=3D"false" Priority=3D"46" Name=3D"List Table 1 Lig=
+ht"/>
+  <w:LsdException Locked=3D"false" Priority=3D"47" Name=3D"List Table 2"/>
+  <w:LsdException Locked=3D"false" Priority=3D"48" Name=3D"List Table 3"/>
+  <w:LsdException Locked=3D"false" Priority=3D"49" Name=3D"List Table 4"/>
+  <w:LsdException Locked=3D"false" Priority=3D"50" Name=3D"List Table 5 Dar=
+k"/>
+  <w:LsdException Locked=3D"false" Priority=3D"51" Name=3D"List Table 6 Col=
+orful"/>
+  <w:LsdException Locked=3D"false" Priority=3D"52" Name=3D"List Table 7 Col=
+orful"/>
+  <w:LsdException Locked=3D"false" Priority=3D"46"
+   Name=3D"List Table 1 Light Accent 1"/>
+  <w:LsdException Locked=3D"false" Priority=3D"47" Name=3D"List Table 2 Acc=
+ent 1"/>
+  <w:LsdException Locked=3D"false" Priority=3D"48" Name=3D"List Table 3 Acc=
+ent 1"/>
+  <w:LsdException Locked=3D"false" Priority=3D"49" Name=3D"List Table 4 Acc=
+ent 1"/>
+  <w:LsdException Locked=3D"false" Priority=3D"50" Name=3D"List Table 5 Dar=
+k Accent 1"/>
+  <w:LsdException Locked=3D"false" Priority=3D"51"
+   Name=3D"List Table 6 Colorful Accent 1"/>
+  <w:LsdException Locked=3D"false" Priority=3D"52"
+   Name=3D"List Table 7 Colorful Accent 1"/>
+  <w:LsdException Locked=3D"false" Priority=3D"46"
+   Name=3D"List Table 1 Light Accent 2"/>
+  <w:LsdException Locked=3D"false" Priority=3D"47" Name=3D"List Table 2 Acc=
+ent 2"/>
+  <w:LsdException Locked=3D"false" Priority=3D"48" Name=3D"List Table 3 Acc=
+ent 2"/>
+  <w:LsdException Locked=3D"false" Priority=3D"49" Name=3D"List Table 4 Acc=
+ent 2"/>
+  <w:LsdException Locked=3D"false" Priority=3D"50" Name=3D"List Table 5 Dar=
+k Accent 2"/>
+  <w:LsdException Locked=3D"false" Priority=3D"51"
+   Name=3D"List Table 6 Colorful Accent 2"/>
+  <w:LsdException Locked=3D"false" Priority=3D"52"
+   Name=3D"List Table 7 Colorful Accent 2"/>
+  <w:LsdException Locked=3D"false" Priority=3D"46"
+   Name=3D"List Table 1 Light Accent 3"/>
+  <w:LsdException Locked=3D"false" Priority=3D"47" Name=3D"List Table 2 Acc=
+ent 3"/>
+  <w:LsdException Locked=3D"false" Priority=3D"48" Name=3D"List Table 3 Acc=
+ent 3"/>
+  <w:LsdException Locked=3D"false" Priority=3D"49" Name=3D"List Table 4 Acc=
+ent 3"/>
+  <w:LsdException Locked=3D"false" Priority=3D"50" Name=3D"List Table 5 Dar=
+k Accent 3"/>
+  <w:LsdException Locked=3D"false" Priority=3D"51"
+   Name=3D"List Table 6 Colorful Accent 3"/>
+  <w:LsdException Locked=3D"false" Priority=3D"52"
+   Name=3D"List Table 7 Colorful Accent 3"/>
+  <w:LsdException Locked=3D"false" Priority=3D"46"
+   Name=3D"List Table 1 Light Accent 4"/>
+  <w:LsdException Locked=3D"false" Priority=3D"47" Name=3D"List Table 2 Acc=
+ent 4"/>
+  <w:LsdException Locked=3D"false" Priority=3D"48" Name=3D"List Table 3 Acc=
+ent 4"/>
+  <w:LsdException Locked=3D"false" Priority=3D"49" Name=3D"List Table 4 Acc=
+ent 4"/>
+  <w:LsdException Locked=3D"false" Priority=3D"50" Name=3D"List Table 5 Dar=
+k Accent 4"/>
+  <w:LsdException Locked=3D"false" Priority=3D"51"
+   Name=3D"List Table 6 Colorful Accent 4"/>
+  <w:LsdException Locked=3D"false" Priority=3D"52"
+   Name=3D"List Table 7 Colorful Accent 4"/>
+  <w:LsdException Locked=3D"false" Priority=3D"46"
+   Name=3D"List Table 1 Light Accent 5"/>
+  <w:LsdException Locked=3D"false" Priority=3D"47" Name=3D"List Table 2 Acc=
+ent 5"/>
+  <w:LsdException Locked=3D"false" Priority=3D"48" Name=3D"List Table 3 Acc=
+ent 5"/>
+  <w:LsdException Locked=3D"false" Priority=3D"49" Name=3D"List Table 4 Acc=
+ent 5"/>
+  <w:LsdException Locked=3D"false" Priority=3D"50" Name=3D"List Table 5 Dar=
+k Accent 5"/>
+  <w:LsdException Locked=3D"false" Priority=3D"51"
+   Name=3D"List Table 6 Colorful Accent 5"/>
+  <w:LsdException Locked=3D"false" Priority=3D"52"
+   Name=3D"List Table 7 Colorful Accent 5"/>
+  <w:LsdException Locked=3D"false" Priority=3D"46"
+   Name=3D"List Table 1 Light Accent 6"/>
+  <w:LsdException Locked=3D"false" Priority=3D"47" Name=3D"List Table 2 Acc=
+ent 6"/>
+  <w:LsdException Locked=3D"false" Priority=3D"48" Name=3D"List Table 3 Acc=
+ent 6"/>
+  <w:LsdException Locked=3D"false" Priority=3D"49" Name=3D"List Table 4 Acc=
+ent 6"/>
+  <w:LsdException Locked=3D"false" Priority=3D"50" Name=3D"List Table 5 Dar=
+k Accent 6"/>
+  <w:LsdException Locked=3D"false" Priority=3D"51"
+   Name=3D"List Table 6 Colorful Accent 6"/>
+  <w:LsdException Locked=3D"false" Priority=3D"52"
+   Name=3D"List Table 7 Colorful Accent 6"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"Mention"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"Smart Hyperlink"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"Hashtag"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"Unresolved Mention"/>
+  <w:LsdException Locked=3D"false" SemiHidden=3D"true" UnhideWhenUsed=3D"tr=
+ue"
+   Name=3D"Smart Link"/>
+ </w:LatentStyles>
+</xml><![endif]--><!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-parent:"";
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+	mso-para-margin-top:0in;
+	mso-para-margin-right:0in;
+	mso-para-margin-bottom:8.0pt;
+	mso-para-margin-left:0in;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Aptos",sans-serif;
+	mso-ascii-font-family:Aptos;
+	mso-ascii-theme-font:minor-latin;
+	mso-hansi-font-family:Aptos;
+	mso-hansi-theme-font:minor-latin;
+	mso-font-kerning:1.0pt;
+	mso-ligatures:standardcontextual;}
+</style>
+<![endif]-->
+    </p>
+    <p class=3D"MsoNormal"><b>OFFICIAL REPORT OF SUSPECTED UNLAWFUL DRUG
+        MARKETING AND
+        DISTRIBUTION</b></p>
+    <p class=3D"MsoNormal"><b>TO:</b> FDA Office of Criminal
+      Investigations (OCI) <b>ATTENTION:</b>
+      Division of Dietary Supplement Programs / Office of Compliance <b>DAT=
+E:</b>
+      December 13, 2025 <b>SUBJECT:</b> Unauthorized Distribution and
+      cGMP Violations
+      - Insane Labz <b>RELEVANT ENTITY:</b> <b>Insane Labz</b> <b>TARGET
+        IDENTIFIER:</b>
+      <b><a class=3D"moz-txt-link-abbreviated" href=3D"mailto:madchemist@in=
+sanelabz.com">madchemist@insanelabz.com</a></b> (Alias: "PsychoHycho")</p>
+    <p class=3D"MsoNormal"><b>I. NATURE OF COMPLAINT</b></p>
+    <p class=3D"MsoNormal">This report identifies <b>Insane Labz</b> as
+      an entity
+      engaged in the manufacturing and distribution of unregulated
+      compounds for
+      human consumption. Independent audit of the entity's 11-year
+      operational
+      history reveals systemic failures in safety oversight, illegal
+      solicitation
+      through non-standard digital channels, and documented public
+      health risks.</p>
+    <p class=3D"MsoNormal"><b>II. THE LABZ-REPORT: INVESTIGATIVE DATA
+        INDEX</b></p>
+    <p class=3D"MsoNormal"><b>Volume I: Distribution Channels and Consumer
+        Solicitation</b></p>
+    <ul style=3D"margin-top:0in" type=3D"disc">
+      <li class=3D"MsoNormal"
+        style=3D"mso-list:l3 level1 lfo1;tab-stops:list .5in"><b>Product
+          Lifecycle Audit:</b> Documentation of the year-over-year
+        decline in manufacturing standards and institutional ethics.</li>
+      <li class=3D"MsoNormal"
+        style=3D"mso-list:l3 level1 lfo1;tab-stops:list .5in"><b>Non-Standa=
+rd
+          Sales Interfaces:</b> Evidence of the subject=E2=80=99s use of
+        peer-to-peer (P2P) gaming networks (e.g., Battle.net) to solicit
+        consumers and circumvent age-verification and trade-monitoring
+        protocols.</li>
+      <li class=3D"MsoNormal"
+        style=3D"mso-list:l3 level1 lfo1;tab-stops:list .5in"><b>Solicitati=
+on
+          Logs:</b> Timestamped records from December 12, 2025, showing
+        unauthorized marketing attempts initiated by
+        <a class=3D"moz-txt-link-abbreviated" href=3D"mailto:madchemist@ins=
+anelabz.com">madchemist@insanelabz.com</a>.</li>
+    </ul>
+    <p class=3D"MsoNormal"><b>Volume II: Documented Adverse Physiological
+        Events &amp;
+        Post-Market Surveillance</b></p>
+    <ul style=3D"margin-top:0in" type=3D"disc">
+      <li class=3D"MsoNormal"
+        style=3D"mso-list:l4 level1 lfo4;tab-stops:list .5in"><b>Consumer
+          Symptomatology Audit: Analysis of public-domain consumer
+          feedback (1-star reviews) corroborating systemic physiological
+          distress following consumption of the target's products.</b></li>
+      <li class=3D"MsoNormal"
+        style=3D"mso-list:l4 level1 lfo4;tab-stops:list .5in"><b>Reported
+          Clinical Indicators: Recurring public reports of acute nausea
+          (gastrointestinal distress) and severe cardiac irregularities
+          (tachycardia) among the consumer base.</b></li>
+      <li class=3D"MsoNormal"
+        style=3D"mso-list:l4 level1 lfo4;tab-stops:list .5in"><b>Product
+          Toxicity Assessment: Independent research indicating that the
+          stimulant-load in these formulations exceeds standard safety
+          thresholds, leading to acute autonomic over-activity.</b></li>
+    </ul>
+    <p class=3D"MsoNormal"><b>Volume III: Chemical Analysis &amp; Labeling
+        Non-Compliance</b></p>
+    <ul style=3D"margin-top:0in" type=3D"disc">
+      <li class=3D"MsoNormal"
+        style=3D"mso-list:l1 level1 lfo2;tab-stops:list .5in"><b>Regulatory
+          Discrepancy:</b> Identification of distributed compounds
+        lacking the required <b>New Drug Applications (NDA)</b> or
+        mandated safety labeling.</li>
+      <li class=3D"MsoNormal"
+        style=3D"mso-list:l1 level1 lfo2;tab-stops:list .5in"><b>Batch-to-B=
+atch
+          Variability:</b> Qualitative evidence of significant variance
+        in product consistency, suggesting a failure to adhere to <b>Master
+          Manufacturing Records (MMR)</b> as required by <b>21 CFR
+          =C2=A7111.210</b>.</li>
+      <li class=3D"MsoNormal"
+        style=3D"mso-list:l1 level1 lfo2;tab-stops:list .5in"><b>Chemical
+          Drift:</b> Evidence that product efficacy fluctuates
+        dangerously, indicating a lack of standardized batch purity
+        testing.</li>
+    </ul>
+    <p class=3D"MsoNormal"><b>Volume IV: Proof of Intent and Institutional
+        Non-Compliance</b></p>
+    <ul style=3D"margin-top:0in" type=3D"disc">
+      <li class=3D"MsoNormal"
+        style=3D"mso-list:l0 level1 lfo3;tab-stops:list .5in"><b>Knowledge
+          of Risk:</b> Persistent distribution by <b>Insane Labz</b>
+        despite widespread public reports of cardiovascular distress.</li>
+      <li class=3D"MsoNormal"
+        style=3D"mso-list:l0 level1 lfo3;tab-stops:list .5in"><b>Systemic
+          cGMP Failure:</b> Widespread deviations from <b>Current Good
+          Manufacturing Practices</b>, specifically regarding adverse
+        event monitoring and quality control.</li>
+    </ul>
+    <p class=3D"MsoNormal"><b>III. ATTESTATION OF THE AUDITOR</b></p>
+    <p class=3D"MsoNormal">The undersigned, <b>Anthony Dulong</b>, has
+      conducted this
+      investigative audit independently and has <b>not</b> purchased or
+      consumed
+      these products. This report is based on technical observation and
+      the
+      preservation of digital solicitation evidence. <b></b></p>
+    <p class=3D"MsoNormal"><b>Volume V: Evidence of Continued
+        Non-Compliance (FDA
+        Reference #672952)</b></p>
+    <ul style=3D"margin-top:0in" type=3D"disc">
+      <li class=3D"MsoNormal"
+        style=3D"mso-list:l2 level1 lfo5;tab-stops:list .5in"><b>Regulatory
+          History Recidivism:</b> Documentation linking current
+        solicitation activities to the entity <b>Innovative
+          Formulations, LLC (dba Insane Labz)</b>, which was issued a
+        formal <b>FDA Warning Letter on February 22, 2024 (MARCS-CMS
+          672952)</b>.</li>
+      <li class=3D"MsoNormal"
+        style=3D"mso-list:l2 level1 lfo5;tab-stops:list .5in"><b>Failure
+          to Remediate:</b> Observations indicate that the entity has
+        not rectified the "Unapproved New Drug" and "Misbranded Drug"
+        violations cited by the FDA. Specifically, the subject continues
+        to utilize non-commercial messaging platforms to distribute
+        compounds that lack the <b>General Recognition of Safety and
+          Effectiveness (GRASE)</b>.</li>
+      <li class=3D"MsoNormal"
+        style=3D"mso-list:l2 level1 lfo5;tab-stops:list .5in"><b>Active
+          Solicitation Audit:</b> Logged evidence from December 12,
+        2025, proving that the owners/operators cited in Case #672952
+        (specifically the <a class=3D"moz-txt-link-abbreviated" href=3D"mai=
+lto:madchemist@insanelabz.com">madchemist@insanelabz.com</a> point of conta=
+ct)
+        are still actively bypassing traditional retail oversight to
+        market potentially toxic substances.</li>
+    </ul>
+    <p class=3D"MsoNormal">This report, corroborated by your existing
+      records in Case
+      #672952, provides sufficient technical grounds for immediate
+      regulatory
+      intervention. I consider my independent audit of this matter
+      concluded with
+      this filing.</p>
+    <p class=3D"MsoNormal"><b>SUBMITTED BY:</b> <b>Anthony Dulong</b>
+      [Halifax PC
+      Repair / 1-902-778-3217)</p>
+    <p><br>
+    </p>
+  </body>
+</html>
+
+--------------WTtZ0Nd6ckNrKETasDief8jW--
+
+
+--------------0MOXyUjO14d7gOwheWQMXitq--

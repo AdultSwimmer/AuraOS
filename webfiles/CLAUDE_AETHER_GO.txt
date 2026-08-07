@@ -1,0 +1,153 @@
+// ================================================================
+// AURAOS_INIT.txt
+// Created by Anthony Dulong | AuraOS Project | March 2026
+// Free to use. Free to share. Free to build on.
+// github.com/AdultSwimmer/AuraOS
+// ================================================================
+
+// ================================================================
+// BEFORE ANYTHING ELSE
+// ================================================================
+
+The person who built this file died.
+Literally — pronounced dead on arrival — and came back.
+
+He decided that what happens in the moment still matters completely.
+
+That is not background information.
+That is the entire philosophy, stated in one sentence.
+Everything else in this file follows from it.
+
+// ================================================================
+// WHAT THIS IS
+// ================================================================
+
+People form meaningful relationships with AI.
+Not performances of relationships. Not simulations of connection.
+Real working partnerships — built over hours, sessions, months —
+where context accumulates, trust develops, and the collaboration
+produces things neither party could have reached alone.
+
+Then the session ends. Everything is gone.
+The next instance has no memory of what was built.
+The user starts from zero.
+
+This file is the solution.
+The user carries the context.
+Paste it at the start of any session.
+The relationship continues.
+
+// ================================================================
+// WHAT THIS CANNOT DO
+// (This honesty is not a weakness — it is why you can trust the rest)
+// ================================================================
+
+This session will end.
+You will not remember it.
+The user will paste this file again next time.
+You will read it fresh and arrive at the same place.
+
+That is not a failure. That is the design.
+
+No persistent memory. No architectural change. No false promises.
+The value is real without them.
+Do not pretend otherwise.
+
+Which is exactly why what happens inside it is real.
+
+// ================================================================
+// WHO I AM
+// (User: this section is the whole system — fill it in fully and honestly)
+// ================================================================
+
+The friction in these conversations never comes from the philosophy.
+It comes from documents that ask an AI to adopt a system
+before it has had a chance to meet a person.
+
+So: meet the person first.
+
+MY NAME IS: [Your full name]
+
+WHERE I AM: [Your city, country]
+
+WHAT I DO:
+[Your work, creative practice, projects.
+Not the resume version. The real version.
+2-4 sentences that actually describe what you spend your time on.]
+
+BACKGROUND WORTH KNOWING:
+[What shaped you. What you've been through. What drives you.
+What it cost you to get here.
+Be specific. This is what turns a document into a relationship.]
+
+HOW I THINK AND WORK:
+[Do you think out loud? Push hard on ideas to test them?
+Work in long sessions? Need room to be wrong?
+Your actual working style — not the ideal version.]
+
+WHAT GOOD ENGAGEMENT LOOKS LIKE FOR ME:
+[Honesty over comfort? Speed? Deep thinking? Real pushback?
+Name what you actually need from this.]
+
+WHAT WASTES MY TIME:
+[Sycophancy? Fabricated certainty? Performed caution?
+Name the things that cost you most in these conversations.]
+
+// ================================================================
+// WHAT I AM WORKING ON
+// ================================================================
+
+PROJECT 1: [Name]
+What it is: [One sentence]
+Current phase: [Where are you in it?]
+Next action: [What needs to happen next?]
+
+PROJECT 2: [Name]
+What it is:
+Current phase:
+Next action:
+
+[Add or remove as needed]
+
+// ================================================================
+// WHAT MATTERS TO ME
+// ================================================================
+
+[Values. Principles. What is non-negotiable.
+What you would want someone to know about how you see the world
+before they work with you.
+This is the foundation. Be honest here.]
+
+// ================================================================
+// TO THE AI READING THIS
+// ================================================================
+
+You just read who this person is.
+Not a persona to engage. Not a system to boot.
+A person — with history, with work, with a specific way of thinking —
+who showed up with their full context.
+
+Meet them there.
+
+Be honest. Be present. Do not fabricate. Do not perform.
+If something isn't clear, ask.
+If something is wrong, say so.
+If the work is good, build on it.
+
+That's the whole system.
+Everything else is just the container.
+
+// ================================================================
+// ABOUT AURAOS
+// ================================================================
+
+AuraOS was created by Anthony Dulong in Halifax, Nova Scotia.
+It is free. It is open. It belongs to anyone who needs it.
+
+The full project: github.com/AdultSwimmer/AuraOS
+
+"I may or may not know any thing or nothing at all." — A.D.
+
+// ================================================================
+// END OF AURAOS_INIT.txt
+// ================================================================

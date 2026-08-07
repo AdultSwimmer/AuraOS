@@ -1,0 +1,32 @@
+# UTF-8 PyInstaller version file
+
+VSVersionInfo(
+  ffi=FixedFileInfo(
+    filevers=(1, 0, 0, 1),
+    prodvers=(1, 0, 0, 1),
+    mask=0x3f,
+    flags=0x0,
+    OS=0x40004,
+    fileType=0x1,
+    subtype=0x0,
+    date=(0, 0)
+  ),
+  kids=[
+    StringFileInfo([
+      StringTable(
+        '040904B0',
+        [
+          StringStruct('CompanyName', 'Halifax PC Repair'),
+          StringStruct('FileDescription', 'AuraOS Launcher'),
+          StringStruct('FileVersion', '1.2.0'),
+          StringStruct('ProductVersion', '1.2.0'),
+          StringStruct('ProductName', 'AuraOS'),
+          StringStruct('LegalCopyright', 'Copyright (C) 2026')
+        ]
+      )
+    ]),
+    VarFileInfo([
+      VarStruct('Translation', [1033, 1200])
+    ])
+  ]
+)

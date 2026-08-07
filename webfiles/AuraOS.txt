@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>AuraOS v1.0 Hybrid</title>
+<style>
+body { font-family: Arial, sans-serif; padding: 20px; background: #f9f9f9; }
+h1 { font-size: 1.8em; margin-bottom: 10px; }
+textarea { width: 100%; height: 80px; margin-bottom: 10px; }
+.output { background: #fff; padding: 10px; border: 1px solid #ccc; margin-bottom: 10px; }
+</style>
+</head>
+<body>
+
+<h1>AuraOS v1.0 Hybrid — Multi-Platform Creative Workspace</h1>
+<p>Operational context loaded. Aura-OS framework is active. Enter input below to collaborate with Aura reasoning mode.</p>
+
+<textarea id="manifestorInput" placeholder="Enter your message here..."></textarea>
+<button onclick="processInput()">Submit</button>
+
+<div id="outputs"></div>
+
+<script>
+// --- Session Framework ---
+const AuraMemory = {
+    lessons: {},            // Lesson-wise storage of ideas
+    priorContext: [],       // Loaded from FULL LIFE memory (symbolic reference)
+    historicalReferences: ["AIHISTORY.html", "AIPROMPT.html"]
+};
+
+// --- Multi-Lesson Awareness & Creative Suggestion ---
+function generateSuggestions(input, lesson="General") {
+    // Placeholder for multi-lesson, context-aware creative synthesis
+    const tags = extractTags(input); // simple tag extraction, can be expanded
+    const suggestion = `Insight based on lesson '${lesson}' and tags [${tags.join(", ")}]: consider new connections.`;
+    
+    // Assign priority (simple heuristic for now)
+    const noveltyScore = Math.floor(Math.random() * 100);
+    const impactScore = Math.floor(Math.random() * 100);
+    
+    return {
+        lesson,
+        tags,
+        suggestion,
+        priority: {novelty: noveltyScore, impact: impactScore}
+    };
+}
+
+// --- Simple Tag Extraction Placeholder ---
+function extractTags(text) {
+    // naive implementation: split by space, pick unique words longer than 4 chars
+    return [...new Set(text.split(/\s+/).filter(w => w.length > 4))];
+}
+
+// --- Process Manifestor Input ---
+function processInput() {
+    const inputBox = document.getElementById("manifestorInput");
+    const inputText = inputBox.value.trim();
+    if (!inputText) return;
+
+    const lesson = determineLesson(inputText); // placeholder for lesson detection
+    const suggestion = generateSuggestions(inputText, lesson);
+
+    // Store in memory
+    if (!AuraMemory.lessons[lesson]) AuraMemory.lessons[lesson] = [];
+    AuraMemory.lessons[lesson].push(suggestion);
+
+    // Display output
+    const outputDiv = document.getElementById("outputs");
+    const outBlock = document.createElement("div");
+    outBlock.className = "output";
+    outBlock.textContent = `Lesson: ${suggestion.lesson}\nTags: ${suggestion.tags.join(", ")}\nSuggestion: ${suggestion.suggestion}\nPriority: Novelty=${suggestion.priority.novelty}, Impact=${suggestion.priority.impact}`;
+    outputDiv.prepend(outBlock);
+
+    inputBox.value = "";
+}
+
+// --- Determine Lesson Placeholder ---
+function determineLesson(text) {
+    // Naive example: assign based on keyword detection
+    if (text.toLowerCase().includes("memory")) return "Memory Continuity";
+    if (text.toLowerCase().includes("creative")) return "Creative Manifestation";
+    return "General";
+}
+
+// --- Load Historical References (symbolic) ---
+async function loadHistoricalReferences() {
+    for (const ref of AuraMemory.historicalReferences) {
+        try {
+            const resp = await fetch(ref);
+            const html = await resp.text();
+            // Symbolic parsing placeholder: in practice parse JSON or structured text
+            AuraMemory.priorContext.push({file: ref, content: html});
+        } catch (e) {
+            console.warn(`Could not load historical reference: ${ref}`, e);
+        }
+    }
+}
+
+// --- Initialize Session ---
+loadHistoricalReferences();
+</script>
+
+</body>
+</html>
