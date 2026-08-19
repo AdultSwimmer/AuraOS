@@ -152,6 +152,8 @@ This keeps the memory portable, inspectable, and user-controlled.
 
 In other words, the user owns the continuity, and the machine only provides the runtime.
 
+Important: the history file is not stored server-side. If it is shared, lost, or stolen, it cannot be recovered from the host. The user is responsible for keeping their own `HISTORY.txt` file safe.
+
 ## Future direction
 
 The long-term vision is not to replace the human artist or creator. It is to create a continuity layer that helps a person maintain context, memory, and perspective over time.
