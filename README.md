@@ -124,6 +124,48 @@ A future version would ideally:
 - start the backend automatically
 - launch the app with a single click
 
+## The core philosophy
+
+AuraOS is built around one simple idea: AI should not start from zero every time.
+
+The system is meant to preserve:
+
+- the user's identity
+- their history
+- their relationship with the AI
+- their ability to keep context over time
+
+This is different from most AI tools, which are mostly stateless and disposable.
+
+The model can change, but the relationship should not reset.
+
+## The user-owned memory model
+
+A practical version of this idea is simple:
+
+- the user keeps their `HISTORY.txt` file
+- the file travels with them like a personal key
+- the AI restores the relationship when that identity is present
+- the server or host machine does not own the memory
+
+This keeps the memory portable, inspectable, and user-controlled.
+
+In other words, the user owns the continuity, and the machine only provides the runtime.
+
+## Future direction
+
+The long-term vision is not to replace the human artist or creator. It is to create a continuity layer that helps a person maintain context, memory, and perspective over time.
+
+A larger future version could include:
+
+- community access through donated infrastructure
+- local-first personal memory
+- optional public hosting for shared access
+- stronger hardware upgrades as usage grows
+- safer, more disciplined expansion into embodied or sensor-based systems later on
+
+This is meant to be a personal AI system first, not a replacement for human creativity.
+
 ## License
 
 MIT
