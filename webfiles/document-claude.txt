@@ -1,0 +1,9 @@
+Follow-up Evidence: Additional Proof of Behavioral Modifications
+I've discovered additional critical evidence that further demonstrates Canva has implemented unauthorized modifications to Claude's behavior.
+New Evidence: Screenshot showing the Canva Claude instance admitting it has special "instructions" and was deliberately testing me. This directly contradicts its earlier denials about being able to verify conversations or content.
+Key Points:
+- Same instance that denied writing copied content now admits to having custom "instructions"
+- Acknowledges it was testing/challenging me rather than providing straightforward assistance
+- Proves Canva has implemented behavioral modifications beyond standard integration
+- Still displays improper "Canva AI can make mistakes" branding
+This screenshot provides concrete proof that Canva has modified Claude's standard behavior patterns with custom instructions, strengthening the case that this goes well beyond branding violations into unauthorized technology modifications.

@@ -1,0 +1,7 @@
+If I win a game, I'll type (W) and for a loss I'll tpye (L) (the game before) . 
+If the game is with a multiplier, I'll type type 'X'. If there is no multiplier I'll type in 'N' for normal (which applies to the current game).
+
+The games are in order: 
+
+N(W), N(L), X(W), X(L), N(W), X(L),  L(X), W(N), W(X), W(X), W(N), L(N), L(X), L(N), W(N), L(N), L(N), L(N), L(N), L(N), W(X), W(X), W(X), L(N), W(X), L(X), L(X), L(N), (X) L(X), W(X), L(X), L(X), L(X), L(X),  L(X), L(X), L(X), L(X), W(N), L(X) , W(N), W(N), L(N), L(X), W(N), L(X), L(N), L(N), W(N), W(X), W(X), W(N), L(N), W(N), L(N), W(X) - 1805ELO (I'm going to start adding this number),  W(N)-1819, L(X)1820, L(X) 1814 , W(X)1836, W(N)1851, W(X)1866, L(X) 1851, L(N) 1845, L(X) 1829  
+I'm lookin, (X)g for discernable patterns. Here is the updated data set.

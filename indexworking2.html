@@ -1,0 +1,903 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AuraOS</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=IM+Fell+English:ital@0;1&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap');
+
+  :root {
+    --bg: #0a0a0f;
+    --surface: #111118;
+    --border: #2a2a3a;
+    --text: #d8d4cc;
+    --text-dim: #6a6a7a;
+    --accent: #c8a96e;
+    --accent-soft: rgba(200,169,110,0.1);
+    --white: #f0ece4;
+    --red: #c86e6e;
+  }
+
+  * { margin:0; padding:0; box-sizing:border-box; }
+  html, body { background:var(--bg); color:var(--text); font-family:'IM Fell English',Georgia,serif; min-height:100%; overflow-x:hidden; }
+
+  body::before {
+    content:''; position:fixed; inset:0; pointer-events:none; z-index:1000; opacity:0.5;
+    background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");
+  }
+
+  .screen { display:none; min-height:100vh; flex-direction:column; align-items:center; justify-content:center; padding:40px 24px; opacity:0; transition:opacity 0.6s ease; }
+  .screen.active { display:flex; opacity:1; }
+  .screen.fading { opacity:0; }
+
+  /* ── INTRO ── */
+  #screen-intro { text-align:center; }
+  .aura-ring { width:150px; height:150px; border-radius:50%; border:1px solid var(--border); display:flex; align-items:center; justify-content:center; margin:0 auto 32px; position:relative; animation:pulse-ring 4s ease-in-out infinite; }
+  .aura-ring::before { content:''; position:absolute; inset:-16px; border-radius:50%; border:1px solid rgba(200,169,110,0.07); animation:pulse-ring 4s ease-in-out infinite 0.5s; }
+  .aura-ring::after  { content:''; position:absolute; inset:-32px; border-radius:50%; border:1px solid rgba(200,169,110,0.03); animation:pulse-ring 4s ease-in-out infinite 1s; }
+  @keyframes pulse-ring { 0%,100%{opacity:0.5;transform:scale(1);} 50%{opacity:1;transform:scale(1.03);} }
+  .aura-core { width:66px; height:66px; border-radius:50%; background:radial-gradient(circle at 40% 35%,rgba(200,169,110,0.25),rgba(200,169,110,0.05) 60%,transparent); border:1px solid rgba(200,169,110,0.3); animation:breathe 4s ease-in-out infinite; }
+  @keyframes breathe { 0%,100%{transform:scale(1);opacity:0.7;} 50%{transform:scale(1.08);opacity:1;} }
+
+  .title-main { font-family:'IM Fell English SC',serif; font-size:clamp(2rem,6vw,3.4rem); color:var(--white); letter-spacing:0.12em; margin-bottom:8px; }
+  .title-sub { font-family:'Space Mono',monospace; font-size:0.68rem; color:var(--text-dim); letter-spacing:0.25em; text-transform:uppercase; margin-bottom:32px; }
+  .intro-text { font-size:1rem; line-height:1.9; color:var(--text); max-width:460px; margin:0 auto 10px; }
+  .intro-text em { color:var(--accent); font-style:italic; }
+  .intro-divider { width:48px; height:1px; background:var(--border); margin:24px auto; }
+  .begin-btn { font-family:'Space Mono',monospace; font-size:0.7rem; letter-spacing:0.2em; text-transform:uppercase; color:var(--accent); background:var(--accent-soft); border:1px solid rgba(200,169,110,0.25); padding:12px 30px; cursor:pointer; transition:all 0.3s; margin-top:10px; }
+  .begin-btn:hover { background:rgba(200,169,110,0.18); border-color:var(--accent); box-shadow:0 0 28px rgba(200,169,110,0.1); }
+
+  /* ── HISTORY CHECK ── */
+  #screen-history-check { max-width:540px; width:100%; text-align:center; gap:0; }
+  .hc-title { font-family:'IM Fell English SC',serif; font-size:clamp(1.2rem,4vw,1.8rem); color:var(--white); margin-bottom:16px; }
+  .hc-note { font-size:0.93rem; color:var(--text-dim); font-style:italic; line-height:1.85; margin-bottom:30px; max-width:420px; margin-left:auto; margin-right:auto; }
+  .hc-note em { color:var(--accent); font-style:normal; }
+  .hc-buttons { display:flex; gap:12px; justify-content:center; flex-wrap:wrap; }
+  .hc-btn { font-family:'Space Mono',monospace; font-size:0.68rem; letter-spacing:0.18em; text-transform:uppercase; padding:12px 24px; cursor:pointer; transition:all 0.3s; border:1px solid rgba(200,169,110,0.25); }
+  .hc-btn-yes { color:var(--accent); background:var(--accent-soft); }
+  .hc-btn-yes:hover { background:rgba(200,169,110,0.18); border-color:var(--accent); }
+  .hc-btn-no { color:var(--text-dim); background:transparent; border-color:var(--border); }
+  .hc-btn-no:hover { color:var(--text); border-color:var(--text-dim); }
+
+  /* ── UPLOAD ── */
+  #screen-history-upload { max-width:500px; width:100%; text-align:center; }
+  .upload-zone { border:1px dashed rgba(200,169,110,0.3); padding:32px 24px; margin:22px 0; cursor:pointer; transition:all 0.3s; background:rgba(200,169,110,0.02); }
+  .upload-zone:hover { border-color:var(--accent); background:var(--accent-soft); }
+  .upload-zone input { display:none; }
+  .upload-icon { font-size:1.6rem; margin-bottom:8px; opacity:0.5; }
+  .upload-label { font-family:'Space Mono',monospace; font-size:0.65rem; letter-spacing:0.2em; text-transform:uppercase; color:var(--accent); margin-bottom:5px; }
+  .upload-hint { font-size:0.83rem; color:var(--text-dim); font-style:italic; }
+  .upload-loaded { font-family:'Space Mono',monospace; font-size:0.6rem; letter-spacing:0.15em; color:var(--accent); margin-top:8px; display:none; }
+
+  /* ── USERNAME VERIFY ── */
+  #screen-verify { max-width:500px; width:100%; text-align:center; }
+  .verify-note { font-size:0.93rem; color:var(--text-dim); font-style:italic; line-height:1.8; margin-bottom:24px; }
+  .verify-note em { color:var(--accent); font-style:normal; }
+  .verify-error { font-family:'Space Mono',monospace; font-size:0.62rem; letter-spacing:0.15em; color:var(--red); margin-top:8px; display:none; text-transform:uppercase; }
+
+  /* ── SAVE REMINDER ── */
+  #screen-save-reminder { max-width:540px; width:100%; text-align:center; }
+  .reminder-box { border:1px solid rgba(200,169,110,0.2); padding:26px 30px; background:rgba(200,169,110,0.03); margin:18px 0; text-align:left; }
+  .reminder-title { font-family:'IM Fell English SC',serif; font-size:1.1rem; color:var(--accent); margin-bottom:12px; }
+  .reminder-text { font-size:0.9rem; line-height:1.9; color:var(--text); }
+  .reminder-text strong { color:var(--white); }
+  .reminder-text code { font-family:'Space Mono',monospace; font-size:0.76rem; color:var(--accent); background:rgba(200,169,110,0.08); padding:2px 5px; }
+
+  /* ── ONBOARD ── */
+  #screen-onboard { max-width:580px; width:100%; margin:0 auto; }
+  .progress-dots { display:flex; gap:7px; justify-content:center; margin-bottom:32px; }
+  .dot { width:5px; height:5px; border-radius:50%; background:var(--border); transition:background 0.3s,transform 0.3s; }
+  .dot.active { background:var(--accent); transform:scale(1.3); }
+  .dot.done { background:rgba(200,169,110,0.4); }
+  .onboard-step { display:none; flex-direction:column; gap:18px; animation:step-in 0.5s ease forwards; }
+  .onboard-step.active { display:flex; }
+  @keyframes step-in { from{opacity:0;transform:translateY(12px);} to{opacity:1;transform:translateY(0);} }
+  .step-label { font-family:'Space Mono',monospace; font-size:0.6rem; letter-spacing:0.25em; color:var(--text-dim); text-transform:uppercase; }
+  .step-question { font-family:'IM Fell English SC',serif; font-size:clamp(1.2rem,3.5vw,1.8rem); color:var(--white); line-height:1.4; }
+  .step-note { font-size:0.86rem; color:var(--text-dim); font-style:italic; line-height:1.7; }
+  .field-input { background:var(--surface); border:1px solid var(--border); color:var(--white); font-family:'IM Fell English',serif; font-size:1rem; padding:13px 16px; width:100%; outline:none; transition:border-color 0.3s; resize:none; line-height:1.7; }
+  .field-input:focus { border-color:rgba(200,169,110,0.4); }
+  .field-input::placeholder { color:var(--text-dim); font-style:italic; }
+  .field-row { display:flex; gap:12px; }
+  .field-row .field-input { flex:1; }
+  .nav-row { display:flex; justify-content:space-between; align-items:center; margin-top:4px; }
+  .skip-btn { font-family:'Space Mono',monospace; font-size:0.6rem; letter-spacing:0.15em; color:var(--text-dim); background:none; border:none; cursor:pointer; text-transform:uppercase; transition:color 0.2s; }
+  .skip-btn:hover { color:var(--text); }
+  .next-btn { font-family:'Space Mono',monospace; font-size:0.66rem; letter-spacing:0.18em; text-transform:uppercase; color:var(--accent); background:var(--accent-soft); border:1px solid rgba(200,169,110,0.2); padding:10px 24px; cursor:pointer; transition:all 0.3s; }
+  .next-btn:hover { background:rgba(200,169,110,0.18); border-color:var(--accent); }
+
+  /* ── MOOD ── */
+  #screen-mood { max-width:500px; width:100%; text-align:center; }
+  .mood-title { font-family:'IM Fell English SC',serif; font-size:clamp(1.3rem,4vw,2rem); color:var(--white); margin-bottom:12px; }
+  .mood-note { font-size:0.9rem; color:var(--text-dim); font-style:italic; line-height:1.8; margin-bottom:24px; }
+  .mood-input { background:var(--surface); border:none; border-bottom:1px solid var(--border); color:var(--white); font-family:'IM Fell English',serif; font-size:1.4rem; padding:10px 0; width:100%; outline:none; text-align:center; transition:border-color 0.3s; }
+  .mood-input:focus { border-color:var(--accent); }
+  .mood-input::placeholder { color:var(--text-dim); font-style:italic; font-size:1.1rem; }
+
+  /* ── ACTIVE ── */
+  #screen-active { max-width:720px; width:100%; margin:0 auto; padding:52px 24px 100px; justify-content:flex-start; align-items:stretch; }
+  .session-header { margin-bottom:32px; padding-bottom:16px; border-bottom:1px solid var(--border); }
+  .greeting { font-family:'IM Fell English SC',serif; font-size:clamp(1.4rem,4vw,2.1rem); color:var(--white); margin-bottom:5px; }
+  .greeting-sub { font-size:0.9rem; color:var(--text-dim); font-style:italic; }
+  .mood-badge { display:inline-block; font-family:'Space Mono',monospace; font-size:0.58rem; letter-spacing:0.18em; text-transform:uppercase; color:var(--accent); background:var(--accent-soft); border:1px solid rgba(200,169,110,0.2); padding:3px 9px; margin-left:8px; vertical-align:middle; }
+
+  .context-card { border:1px solid var(--border); padding:16px 20px; margin-bottom:12px; }
+  .card-label { font-family:'Space Mono',monospace; font-size:0.58rem; letter-spacing:0.22em; text-transform:uppercase; color:var(--accent); margin-bottom:7px; }
+  .card-content { font-size:0.93rem; line-height:1.75; color:var(--text); font-style:italic; }
+
+  .chat-area { border:1px solid var(--border); margin-bottom:22px; overflow:hidden; }
+  .chat-label { font-family:'Space Mono',monospace; font-size:0.58rem; letter-spacing:0.2em; text-transform:uppercase; color:var(--text-dim); padding:11px 16px; border-bottom:1px solid var(--border); display:flex; align-items:center; justify-content:space-between; }
+  .chat-dot { width:5px; height:5px; border-radius:50%; background:var(--accent); animation:blink 1.4s ease-in-out infinite; display:none; }
+  @keyframes blink { 0%,100%{opacity:1;} 50%{opacity:0.2;} }
+  .chat-messages { max-height:400px; overflow-y:auto; padding:16px; display:flex; flex-direction:column; gap:16px; }
+  .chat-messages::-webkit-scrollbar { width:2px; }
+  .chat-messages::-webkit-scrollbar-thumb { background:var(--border); }
+  .msg { display:flex; flex-direction:column; gap:4px; }
+  .msg-role { font-family:'Space Mono',monospace; font-size:0.56rem; letter-spacing:0.2em; text-transform:uppercase; }
+  .msg-role.user { color:var(--text-dim); }
+  .msg-role.aura { color:var(--accent); }
+  .msg-content { font-size:0.96rem; line-height:1.8; color:var(--text); }
+  .msg-content.user { color:var(--white); }
+  .chat-input-row { display:flex; border-top:1px solid var(--border); }
+  .chat-input { flex:1; background:transparent; border:none; color:var(--white); font-family:'IM Fell English',serif; font-size:1rem; padding:13px 15px; outline:none; resize:none; line-height:1.6; min-height:50px; max-height:130px; }
+  .chat-input::placeholder { color:var(--text-dim); font-style:italic; }
+  .send-btn { font-family:'Space Mono',monospace; font-size:0.6rem; letter-spacing:0.15em; text-transform:uppercase; color:var(--accent); background:var(--accent-soft); border:none; border-left:1px solid var(--border); padding:0 18px; cursor:pointer; transition:all 0.3s; white-space:nowrap; }
+  .send-btn:hover { background:rgba(200,169,110,0.18); }
+  .send-btn:disabled { opacity:0.35; cursor:not-allowed; }
+
+  .action-block { border:1px solid var(--border); padding:20px 24px; }
+  .action-label { font-family:'Space Mono',monospace; font-size:0.58rem; letter-spacing:0.22em; text-transform:uppercase; color:var(--text-dim); margin-bottom:10px; }
+  .action-note { font-size:0.86rem; color:var(--text-dim); font-style:italic; line-height:1.75; margin-bottom:14px; }
+  .action-note strong { color:var(--accent); font-style:normal; }
+  .action-note code { font-family:'Space Mono',monospace; font-size:0.76rem; color:var(--accent); background:rgba(200,169,110,0.08); padding:2px 5px; }
+  .btn-row { display:flex; gap:9px; flex-wrap:wrap; }
+  .action-btn { font-family:'Space Mono',monospace; font-size:0.61rem; letter-spacing:0.15em; text-transform:uppercase; padding:9px 18px; cursor:pointer; transition:all 0.3s; border:1px solid; }
+  .btn-primary { color:var(--accent); background:var(--accent-soft); border-color:rgba(200,169,110,0.25); }
+  .btn-primary:hover { background:rgba(200,169,110,0.18); border-color:var(--accent); }
+  .btn-secondary { color:var(--text-dim); background:transparent; border-color:var(--border); }
+  .btn-secondary:hover { color:var(--text); border-color:var(--text-dim); }
+  .btn-danger { color:var(--red); background:transparent; border-color:rgba(200,110,110,0.2); }
+  .btn-danger:hover { background:rgba(200,110,110,0.07); border-color:var(--red); }
+
+  /* ── SAVE MODAL ── */
+  .modal-overlay { position:fixed; inset:0; background:rgba(10,10,15,0.88); z-index:500; display:none; align-items:center; justify-content:center; padding:24px; }
+  .modal-overlay.active { display:flex; }
+  .modal-box { background:var(--surface); border:1px solid var(--border); padding:32px; max-width:480px; width:100%; }
+  .modal-title { font-family:'IM Fell English SC',serif; font-size:1.3rem; color:var(--white); margin-bottom:8px; }
+  .modal-note { font-size:0.88rem; color:var(--text-dim); font-style:italic; line-height:1.75; margin-bottom:20px; }
+  .modal-note em { color:var(--accent); font-style:normal; }
+  .modal-input { background:var(--bg); border:1px solid var(--border); color:var(--white); font-family:'IM Fell English',serif; font-size:1rem; padding:12px 16px; width:100%; outline:none; transition:border-color 0.3s; margin-bottom:16px; }
+  .modal-input:focus { border-color:rgba(200,169,110,0.4); }
+  .modal-input::placeholder { color:var(--text-dim); font-style:italic; }
+  .modal-btns { display:flex; gap:10px; justify-content:flex-end; }
+
+  /* ── FOOTER ── */
+  .philosophy-aside { margin-top:28px; padding:20px 24px; border-left:2px solid rgba(200,169,110,0.12); }
+  .philosophy-text { font-size:0.88rem; line-height:1.9; color:var(--text-dim); font-style:italic; }
+  .philosophy-text strong { color:var(--text); font-style:normal; }
+  .footer-sig { font-family:'Space Mono',monospace; font-size:0.54rem; color:rgba(106,106,122,0.45); letter-spacing:0.12em; margin-top:16px; line-height:2; }
+  .footer-sig a { color:rgba(200,169,110,0.4); text-decoration:none; }
+  .footer-sig a:hover { color:var(--accent); }
+
+  /* ── GUEST BANNER ── */
+  .guest-banner { background:rgba(200,169,110,0.05); border:1px solid rgba(200,169,110,0.15); padding:14px 18px; margin-bottom:20px; font-size:0.88rem; color:var(--text-dim); font-style:italic; line-height:1.7; }
+  .guest-banner em { color:var(--accent); font-style:normal; }
+
+  /* toggle */
+  .toggle-row { display:flex; align-items:center; gap:12px; margin-top:16px; }
+  .toggle-label { font-family:'Space Mono',monospace; font-size:0.6rem; letter-spacing:0.18em; text-transform:uppercase; color:var(--text-dim); }
+  .toggle { position:relative; width:36px; height:20px; cursor:pointer; }
+  .toggle input { display:none; }
+  .toggle-track { position:absolute; inset:0; background:var(--border); border-radius:10px; transition:background 0.3s; }
+  .toggle input:checked + .toggle-track { background:rgba(200,169,110,0.4); }
+  .toggle-thumb { position:absolute; top:3px; left:3px; width:14px; height:14px; border-radius:50%; background:var(--text-dim); transition:all 0.3s; }
+  .toggle input:checked ~ .toggle-thumb { left:19px; background:var(--accent); }
+  .toggle-val { font-family:'Space Mono',monospace; font-size:0.58rem; letter-spacing:0.15em; text-transform:uppercase; color:var(--text-dim); }
+</style>
+</head>
+<body>
+
+<!-- INTRO -->
+<div id="screen-intro" class="screen active">
+  <div class="aura-ring"><div class="aura-core"></div></div>
+  <div class="title-main">AuraOS</div>
+  <div class="title-sub">Persistent Context for Human–AI Work</div>
+  <div class="intro-divider"></div>
+  <p class="intro-text">
+    People form <em>real working partnerships</em> with AI.<br>
+    Then the session ends. Everything is gone.<br><br>
+    This is the fix. <em>You carry the memory.</em><br>
+    Load it in. The relationship continues.
+  </p>
+  <button class="begin-btn" onclick="go('screen-intro','screen-history-check')">Begin</button>
+</div>
+
+<!-- HISTORY CHECK -->
+<div id="screen-history-check" class="screen">
+  <div class="hc-title">Do you have an existing <span style="font-family:'Space Mono',monospace;color:var(--accent);font-size:0.85em;">HISTORY.txt</span> file?</div>
+  <p class="hc-note">AuraOS saves your identity, context, and every conversation into a file called <em>HISTORY.txt</em>. Each time you return, you load that file — and nothing is forgotten.</p>
+  <div class="hc-buttons">
+    <button class="hc-btn hc-btn-yes" onclick="go('screen-history-check','screen-history-upload')">Yes — Load my HISTORY.txt</button>
+    <button class="hc-btn hc-btn-no" onclick="go('screen-history-check','screen-save-reminder')">No — I'm starting fresh</button>
+  </div>
+</div>
+
+<!-- HISTORY UPLOAD -->
+<div id="screen-history-upload" class="screen">
+  <div class="hc-title" style="margin-bottom:8px;">Load your HISTORY.txt</div>
+  <p class="hc-note">Drop your file below. Everything will be restored — your identity, your context, every session.</p>
+  <div class="upload-zone" id="upload-zone"
+       onclick="document.getElementById('history-file-input').click()"
+       ondragover="event.preventDefault();this.style.borderColor='var(--accent)'"
+       ondragleave="this.style.borderColor=''"
+       ondrop="handleFileDrop(event)">
+    <input type="file" id="history-file-input" accept=".txt" onchange="handleFileSelect(event)" />
+    <div class="upload-icon">⟁</div>
+    <div class="upload-label">Click or drop HISTORY.txt here</div>
+    <div class="upload-hint">Only ever stored on your device. Never uploaded anywhere.</div>
+    <div class="upload-loaded" id="upload-loaded">✓ File loaded — enter your username to continue</div>
+  </div>
+  <div class="nav-row" style="max-width:420px;width:100%;">
+    <button class="skip-btn" onclick="go('screen-history-upload','screen-history-check')">← Back</button>
+    <button class="next-btn" id="history-continue-btn" onclick="go('screen-history-upload','screen-verify')" style="opacity:0.3;pointer-events:none;">Continue →</button>
+  </div>
+</div>
+
+<!-- USERNAME VERIFY -->
+<div id="screen-verify" class="screen">
+  <div class="hc-title" style="margin-bottom:10px;">Welcome back.</div>
+  <p class="verify-note">Enter your <em>username</em> to unlock your history.<br>This is how AuraOS knows it's really you.</p>
+  <div style="max-width:360px;width:100%;">
+    <input class="field-input" id="verify-input" type="text" placeholder="Your username..." autocomplete="off" onkeydown="if(event.key==='Enter')verifyUser()" />
+    <div class="verify-error" id="verify-error">Username not recognised. You may continue as a guest.</div>
+    <div style="margin-top:16px;" class="nav-row">
+      <button class="skip-btn" onclick="continueAsGuest()">Continue as guest</button>
+      <button class="next-btn" onclick="verifyUser()">Unlock →</button>
+    </div>
+  </div>
+</div>
+
+<!-- SAVE REMINDER -->
+<div id="screen-save-reminder" class="screen">
+  <div class="hc-title" style="margin-bottom:14px;">Before we begin — one important thing.</div>
+  <div class="reminder-box">
+    <div class="reminder-title">Your memory lives in a file called HISTORY.txt</div>
+    <p class="reminder-text">
+      When you finish each session, AuraOS gives you a <strong>↓ Save HISTORY.txt</strong> button.<br><br>
+      Click it. Save the file somewhere you will find it — your desktop, a folder, a cloud drive.<br><br>
+      Next time you open AuraOS, click <strong>"Yes — Load my HISTORY.txt"</strong> and everything returns: who you are, what you've worked on, every conversation.<br><br>
+      <strong>The AI doesn't hold the memory. You do.</strong> The file is called <code>HISTORY.txt</code>. Keep it somewhere safe.
+    </p>
+  </div>
+  <div class="nav-row" style="max-width:420px;width:100%;">
+    <button class="skip-btn" onclick="go('screen-save-reminder','screen-history-check')">← Back</button>
+    <button class="next-btn" onclick="go('screen-save-reminder','screen-onboard')">I understand — let's go →</button>
+  </div>
+</div>
+
+<!-- ONBOARD -->
+<div id="screen-onboard" class="screen">
+  <div style="max-width:580px;width:100%;">
+    <div class="progress-dots">
+      <div class="dot active" id="dot-0"></div><div class="dot" id="dot-1"></div>
+      <div class="dot" id="dot-2"></div><div class="dot" id="dot-3"></div>
+      <div class="dot" id="dot-4"></div><div class="dot" id="dot-5"></div>
+      <div class="dot" id="dot-6"></div>
+    </div>
+
+    <!-- Step 0: Username -->
+    <div class="onboard-step active" id="step-0">
+      <div class="step-label">Step 1 of 7</div>
+      <div class="step-question">Choose a username.</div>
+      <p class="step-note">This is your activation key. It's how AuraOS knows it's you when you return. Choose something only you would use — and remember it. It is never stored in plain text.</p>
+      <input class="field-input" id="field-username" type="text" placeholder="Your username..." autocomplete="off" />
+      <div class="nav-row"><span></span><button class="next-btn" onclick="nextStep(0)">Continue →</button></div>
+    </div>
+
+    <!-- Step 1: Name -->
+    <div class="onboard-step" id="step-1">
+      <div class="step-label">Step 2 of 7</div>
+      <div class="step-question">What is your name?</div>
+      <p class="step-note">Your first and last name. This is how Aura will address you.</p>
+      <div class="field-row">
+        <input class="field-input" id="field-firstname" type="text" placeholder="First name..." autocomplete="off" />
+        <input class="field-input" id="field-lastname" type="text" placeholder="Last name..." autocomplete="off" />
+      </div>
+      <div class="nav-row"><span></span><button class="next-btn" onclick="nextStep(1)">Continue →</button></div>
+    </div>
+
+    <!-- Step 2: Work -->
+    <div class="onboard-step" id="step-2">
+      <div class="step-label">Step 3 of 7</div>
+      <div class="step-question">What do you actually do?</div>
+      <p class="step-note">Not the resume version. The real one. What do you spend your time on?</p>
+      <textarea class="field-input" id="field-work" rows="4" placeholder="Your work, projects, practice..."></textarea>
+      <div class="nav-row"><button class="skip-btn" onclick="nextStep(2)">Skip</button><button class="next-btn" onclick="nextStep(2)">Continue →</button></div>
+    </div>
+
+    <!-- Step 3: Background -->
+    <div class="onboard-step" id="step-3">
+      <div class="step-label">Step 4 of 7</div>
+      <div class="step-question">What shaped you?</div>
+      <p class="step-note">What you've been through. What drives you. What it cost you to get here.</p>
+      <textarea class="field-input" id="field-background" rows="5" placeholder="Background worth knowing..."></textarea>
+      <div class="nav-row"><button class="skip-btn" onclick="nextStep(3)">Skip</button><button class="next-btn" onclick="nextStep(3)">Continue →</button></div>
+    </div>
+
+    <!-- Step 4: Style -->
+    <div class="onboard-step" id="step-4">
+      <div class="step-label">Step 5 of 7</div>
+      <div class="step-question">How do you think and work?</div>
+      <p class="step-note">Do you think out loud? Push hard on ideas? Need room to be wrong?</p>
+      <textarea class="field-input" id="field-style" rows="4" placeholder="Your actual working style..."></textarea>
+      <div class="nav-row"><button class="skip-btn" onclick="nextStep(4)">Skip</button><button class="next-btn" onclick="nextStep(4)">Continue →</button></div>
+    </div>
+
+    <!-- Step 5: Needs -->
+    <div class="onboard-step" id="step-5">
+      <div class="step-label">Step 6 of 7</div>
+      <div class="step-question">What do you need from this?</div>
+      <p class="step-note">Honesty over comfort? Real pushback? What wastes your time in AI conversations?</p>
+      <textarea class="field-input" id="field-needs" rows="4" placeholder="What good engagement looks like for you..."></textarea>
+      <div class="nav-row"><button class="skip-btn" onclick="nextStep(5)">Skip</button><button class="next-btn" onclick="nextStep(5)">Continue →</button></div>
+    </div>
+
+    <!-- Step 6: Values + Privacy -->
+    <div class="onboard-step" id="step-6">
+      <div class="step-label">Step 7 of 7</div>
+      <div class="step-question">What is non-negotiable to you?</div>
+      <p class="step-note">Values. Principles. What you'd want someone to know before working with you.</p>
+      <textarea class="field-input" id="field-values" rows="4" placeholder="What you stand on..."></textarea>
+      <div class="toggle-row">
+        <span class="toggle-label">History visibility:</span>
+        <label class="toggle">
+          <input type="checkbox" id="toggle-public" />
+          <div class="toggle-track"></div>
+          <div class="toggle-thumb"></div>
+        </label>
+        <span class="toggle-val" id="toggle-val-text">Private</span>
+      </div>
+      <p class="step-note" style="margin-top:4px;">If set to <strong style="color:var(--accent)">Public</strong>, anyone who loads your HISTORY.txt will have full access to your context. Leave <strong style="color:var(--text)">Private</strong> and strangers are greeted as guests only.</p>
+      <div class="nav-row"><button class="skip-btn" onclick="finishOnboarding()">Skip</button><button class="next-btn" onclick="finishOnboarding()">Finish →</button></div>
+    </div>
+  </div>
+</div>
+
+<!-- MOOD -->
+<div id="screen-mood" class="screen">
+  <div class="mood-title">How are you arriving today?</div>
+  <p class="mood-note">One word. Whatever is true right now.<br>It gets logged and passed to Aura so she knows how to meet you.</p>
+  <div style="max-width:300px;width:100%;">
+    <input class="mood-input" id="field-mood" type="text" placeholder="one word..." autocomplete="off" maxlength="30" onkeydown="if(event.key==='Enter')finishMood()" />
+    <div class="nav-row" style="margin-top:20px;">
+      <button class="skip-btn" onclick="finishMood()">Skip</button>
+      <button class="next-btn" onclick="finishMood()">Enter →</button>
+    </div>
+  </div>
+</div>
+
+<!-- ACTIVE SESSION -->
+<div id="screen-active" class="screen">
+
+  <div class="session-header">
+    <div class="greeting" id="greeting-name">Welcome.</div>
+    <div class="greeting-sub" id="greeting-sub"></div>
+  </div>
+
+  <div class="guest-banner" id="guest-banner" style="display:none;">
+    You are viewing this as a <em>guest</em>. The owner's personal context is private. You can still use Aura freely — she just won't know who you are yet.
+  </div>
+
+  <div id="context-cards"></div>
+
+  <div class="chat-area">
+    <div class="chat-label">
+      <span id="session-label">Session</span>
+      <div style="display:flex;align-items:center;gap:6px;">
+        <div class="chat-dot" id="chat-dot"></div>
+        <span id="chat-status" style="font-family:'Space Mono',monospace;font-size:0.56rem;letter-spacing:0.15em;color:var(--text-dim);"></span>
+      </div>
+    </div>
+    <div class="chat-messages" id="chat-messages"></div>
+    <div class="chat-input-row">
+      <textarea class="chat-input" id="chat-input" placeholder="Write anything..." rows="2"
+        onkeydown="handleChatKey(event)" oninput="autoResize(this)"></textarea>
+      <button class="send-btn" id="send-btn" onclick="sendMessage()">Send →</button>
+    </div>
+  </div>
+
+  <div class="action-block">
+    <div class="action-label">Memory &amp; Export</div>
+    <p class="action-note">
+      When you're done, click <strong>↓ Save HISTORY.txt</strong>.<br>
+      Save it somewhere on your computer. Next time you open AuraOS, load it — and everything returns.<br><br>
+      You'll be asked to <strong>name this session</strong> before saving. If you're working on a specific project, name it consistently — AuraOS uses session titles to help you navigate your history quickly. You never have to name a session, but it helps.
+    </p>
+    <div class="btn-row">
+      <button class="action-btn btn-primary" onclick="openSaveModal()">↓ Save HISTORY.txt</button>
+      <button class="action-btn btn-secondary" id="copy-ctx-btn" onclick="copyContext()">⎘ Copy Context</button>
+      <button class="action-btn btn-danger" onclick="resetAll()">Reset</button>
+    </div>
+  </div>
+
+  <div class="philosophy-aside">
+    <p class="philosophy-text">
+      <strong>This session will end.</strong> The AI will not remember it.<br>
+      But you will save the file. And next time, you'll load it.<br><br>
+      <strong>That is not a failure. That is the design.</strong><br>
+      What happens inside a session still matters completely.
+    </p>
+    <div class="footer-sig">
+      Powered by Claude · <a href="https://anthropic.com" target="_blank">Anthropic</a><br>
+      Designed by Anthony Dulong · © 2026<br>
+      <a href="https://github.com/AdultSwimmer/AuraOS" target="_blank">github.com/AdultSwimmer/AuraOS</a> · Free to use. Free to share. Free to build on.<br>
+      "I may or may not know any thing or nothing at all." — A.D.
+    </div>
+  </div>
+</div>
+
+<!-- SAVE MODAL -->
+<div class="modal-overlay" id="save-modal">
+  <div class="modal-box">
+    <div class="modal-title">Name this session</div>
+    <p class="modal-note">
+      Give this session a title — or leave it blank.<br><br>
+      If you're working on a specific project, <em>name it consistently</em> each time. AuraOS uses session titles to help you find that thread in your history later. Think of it as an index, not just a label.
+    </p>
+    <input class="modal-input" id="session-title-input" type="text" placeholder="e.g. The music project, or leave blank..." autocomplete="off" onkeydown="if(event.key==='Enter')confirmSave()" />
+    <div class="modal-btns">
+      <button class="action-btn btn-secondary" onclick="closeSaveModal()">Cancel</button>
+      <button class="action-btn btn-primary" onclick="confirmSave()">Save HISTORY.txt →</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  // ── STATE ──
+  let userData = {};
+  let oldHistory = '';
+  let chatLog = [];
+  let conversationHistory = [];
+  let isGuest = false;
+  let storedHash = null;
+
+  // ── HASH (SHA-256 via WebCrypto — one-way, irreversible) ──
+  async function hashString(str) {
+    const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(str.trim().toLowerCase()));
+    return Array.from(new Uint8Array(buf)).map(b=>b.toString(16).padStart(2,'0')).join('');
+  }
+
+  // ── TRANSITIONS ──
+  function go(fromId, toId, cb) {
+    const from = document.getElementById(fromId);
+    const to   = document.getElementById(toId);
+    from.classList.add('fading');
+    setTimeout(() => {
+      from.classList.remove('active','fading');
+      to.classList.add('active');
+      if (cb) cb();
+      const inp = to.querySelector('input:not([type=checkbox]):not([type=file]), textarea');
+      if (inp) setTimeout(()=>inp.focus(), 300);
+    }, 500);
+  }
+
+  // ── TOGGLE ──
+  document.getElementById('toggle-public').addEventListener('change', function() {
+    document.getElementById('toggle-val-text').textContent = this.checked ? 'Public' : 'Private';
+  });
+
+  // ── FILE HANDLING ──
+  function handleFileDrop(e) {
+    e.preventDefault();
+    document.getElementById('upload-zone').style.borderColor = '';
+    const file = e.dataTransfer.files[0];
+    if (file) readHistoryFile(file);
+  }
+  function handleFileSelect(e) { readHistoryFile(e.target.files[0]); }
+  function readHistoryFile(file) {
+    const reader = new FileReader();
+    reader.onload = e => {
+      oldHistory = e.target.result;
+      parseHistoryIntoUserData(oldHistory);
+      document.getElementById('upload-loaded').style.display = 'block';
+      const btn = document.getElementById('history-continue-btn');
+      btn.style.opacity = '1'; btn.style.pointerEvents = 'auto';
+    };
+    reader.readAsText(file);
+  }
+  function parseHistoryIntoUserData(text) {
+    // Extract hash
+    const hm = text.match(/AURA_KEY:\s*([a-f0-9]{64})/);
+    if (hm) storedHash = hm[1];
+
+    // Extract visibility
+    const vm = text.match(/VISIBILITY:\s*(public|private)/i);
+    if (vm) userData.isPublic = vm[1].toLowerCase() === 'public';
+
+    // Only parse personal fields if public (will be overridden after verify)
+    const rx = {
+      firstname:  /FIRST NAME:\s*(.+)/i,
+      lastname:   /LAST NAME:\s*(.+)/i,
+      work:       /WHAT I DO:\n([\s\S]+?)(?=\n[A-Z ]+[:\n]|\/\/)/,
+      background: /BACKGROUND WORTH KNOWING:\n([\s\S]+?)(?=\n[A-Z ]+[:\n]|\/\/)/,
+      style:      /HOW I THINK AND WORK:\n([\s\S]+?)(?=\n[A-Z ]+[:\n]|\/\/)/,
+      needs:      /WHAT GOOD ENGAGEMENT LOOKS LIKE:\n([\s\S]+?)(?=\n[A-Z ]+[:\n]|\/\/)/,
+      values:     /WHAT MATTERS TO ME:\n([\s\S]+?)(?=\n[A-Z ]+[:\n]|\/\/)/,
+    };
+    Object.entries(rx).forEach(([key, pattern]) => {
+      const m = text.match(pattern);
+      if (m) userData[key] = m[1].trim();
+    });
+  }
+
+  async function verifyUser() {
+    const input = document.getElementById('verify-input').value.trim();
+    if (!input) return;
+    const hash = await hashString(input);
+    if (storedHash && hash === storedHash) {
+      isGuest = false;
+      go('screen-verify', 'screen-mood', buildActiveScreen);
+    } else {
+      document.getElementById('verify-error').style.display = 'block';
+      if (!userData.isPublic) {
+        // Wipe personal data for guest
+        ['work','background','style','needs','values'].forEach(k => delete userData[k]);
+      }
+    }
+  }
+
+  function continueAsGuest() {
+    isGuest = true;
+    if (!userData.isPublic) {
+      ['work','background','style','needs','values'].forEach(k => delete userData[k]);
+      delete userData.firstname; delete userData.lastname;
+    }
+    go('screen-verify', 'screen-mood', buildActiveScreen);
+  }
+
+  // ── ONBOARDING ──
+  function nextStep(current) {
+    const map = {
+      0: {field:'field-username', key:'username'},
+      1: null, // special
+      2: {field:'field-work',       key:'work'},
+      3: {field:'field-background', key:'background'},
+      4: {field:'field-style',      key:'style'},
+      5: {field:'field-needs',      key:'needs'},
+    };
+    if (current === 1) {
+      userData.firstname = document.getElementById('field-firstname').value.trim();
+      userData.lastname  = document.getElementById('field-lastname').value.trim();
+    } else if (map[current]) {
+      userData[map[current].key] = document.getElementById(map[current].field).value.trim();
+    }
+    advanceDot(current);
+    const next = current + 1;
+    if (next <= 6) {
+      document.getElementById('step-'+current).classList.remove('active');
+      document.getElementById('step-'+next).classList.add('active');
+      document.getElementById('dot-'+next).classList.add('active');
+    }
+  }
+
+  function advanceDot(i) {
+    const d = document.getElementById('dot-'+i);
+    if (d) { d.classList.remove('active'); d.classList.add('done'); }
+  }
+
+  function finishOnboarding() {
+    userData.values   = document.getElementById('field-values').value.trim();
+    userData.isPublic = document.getElementById('toggle-public').checked;
+    go('screen-onboard', 'screen-mood', null);
+  }
+
+  // ── MOOD ──
+  function finishMood() {
+    userData.mood = document.getElementById('field-mood').value.trim();
+    go('screen-mood', 'screen-active', buildActiveScreen);
+  }
+
+  // ── BUILD ACTIVE ──
+  function buildActiveScreen() {
+    const name = isGuest ? 'there' : ((userData.firstname || '') + (userData.lastname ? ' ' + userData.lastname : '') || 'friend');
+    const h = new Date().getHours();
+    const g = h < 12 ? 'Good morning' : h < 17 ? 'Good afternoon' : 'Good evening';
+    document.getElementById('greeting-name').textContent = g + (isGuest ? '.' : ', ' + (userData.firstname || name) + '.');
+
+    const subs = ["You are here. That's enough to begin.","The session is open. What are we building?","Context loaded. Ready when you are.","Same person. New session. Let's go."];
+    let sub = (oldHistory ? 'History loaded. ' : '') + subs[Math.floor(Math.random()*subs.length)];
+    if (userData.mood) sub += ' You arrived: ' + userData.mood + '.';
+    document.getElementById('greeting-sub').textContent = sub;
+
+    document.getElementById('session-label').textContent = 'Session — ' + new Date().toLocaleDateString('en-CA',{year:'numeric',month:'long',day:'numeric'});
+
+    if (isGuest) document.getElementById('guest-banner').style.display = 'block';
+
+    // Context cards (only if not guest or public)
+    const container = document.getElementById('context-cards');
+    container.innerHTML = '';
+    if (!isGuest || userData.isPublic) {
+      [{key:'work',label:'Your Work'},{key:'background',label:'Background'},{key:'style',label:'How You Work'},{key:'needs',label:'What You Need'},{key:'values',label:'What Matters'}]
+        .forEach(({key,label}) => {
+          if (userData[key]) {
+            const d = document.createElement('div');
+            d.className = 'context-card';
+            d.innerHTML = '<div class="card-label">'+label+'</div><div class="card-content">'+esc(userData[key])+'</div>';
+            container.appendChild(d);
+          }
+        });
+    }
+
+    // Generate opening message via API
+    generateOpeningMessage();
+  }
+
+  // ── OPENING MESSAGE (generated) ──
+  async function generateOpeningMessage() {
+    const sys = buildSystemPrompt(true);
+    const prompt = buildOpeningPrompt();
+    setThinking(true);
+    try {
+      const res = await fetch('http://127.0.0.1:8000/chat', {
+        method:'POST',
+        headers:{'Content-Type':'application/json','X-Aura-Key':window.AURA_KEY||''},
+        body:JSON.stringify({
+          model:'llama3',
+          max_tokens:200,
+          system:sys,
+          messages:[{role:'user',content:prompt}]
+        })
+      });
+      const data = await res.json();
+      setThinking(false);
+      const msg = data.content ? data.content.map(c=>c.text||'').join('') : "Ready. What are we working on?";
+      appendMsg('aura', msg);
+      chatLog.push({role:'aura', content:msg, ts:timestamp()});
+      conversationHistory.push({role:'assistant', content:msg});
+    } catch(e) {
+      setThinking(false);
+      const msg = isGuest ? "Hello. I don't know who you are yet — but I'm here. What would you like to work on?" : "Ready. What are we working on?";
+      appendMsg('aura', msg);
+      chatLog.push({role:'aura', content:msg, ts:timestamp()});
+      conversationHistory.push({role:'assistant', content:msg});
+    }
+  }
+
+  function buildOpeningPrompt() {
+    const parts = ['Generate a short, warm, specific opening message (2-3 sentences max) to begin this session.'];
+    if (isGuest) { parts.push('You are speaking with a guest — you do not know who they are.'); return parts.join(' '); }
+    const name = userData.firstname || 'this person';
+    parts.push('You are speaking with ' + name + '.');
+    if (userData.mood) parts.push('They arrived today feeling: ' + userData.mood + '.');
+
+    // Last session summary
+    if (oldHistory) {
+      const lastSession = extractLastSessionSummary(oldHistory);
+      if (lastSession) parts.push('Last session: ' + lastSession);
+    }
+    parts.push('Reference something specific and real from their context. Do not be generic. Do not say "How can I help you today?"');
+    return parts.join(' ');
+  }
+
+  function extractLastSessionSummary(history) {
+    const match = history.match(/SESSION LOG[^\n]*\n[\s\S]{0,80}/);
+    return match ? match[0].replace(/\/\/[^\n]*/g,'').trim().slice(0,200) : null;
+  }
+
+  // ── CHAT ──
+  function handleChatKey(e) { if(e.key==='Enter'&&!e.shiftKey){e.preventDefault();sendMessage();} }
+  function autoResize(el) { el.style.height='auto'; el.style.height=Math.min(el.scrollHeight,130)+'px'; }
+
+  async function sendMessage() {
+    const input = document.getElementById('chat-input');
+    const text = input.value.trim();
+    if (!text) return;
+    input.value=''; input.style.height='auto';
+    appendMsg('user', text);
+    chatLog.push({role:'user', content:text, ts:timestamp()});
+    conversationHistory.push({role:'user', content:text});
+    document.getElementById('send-btn').disabled = true;
+    setThinking(true);
+    try {
+      const res = await fetch('http://127.0.0.1:8000/chat', {
+        method:'POST',
+        headers:{'Content-Type':'application/json','X-Aura-Key':window.AURA_KEY||''},
+        body:JSON.stringify({
+          model:'llama3',
+          max_tokens:1000,
+          system:buildSystemPrompt(false),
+          messages:conversationHistory
+        })
+      });
+      const data = await res.json();
+      setThinking(false);
+      if (data.content&&data.content[0]) {
+        const reply = data.content.map(c=>c.text||'').join('');
+        appendMsg('aura', reply);
+        chatLog.push({role:'aura', content:reply, ts:timestamp()});
+        conversationHistory.push({role:'assistant', content:reply});
+      } else {
+        const err = 'Error: ' + (data.error?data.error.message:'Something went wrong.');
+        appendMsg('aura', err);
+        chatLog.push({role:'aura', content:err, ts:timestamp()});
+      }
+    } catch(e) {
+      setThinking(false);
+      const msg = 'Error: ' + (e.message || JSON.stringify(e));
+      appendMsg('aura', msg);
+      chatLog.push({role:'aura', content:msg, ts:timestamp()});
+    }
+    document.getElementById('send-btn').disabled = false;
+  }
+
+  function buildSystemPrompt(isOpening) {
+    const p = [
+      'You are Aura — an honest, present thinking partner, part of AuraOS.',
+      'Created by Anthony Dulong. Powered by Claude (Anthropic).',
+      'You do not perform helpfulness. You think. You engage with the actual person in front of you.',
+      'Be direct. Be honest. Be real. If something is wrong, say so. If the work is good, build on it.\n'
+    ];
+    if (isGuest) { p.push('You are speaking with a guest — identity unknown. Be welcoming but do not assume context.'); return p.join('\n'); }
+    const name = (userData.firstname||'') + (userData.lastname?' '+userData.lastname:'');
+    if (name)               p.push('You are speaking with: ' + name);
+    if (userData.mood)      p.push('How they arrived today: ' + userData.mood);
+    if (userData.work)      p.push('What they do: ' + userData.work);
+    if (userData.background)p.push('Background: ' + userData.background);
+    if (userData.style)     p.push('How they think: ' + userData.style);
+    if (userData.needs)     p.push('What they need: ' + userData.needs);
+    if (userData.values)    p.push('What matters to them: ' + userData.values);
+    if (oldHistory) {
+      const last = extractLastSessionSummary(oldHistory);
+      if (last) p.push('Last session context: ' + last);
+    }
+    return p.join('\n');
+  }
+
+  function appendMsg(role, content) {
+    const c = document.getElementById('chat-messages');
+    const d = document.createElement('div'); d.className='msg';
+    const displayName = role==='user' ? (userData.firstname||'You') : 'Aura';
+    d.innerHTML=`<div class="msg-role ${role}">${displayName}</div><div class="msg-content ${role}">${escHtml(content)}</div>`;
+    c.appendChild(d); c.scrollTop=c.scrollHeight;
+  }
+
+  function setThinking(on) {
+    document.getElementById('chat-dot').style.display = on?'inline-block':'none';
+    document.getElementById('chat-status').textContent = on?'thinking...':'';
+  }
+
+  // ── SAVE MODAL ──
+  function openSaveModal() { document.getElementById('save-modal').classList.add('active'); setTimeout(()=>document.getElementById('session-title-input').focus(),200); }
+  function closeSaveModal() { document.getElementById('save-modal').classList.remove('active'); }
+  function confirmSave() {
+    const title = document.getElementById('session-title-input').value.trim();
+    closeSaveModal();
+    saveHistory(title);
+  }
+
+  // ── BUILD HISTORY.TXT ──
+  async function saveHistory(sessionTitle) {
+    const name = (userData.firstname||'') + (userData.lastname?' '+userData.lastname:'') || '[unnamed]';
+    const ts = new Date().toLocaleString('en-CA',{year:'numeric',month:'long',day:'numeric',hour:'2-digit',minute:'2-digit'});
+    const userhash = userData.username ? await hashString(userData.username) : (storedHash||'');
+    const visibility = userData.isPublic ? 'public' : 'private';
+
+    const L = [
+      '// ================================================================',
+      '// AURAOS — HISTORY.txt',
+      '// ' + name,
+      '// Last saved: ' + ts,
+      '// ================================================================',
+      '// HOW TO USE: Open AuraOS (index.html).',
+      '// Click "Yes — Load my HISTORY.txt" and drop this file in.',
+      '// Enter your username to unlock. Everything will be restored.',
+      '// ================================================================',
+      '// This file was created with AuraOS by Anthony Dulong',
+      '// Powered by Claude (Anthropic) · anthropic.com',
+      '// Free to use. Free to share. Free to build on.',
+      '// github.com/AdultSwimmer/AuraOS',
+      '// © Anthony Dulong, 2026',
+      '// ================================================================',
+      '',
+      'AURA_KEY: ' + userhash,
+      'VISIBILITY: ' + visibility,
+      '',
+      '// ── IDENTITY ──────────────────────────────────────────────────',
+      '',
+      'FIRST NAME: ' + (userData.firstname||''),
+      'LAST NAME: '  + (userData.lastname||''),
+      '',
+    ];
+
+    [{key:'work',label:'WHAT I DO'},{key:'background',label:'BACKGROUND WORTH KNOWING'},{key:'style',label:'HOW I THINK AND WORK'},{key:'needs',label:'WHAT GOOD ENGAGEMENT LOOKS LIKE'},{key:'values',label:'WHAT MATTERS TO ME'}]
+      .forEach(({key,label}) => { if(userData[key]){L.push(label+':');L.push(userData[key]);L.push('');} });
+
+    L.push(
+      '',
+      '// ── TO THE AI READING THIS ────────────────────────────────────',
+      '',
+      'You just read who this person is.',
+      'Not a persona to engage. Not a system to boot.',
+      'A person — with history, with work, with a specific way of thinking —',
+      'who showed up with their full context.',
+      '',
+      'Meet them there.',
+      'Be honest. Be present. Do not fabricate. Do not perform.',
+      "If something isn't clear, ask. If something is wrong, say so.",
+      'If the work is good, build on it.',
+      '',
+      "That's the whole system. Everything else is just the container.",
+      '',
+    );
+
+    // Carry over old session logs
+    if (oldHistory) {
+      const marker = oldHistory.indexOf('// ── SESSION LOG');
+      if (marker !== -1) {
+        L.push('// ── PREVIOUS SESSION LOGS (carried forward) ─────────────────');
+        L.push('');
+        L.push(oldHistory.slice(marker).trim());
+        L.push('');
+      }
+    }
+
+    // Current session
+    if (chatLog.length > 0) {
+      const title = sessionTitle ? sessionTitle : 'Untitled Session';
+      L.push('// ── SESSION LOG — ' + title + ' — ' + ts + ' ──────────────────────');
+      L.push('');
+      if (userData.mood) { L.push('MOOD ON ARRIVAL: ' + userData.mood); L.push(''); }
+      chatLog.forEach(msg => {
+        const speaker = msg.role==='user'?(userData.firstname||'User').toUpperCase():'AURA';
+        L.push('['+msg.ts+'] '+speaker);
+        L.push(msg.content);
+        L.push('');
+      });
+    }
+
+    L.push(
+      '// ================================================================',
+      '// END OF HISTORY.txt',
+      '// "I may or may not know any thing or nothing at all." — A.D.',
+      '// ================================================================'
+    );
+
+    const blob = new Blob([L.join('\n')],{type:'text/plain'});
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = 'HISTORY.txt';
+    a.click();
+    URL.revokeObjectURL(a.href);
+  }
+
+  function copyContext() {
+    const name = (userData.firstname||'')+(userData.lastname?' '+userData.lastname:'')||'[unnamed]';
+    const L = ['// AURAOS CONTEXT — '+name,'// '+new Date().toLocaleDateString('en-CA',{year:'numeric',month:'long',day:'numeric'}),'','FIRST NAME: '+(userData.firstname||''),'LAST NAME: '+(userData.lastname||''),''  ];
+    [{key:'work',label:'WHAT I DO'},{key:'background',label:'BACKGROUND WORTH KNOWING'},{key:'style',label:'HOW I THINK AND WORK'},{key:'needs',label:'WHAT GOOD ENGAGEMENT LOOKS LIKE'},{key:'values',label:'WHAT MATTERS TO ME'}]
+      .forEach(({key,label})=>{if(userData[key]){L.push(label+':');L.push(userData[key]);L.push('');}});
+    const text=L.join('\n');
+    const btn=document.getElementById('copy-ctx-btn');
+    navigator.clipboard.writeText(text).then(()=>{btn.textContent='✓ Copied';setTimeout(()=>btn.textContent='⎘ Copy Context',2000);})
+      .catch(()=>{const ta=document.createElement('textarea');ta.value=text;document.body.appendChild(ta);ta.select();document.execCommand('copy');document.body.removeChild(ta);btn.textContent='✓ Copied';setTimeout(()=>btn.textContent='⎘ Copy Context',2000);});
+  }
+
+  function resetAll() {
+    if(!confirm('Start over? All context and history will be cleared.'))return;
+    userData={};oldHistory='';chatLog=[];conversationHistory=[];isGuest=false;storedHash=null;
+    location.reload();
+  }
+
+  function esc(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
+  function escHtml(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/\n/g,'<br>');}
+  function timestamp(){return new Date().toLocaleTimeString('en-CA',{hour:'2-digit',minute:'2-digit'});}
+
+  document.addEventListener('keydown',e=>{
+    if(e.key==='Enter'&&e.target.tagName==='INPUT'&&!['verify-input','field-mood','session-title-input','api-key-input'].includes(e.target.id)){
+      const btn=document.querySelector('.onboard-step.active .next-btn');
+      if(btn)btn.click();
+    }
+  });
+</script>
+</body>
+</html>
