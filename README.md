@@ -1,80 +1,128 @@
 # AuraOS
 
-**Persistent memory harness for large language models.**
+AuraOS is a local-first AI memory system. It gives an AI a stable identity and persistent context across sessions instead of making it start from zero every time.
 
-AuraOS is a lightweight wrapper that sits between a user and any LLM (local or remote). It gives the model a stable identity and long-term memory that survives across sessions, token limits, and model switches.
+In simple terms: it tries to make an AI remember the relationship, not just the last message.
 
-The model itself remains replaceable. The memory and identity stay with the user.
+## What AuraOS is
 
-## What it does
+AuraOS is a prototype for a personal AI system that keeps memory in plain files on the user's machine instead of depending on a cloud service.
 
-- Loads a fixed **core identity** on every request
-- Maintains a user-owned **HISTORY** file that persists indefinitely
-- Injects relevant context automatically so the model never starts from zero
-- Works with local models (Ollama, etc.) or remote APIs
-- Keeps the human in control of the memory — nothing is stored on a vendor server
+The idea is simple:
 
-## Why it exists
+- the AI has a permanent identity
+- the user has a persistent history
+- each new conversation is built using that context
+- the model can change without losing the relationship
 
-Most LLM interactions are stateless. When the context window fills or the session ends, the relationship resets. AuraOS treats memory as a first-class, user-owned artifact instead of something the model (or the provider) controls.
+## Why this matters
+
+Most AI tools are effectively stateless. They may feel personal for one session, but the context disappears when the chat ends.
+
+AuraOS tries to do the opposite:
+
+- store memory in files the user owns
+- keep identity separate from the model itself
+- make the system inspectable and transparent
+- maintain continuity over time
+
+## How it works
+
+AuraOS combines three things before sending a prompt to the model:
+
+1. a permanent identity from the `core/` folder
+2. user history from `histories/`
+3. the current user message
+
+Then it saves the conversation back to disk so the memory continues across future chats.
+
+```text
+User -> Frontend -> AuraOS server -> Ollama model
+               ^                     |
+               |                     |
+          core identity           history files
+```
 
 ## Quick start
 
 ### Requirements
-- Python 3.10+
-- Ollama (recommended for local use) or any OpenAI-compatible API
 
-### Run locally
+- Python 3.10+
+- Ollama installed and running locally
+- a model available in Ollama, such as `dolphin3:8b` or `llama3`
+
+### Install
 
 ```bash
-git clone https://github.com/yourusername/AuraOS.git
+git clone https://github.com/AdultSwimmer/AuraOS.git
 cd AuraOS
-pip install -r requirements.txt
+python -m pip install -r requirements.txt
+```
 
-# Start the server
+### Run the web app
+
+```bash
 python server/main.py
 ```
 
-Open `http://127.0.0.1:8000` in your browser.
+Then open this in your browser:
 
-### Core identity
-
-Place any number of `.txt` or `.md` files in the `core/` directory.  
-They are loaded in order and prepended to every conversation as the permanent system identity.
-
-### Memory
-
-Each user has a `HISTORY` file.  
-This file is the single source of truth for long-term context.  
-It can be exported, backed up, versioned, or moved between machines.
-
-## Architecture
-
-```
-User ↔ Frontend ↔ AuraOS Server ↔ Model (Ollama / API)
-                      ↑
-                 core/ + HISTORY
+```text
+http://127.0.0.1:8000
 ```
 
-The server is deliberately thin. It does three things:
+The app will serve the frontend and send the chat message to the local model using the saved history and identity.
 
-1. Load core identity
-2. Load and inject user history
-3. Forward the assembled prompt to the model
+### Run the desktop-style launcher
 
-Everything else is left to the model and the user.
+This repo also includes a desktop launcher:
 
-## Design principles
+```bash
+python auraos.py
+```
 
-- **User-owned memory** — History lives in plain files the user controls
-- **Model-agnostic** — Swap the backend without losing identity or context
-- **Minimal** — No account system required, no telemetry, no forced cloud
-- **Transparent** — The full prompt that reaches the model can be inspected
+This starts the Flask backend and opens the app in a local desktop window.
 
-## Status
+## Project layout
 
-Early public harness.  
-The core loop works. Expect rough edges.
+- `server/main.py` — Flask API that loads memory, builds the prompt, and talks to Ollama
+- `frontend/` — browser UI for the chat experience
+- `core/` — permanent identity files that are included with each prompt
+- `histories/` — user memory files saved over time
+- `auraos.py` — desktop launcher wrapper
+- `knowledge/` — conceptual and experimental memory files used for project context
+
+## Current status
+
+AuraOS is an early prototype with a clear concept and a working structure.
+
+It is not yet a polished commercial product, but it already demonstrates the core idea:
+
+- persistent identity
+- user-owned memory
+- continuity across sessions
+- local-first AI interaction
+
+## What it is not
+
+AuraOS is not meant to replace all AI tools. It is more of a memory layer and continuity system.
+
+Think of it as:
+
+- a persistent AI identity layer
+- a user-owned memory system
+- a way to keep AI context alive over time
+
+## The goal
+
+The long-term goal is to make this simple enough for non-technical users to install and run without a terminal-heavy setup.
+
+A future version would ideally:
+
+- install Ollama automatically
+- pull the default model automatically
+- start the backend automatically
+- launch the app with a single click
 
 ## License
 
