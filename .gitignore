@@ -1,3 +1,29 @@
-_build/
-build/
+﻿# OS
+.DS_Store
+Thumbs.db
+
+# Visual Studio
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Logs
+logs
+*.log
+
+# Node
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+
+# Build
 dist/
+build/
+
+# Temp
+*.tmp
