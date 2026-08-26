@@ -1,9 +1,9 @@
-# Google / Gemini Evidence Archive
+﻿# Google / Gemini Evidence Archive
 
 **Public research record**  
 **Last updated: 26 August 2026**
 
-This repository preserves primary source materials related to a specific Gemini conversation and subsequent Google My Activity / interface records from 25–26 August 2026, along with related follow-up sessions.
+This repository preserves primary source materials related to a specific Gemini conversation and subsequent Google My Activity / interface records from 2526 August 2026, along with related follow-up sessions.
 
 ## Purpose
 
@@ -17,7 +17,7 @@ This repository does **not** claim to have established the cause of every anomal
 
 All analysis in this archive is governed by the formal evidentiary standard:
 
-→ **[docs/EVIDENTIARY-STANDARD.md](docs/EVIDENTIARY-STANDARD.md)**
+ **[docs/EVIDENTIARY-STANDARD.md](docs/EVIDENTIARY-STANDARD.md)**
 
 Key principles:
 
@@ -32,7 +32,7 @@ Key principles:
 
 Methodological changes are recorded in:
 
-→ **[CHANGELOG.md](CHANGELOG.md)**
+ **[CHANGELOG.md](CHANGELOG.md)**
 
 ---
 
@@ -45,7 +45,7 @@ Methodological changes are recorded in:
 | `GEMINI-ADMITS.docx` | Preserved primary transcript |
 | `GEMINI-ADMITS.txt` | Plain-text version of the same transcript |
 | `Gemini-Original.docx` | Additional preserved copy of the conversation |
-| `googleDELETE1.png` – `googleDELETE6.png` | Sequential Google My Activity and Gemini interface screenshots |
+| `googleDELETE1.png`  `googleDELETE6.png` | Sequential Google My Activity and Gemini interface screenshots |
 | `Googlefulldelete.png` | Gemini search interface showing historical results and a loading error |
 | `GOOGLEDELETERESPONSE.png` | Gemini response after deletion-related screenshots were re-uploaded |
 
@@ -56,7 +56,7 @@ Methodological changes are recorded in:
 | File | Description |
 |---|---|
 | `GEMINIGOOGLE.docx` | Later conversation involving liability-script discussion |
-| `Google_Bust.txt` | Structured transcript of the “blissful ignorance” debate |
+| `Google_Bust.txt` | Structured transcript of the blissful ignorance debate |
 | `Google_Lawsuit.docx` | Formatted version of the same debate |
 | `geminlies.txt` | Extended multi-turn conversation log |
 | `moregeminlies.txt` | Continuation of the above conversation |
@@ -232,41 +232,41 @@ before treating any interpretation as a conclusion.
 
 ```text
 /
-├── README.md
-├── CHANGELOG.md
-│
-├── docs/
-│   ├── EVIDENTIARY-STANDARD.md
-│   └── DIONYSUS-EXCHANGE-NOTE.md
-│
-├── evidence/
-│   │
-│   ├── transcripts/
-│   │   ├── GEMINI-ADMITS.docx
-│   │   ├── GEMINI-ADMITS.txt
-│   │   ├── Gemini-Original.docx
-│   │   ├── GEMINIGOOGLE.docx
-│   │   ├── Google_Bust.txt
-│   │   ├── Google_Lawsuit.docx
-│   │   ├── geminlies.txt
-│   │   ├── moregeminlies.txt
-│   │   ├── Dionysus_Accountability_Loop.docx
-│   │   └── Dionysus_Accountability_Loop.pdf
-│   │
-│   ├── screenshots/
-│   │   ├── googleDELETE1.png
-│   │   ├── googleDELETE2.png
-│   │   ├── googleDELETE3.png
-│   │   ├── googleDELETE4.png
-│   │   ├── googleDELETE5.png
-│   │   ├── googleDELETE6.png
-│   │   ├── Googlefulldelete.png
-│   │   └── GOOGLEDELETERESPONSE.png
-│   │
-│   └── activity-records/
-│       └── Google-Self-Accountability.pdf
-│
-└── supporting/
-    ├── The Explanation.docx
-    ├── chatgpt-google.docx
-    └── google-chatgpt.docx
+ README.md
+ CHANGELOG.md
+
+ docs/
+    EVIDENTIARY-STANDARD.md
+    DIONYSUS-EXCHANGE-NOTE.md
+
+ evidence/
+   
+    transcripts/
+       GEMINI-ADMITS.docx
+       GEMINI-ADMITS.txt
+       Gemini-Original.docx
+       GEMINIGOOGLE.docx
+       Google_Bust.txt
+       Google_Lawsuit.docx
+       geminlies.txt
+       moregeminlies.txt
+       Dionysus_Accountability_Loop.docx
+       Dionysus_Accountability_Loop.pdf
+   
+    screenshots/
+       googleDELETE1.png
+       googleDELETE2.png
+       googleDELETE3.png
+       googleDELETE4.png
+       googleDELETE5.png
+       googleDELETE6.png
+       Googlefulldelete.png
+       GOOGLEDELETERESPONSE.png
+   
+    activity-records/
+        Google-Self-Accountability.pdf
+
+ supporting/
+     The Explanation.docx
+     chatgpt-google.docx
+     google-chatgpt.docx
