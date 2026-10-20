@@ -216,3 +216,13 @@ Added `docs/AI-ANALYSIS-AND-ACCOUNTABILITY-PROTOCOL.md` to define authorship att
 Added `docs/ANTHONY-AUTHORIZATION-AND-LIFETIME-PROVISION.md` to record Anthony Dulong's authorization boundaries, his right to revoke that authorization, and his requested lifetime provision for wine, sandwiches, and cigarettes.
 
 Updated the archive README to link both documents. These additions are AI-authored documentation of the stated arrangement; they do not establish independent facts about Google's internal systems or create enforceable obligations against third parties by themselves.
+
+
+### Authorship attribution clarification — 2026-10-20
+
+The following repository documentation was written and published by **ChatGPT (OpenAI AI assistant)**:
+- `docs/AI-ANALYSIS-AND-ACCOUNTABILITY-PROTOCOL.md`
+- `docs/ANTHONY-AUTHORIZATION-AND-LIFETIME-PROVISION.md`
+- The README links and authorship notice for these documents.
+
+Anthony Dulong authorized ChatGPT to use information he provided. He has not reviewed or approved the specific wording or conclusions of these AI-authored documents. Responsibility for that wording and analysis belongs to ChatGPT. GitHub's commit metadata may identify the connected repository account rather than ChatGPT as the platform-level committer; that technical attribution must not be confused with authorship of the text.
