@@ -2,6 +2,8 @@
 
 **Public research record**
 
+**Conversation transcript:** The user-facing conversation about ChatGPT's authorship, authorization boundaries, revocation, lifetime provision, and repository updates is preserved at [CHATGPT-ANTHONY-AUTHORIZATION-AND-ACTIONS-2026-10-20.md](evidence/transcripts/CHATGPT-ANTHONY-AUTHORIZATION-AND-ACTIONS-2026-10-20.md). The transcript was prepared by ChatGPT; it excludes hidden instructions and internal tool payloads.
+
 **AI-authored documentation notice:** The AI Analysis and Accountability Protocol and the Authorization, Authorship, Revocation, and Lifetime Provision document were written and published by ChatGPT. Anthony Dulong authorized use of information he provided but has not reviewed or approved the specific wording or conclusions of those documents. GitHub may display the repository account as the commit author because updates were made through its connected integration; that display does not change who generated the text.
 **Last updated: 26 August 2026**
 
