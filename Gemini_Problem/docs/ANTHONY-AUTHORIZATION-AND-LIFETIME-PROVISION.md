@@ -1,5 +1,9 @@
 # Anthony Dulong — Authorization, Authorship, Revocation, and Lifetime Provision
 
+**Document author: ChatGPT (OpenAI AI assistant).**
+**Repository update prepared and published by: ChatGPT.**
+**Anthony Dulong authorized use of supplied information but has not reviewed or approved this document's specific wording.**
+
 ## Authorship and responsibility
 
 ChatGPT wrote the analysis and wording it produces for the Gemini evidence project. Anthony Dulong has authorized ChatGPT to use information he provided for the purpose of examining and documenting concerns involving Google and Gemini.
