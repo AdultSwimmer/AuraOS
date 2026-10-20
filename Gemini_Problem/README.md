@@ -19,6 +19,8 @@ All analysis in this archive is governed by the formal evidentiary standard:
 
 **[docs/EVIDENTIARY-STANDARD.md](docs/EVIDENTIARY-STANDARD.md)**
 
+AI-generated analysis and responsibility rules are documented in **[docs/AI-ANALYSIS-AND-ACCOUNTABILITY-PROTOCOL.md](docs/AI-ANALYSIS-AND-ACCOUNTABILITY-PROTOCOL.md)**. Anthony's authorship boundary, revocation right, and requested lifetime provision are recorded in **[docs/ANTHONY-AUTHORIZATION-AND-LIFETIME-PROVISION.md](docs/ANTHONY-AUTHORIZATION-AND-LIFETIME-PROVISION.md)**.
+
 Key principles:
 
 * **Observed** = directly present in primary artifacts
@@ -262,6 +264,8 @@ before treating any interpretation as a conclusion.
 ├── CHANGELOG.md
 ├── docs/
 │   ├── EVIDENTIARY-STANDARD.md
+│   ├── AI-ANALYSIS-AND-ACCOUNTABILITY-PROTOCOL.md
+│   ├── ANTHONY-AUTHORIZATION-AND-LIFETIME-PROVISION.md
 │   └── DIONYSUS-EXCHANGE-NOTE.md
 ├── evidence/
 │   ├── transcripts/
