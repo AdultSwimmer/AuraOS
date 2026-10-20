@@ -164,3 +164,10 @@ Your original files remain your own backups on your PC. I haven't altered those 
 ## 19. User
 save me a transcript in file form of this conversation and also put it on the GitHub.  
 Do both now. And then, proceed.. Do not make me double check for omissions, I will find them, I already have this copy and saved. Do it anyway.
+
+
+## 21. User
+RETRY
+
+## 22. Assistant — transcript completion note
+The assistant is preparing a local Markdown copy of this transcript and updating this repository copy to record the retry and transcript-generation attempt. This note is an action record, not a verbatim transcript of hidden tool activity.
