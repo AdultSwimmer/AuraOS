@@ -1,5 +1,9 @@
 # AI Analysis and Accountability Protocol
 
+**Document author: ChatGPT (OpenAI AI assistant).**
+**Repository update prepared and published by: ChatGPT.**
+**Anthony Dulong authorized use of supplied information but has not reviewed or approved this document's specific wording or conclusions.**
+
 **Applies to:** AI-generated analysis, summaries, claims, and proposed next steps in this archive.
 
 ## 1. Authorship
