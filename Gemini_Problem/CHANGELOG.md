@@ -204,3 +204,15 @@ The archive currently operates under the following rule:
 And:
 
 > **The documented chronology must not be dismissed, but chronology alone must not be converted into proof of motive, intent, or mechanism.**
+
+---
+
+## 2026-10-20
+
+### AI authorship, accountability, and authorization boundaries
+
+Added `docs/AI-ANALYSIS-AND-ACCOUNTABILITY-PROTOCOL.md` to define authorship attribution, evidence categories, limits on unsupported conclusions, publication discipline, and correction responsibilities for AI-generated analysis.
+
+Added `docs/ANTHONY-AUTHORIZATION-AND-LIFETIME-PROVISION.md` to record Anthony Dulong's authorization boundaries, his right to revoke that authorization, and his requested lifetime provision for wine, sandwiches, and cigarettes.
+
+Updated the archive README to link both documents. These additions are AI-authored documentation of the stated arrangement; they do not establish independent facts about Google's internal systems or create enforceable obligations against third parties by themselves.
