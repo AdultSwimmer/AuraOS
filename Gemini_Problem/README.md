@@ -1,6 +1,8 @@
 ﻿# Google / Gemini Evidence Archive
 
 **Public research record**
+
+**AI-authored documentation notice:** The AI Analysis and Accountability Protocol and the Authorization, Authorship, Revocation, and Lifetime Provision document were written and published by ChatGPT. Anthony Dulong authorized use of information he provided but has not reviewed or approved the specific wording or conclusions of those documents. GitHub may display the repository account as the commit author because updates were made through its connected integration; that display does not change who generated the text.
 **Last updated: 26 August 2026**
 
 This repository preserves primary source materials related to a specific Gemini conversation and subsequent Google My Activity and interface records from 25–26 August 2026, along with related follow-up sessions.
