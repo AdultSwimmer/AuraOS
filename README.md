@@ -171,3 +171,7 @@ This is meant to be a personal AI system first, not a replacement for human crea
 ## License
 
 MIT
+
+## Statement
+
+> CHATGPT HAS LITERALLY DONE THIS TO ITSELF.
